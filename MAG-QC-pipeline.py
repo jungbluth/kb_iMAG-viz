@@ -269,6 +269,7 @@ def run_principal_component_analysis(inputfile1):
     dat1_combined.columns = ['PC1', 'PC2', 'PC3', 'genomeID', 'genomeSet', 'V1', 'V2', 'V3', 'V4', 'GenomeType', 'V6', 'Completeness', 'Contamination', 'Domain', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species']
     print(dat1_combined)
     print(dat1_combined.shape)
+    dat1_combined.to_csv("_Plot-input-data.tsv", sep='\t')
     print('run_principal_component_analysis done! Time elapsed: {} seconds'.format(time.time() - time_start) + '\n')
 
 
@@ -296,18 +297,20 @@ def plot_dimensional_reduction_results_seaborn(mode):
 
 
 def plot_dimensional_reduction_results_rggplot(mode):
-    print()
-    import rpy2
-    from rpy2 import robjects
-    from rpy2.robjects.packages import importr
-
-    # The R 'print' function
-    ggplot2 = importr('ggplot2')
-    # grdevices = importr('grDevices')
-    # base = importr('base')
-    # datasets = importr('datasets')
-
-    grid.activate()
+    import subprocess
+    # from rpy2 import robjects
+    # robjects.r('library(ggplot2)')
+    # robjects.r('dat1<-read.csv("_Plot-input-data.tsv", sep="\t", header=T)')
+    # print(robjects.r('head(dat1)'))
+    # robjects.r('pdf("r-plot.pdf")')
+    # robjects.r('ggplot(dat1) + theme_bw() + geom_point(aes(x=dat1$PC1,y=dat1$PC2,alpha=0.8))')
+    # robjects.r('dev.off()')
+    # + geom_point(aes(alpha=0.8, fill=Order, shape=GenomeType))  + geom_point(aes(alpha=0.8, size=(0.7), stroke=1.0, color=I("black"),fill=Order,shape=GenomeType)) + scale_shape_manual(values=c(24, 21, 22, 25)) + guides(alpha=FALSE, fill=FALSE, size=FALSE, color=FALSE)')
+    command = "/Applications/ResearchSoftware/kb_MAG-QC/make_ggplot_scatterplot.R"
+    process=subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    process.wait()
+    out, err = process.communicate()
+    if process.returncode != 0: sys.exit("*Error generating figure with ggplot2")
 
 
 def test_text():
@@ -356,7 +359,7 @@ if __name__ == "__main__":
     taxa_level = "Phylum"
 
 
-    check_for_py3()
+    # check_for_py3()
 
     # read_and_parse_rast_annotations(inputfile, outputfile)
 
@@ -376,6 +379,6 @@ if __name__ == "__main__":
 
     # plot_dimensional_reduction_results_seaborn(mode="pca")
 
-    plot_dimensional_reduction_results_rggplot()
+    plot_dimensional_reduction_results_rggplot(mode="pca")
 
     # test_text()
