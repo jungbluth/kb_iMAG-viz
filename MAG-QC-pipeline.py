@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 
 # check to see if python3 installed and being used; should be automatic because of the shebang, but useful if someone calls explicitly with python 2
 def check_for_py3():
-    print("Running check_for_py3")
+    print("\n"+"Running check_for_py3")
     time_start = time.time()
     try:
         if sys.version_info.major != 3:
@@ -27,7 +27,7 @@ def check_for_py3():
             sys.exit(-1)
     except Exception:
         sys.stderr.write("Unable to detect python version - assuming python 3 installed.\n\n")
-    print('check_for_py3 done! Time elapsed: {} seconds'.format(time.time() - time_start) + '\n')
+    print('check_for_py3 done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 # From Miriam: function to return object ID based on object name
 def get_obj_id(obj_name):
@@ -56,7 +56,7 @@ def get_object_data(object_id):
 
 # todo: double check to see if indexed properly
 def extract_annotations_from_genomeset(genomeset_name, export_filename):
-    print("Running extract_annotations_from_genomeset")
+    print("\n"+"Running extract_annotations_from_genomeset")
     time_start = time.time()
     from biokbase.narrative.jobs.appmanager import AppManager
     ws = biokbase.narrative.clients.get("workspace")
@@ -69,12 +69,12 @@ def extract_annotations_from_genomeset(genomeset_name, export_filename):
             if get_object_data(genome).values()[0][1] != "2528311097___MAG-QC_Archaea__Isolates.RAST":  # this genome has something weird going on in the annotation; result is it breaks the JSON file structure, suspected ({,},') symbols, need to troubleshoot
                 f.write(get_object_data(genome).values()[0][1] + '\t' + str(df) + '\n')
         f.close()
-    print('extract_annotations_from_genomeset done! Time elapsed: {} seconds'.format(time.time() - time_start) + '\n')
+    print('extract_annotations_from_genomeset done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
 # wont be needed when annotation data pulled directly from Genome Set Objects
 def read_and_parse_rast_annotations(inputfile, outputfile):
-    print("Running read_and_parse_rast_annotations")
+    print("\n"+"Running read_and_parse_rast_annotations")
     time_start = time.time()
     f1 = open(inputfile)
     if Path(outputfile).is_file():
@@ -106,12 +106,12 @@ def read_and_parse_rast_annotations(inputfile, outputfile):
                                         f2.write(line.split('\t')[0].split('___')[0]+'\t'+line.split('\t')[1].split("|")[j]+'\n')
     f1.close()
     f2.close()
-    print('read_and_parse_rast_annotations done! Time elapsed: {} seconds'.format(time.time() - time_start) + '\n')
+    print('read_and_parse_rast_annotations done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
 
 def combine_external_checkm_and_taxonomy_info(file1, file2, file3, output1):
-    print("Running combine_external_checkm_and_taxonomy_info")
+    print("\n"+"Running combine_external_checkm_and_taxonomy_info")
     time_start = time.time()
     filenames = [file1, file2, file3]
     with open(output1, 'w') as outfile:
@@ -119,11 +119,11 @@ def combine_external_checkm_and_taxonomy_info(file1, file2, file3, output1):
             with open(fname) as infile:
                 for line in infile:
                     outfile.write(line)
-    print('combine_external_checkm_and_taxonomy_info done! Time elapsed: {} seconds'.format(time.time() - time_start) + '\n')
+    print('combine_external_checkm_and_taxonomy_info done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
 def import_and_merge_tables(saveoutput):
-    print("Running import_and_merge_tables")
+    print("\n"+"Running import_and_merge_tables")
     time_start = time.time()
     f1 = pandas.read_csv(file1, header=None, sep="\t")
     f2 = pandas.read_csv(file2, header=None, sep="\t")
@@ -139,7 +139,7 @@ def import_and_merge_tables(saveoutput):
     merge.columns = ['genomeID', 'genomeSet', 'V1', 'V2', 'V3', 'V4', 'GenomeType', 'V6', 'Completeness', 'Contamination', 'Domain', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species', 'RAST_Annotation']
     if saveoutput == "Yes":
         merge.to_csv("_Master-table.tsv")
-    print('import_and_merge_tables done! Time elapsed: {} seconds'.format(time.time() - time_start) + '\n')
+    print('import_and_merge_tables done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
 def list_lineages_for_selected_level(taxa_level):
@@ -180,7 +180,7 @@ def list_lineages_for_selected_level(taxa_level):
 
 
 def extract_lineages_from_table(taxa_level):
-    print("Running extract_lineages_from_table")
+    print("\n"+"Running extract_lineages_from_table")
     time_start = time.time()
     global merge
     global merge_reduced
@@ -199,11 +199,11 @@ def extract_lineages_from_table(taxa_level):
     # list_genomeid = merge_reduced["genomeID"]
     # print("down1list length"+str(len(down1list)))
     # print(merge.head)
-    print('extract_lineages_from_table done! Time elapsed: {} seconds'.format(time.time() - time_start) + '\n')
+    print('extract_lineages_from_table done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
 def count_annotation_data_for_level(merge, outputfile1):
-    print("Running count_annotation_data_for_level")
+    print("\n"+"Running count_annotation_data_for_level")
     time_start = time.time()
     if Path(outputfile1).is_file():
         os.remove(outputfile1)
@@ -230,7 +230,7 @@ def count_annotation_data_for_level(merge, outputfile1):
                 f1.write("\t")
             else:
                 f1.write("\n")
-    print('count_annotation_data_for_level done! Time elapsed: {} seconds'.format(time.time() - time_start) + '\n')
+    print('count_annotation_data_for_level done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
 def import_count_and_combine_with_genome_metadata():
@@ -245,7 +245,7 @@ def import_count_and_combine_with_genome_metadata():
 
 
 def run_tsne_dimensional_reduction(inputfile1):
-    print("Running run_tsne_dimensional_reduction")
+    print("\n"+"Running run_tsne_dimensional_reduction")
     time_start = time.time()
     from sklearn.manifold import TSNE
     tsne = TSNE(n_components=2, perplexity=40.0, early_exaggeration=12.0, learning_rate=200.0, n_iter=300, n_iter_without_progress=300, min_grad_norm=1e-07, metric="euclidean", init="random", verbose=1, random_state=None, method="barnes_hut", angle=0.5)
@@ -254,11 +254,11 @@ def run_tsne_dimensional_reduction(inputfile1):
     dat1 = pandas.DataFrame(data=tsne_results, columns=['tsne-2d-one', 'tsne-2d-two'])
     dat1_combined = pandas.DataFrame(numpy.concatenate((dat1, merge_reduced),axis = 1)) # combine count table with genome metadata
     dat1_combined.columns = ['tsne-2d-one', 'tsne-2d-two', 'genomeID', 'genomeSet', 'V1', 'V2', 'V3', 'V4', 'GenomeType', 'V6', 'Completeness', 'Contamination', 'Domain', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species']
-    print('run_tsne_dimensional_reduction done! Time elapsed: {} seconds'.format(time.time() - time_start) + '\n')
+    print('run_tsne_dimensional_reduction done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
 def run_principal_component_analysis(inputfile1):
-    print("Running run_principal_component_analysis")
+    print("\n"+"Running run_principal_component_analysis")
     time_start = time.time()
     from sklearn.decomposition import PCA
     pca = PCA(n_components=3)
@@ -270,11 +270,11 @@ def run_principal_component_analysis(inputfile1):
     print(dat1_combined)
     print(dat1_combined.shape)
     dat1_combined.to_csv("_Plot-input-data.tsv", sep='\t')
-    print('run_principal_component_analysis done! Time elapsed: {} seconds'.format(time.time() - time_start) + '\n')
+    print('run_principal_component_analysis done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
 def plot_dimensional_reduction_results_seaborn(mode):
-    print("Running plot_dimensional_reduction_results_seaborn")
+    print("\n"+"Running plot_dimensional_reduction_results_seaborn")
     time_start = time.time()
     import seaborn
     # list_genomeid = merge_reduced["genomeID"]
@@ -293,24 +293,19 @@ def plot_dimensional_reduction_results_seaborn(mode):
     # plot_ex.show()
     # plot_ex.savefig('test.png')
     # plot_ex.savefig('test.pdf')
-    print('plot_dimensional_reduction_results_seaborn done! Time elapsed: {} seconds'.format(time.time() - time_start) + '\n')
+    print('plot_dimensional_reduction_results_seaborn done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
 def plot_dimensional_reduction_results_rggplot(mode):
+    print("\n"+"Running plot_dimensional_reduction_results_rggplot")
+    time_start = time.time()
     import subprocess
-    # from rpy2 import robjects
-    # robjects.r('library(ggplot2)')
-    # robjects.r('dat1<-read.csv("_Plot-input-data.tsv", sep="\t", header=T)')
-    # print(robjects.r('head(dat1)'))
-    # robjects.r('pdf("r-plot.pdf")')
-    # robjects.r('ggplot(dat1) + theme_bw() + geom_point(aes(x=dat1$PC1,y=dat1$PC2,alpha=0.8))')
-    # robjects.r('dev.off()')
-    # + geom_point(aes(alpha=0.8, fill=Order, shape=GenomeType))  + geom_point(aes(alpha=0.8, size=(0.7), stroke=1.0, color=I("black"),fill=Order,shape=GenomeType)) + scale_shape_manual(values=c(24, 21, 22, 25)) + guides(alpha=FALSE, fill=FALSE, size=FALSE, color=FALSE)')
     command = "/Applications/ResearchSoftware/kb_MAG-QC/make_ggplot_scatterplot.R"
     process=subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     process.wait()
     out, err = process.communicate()
     if process.returncode != 0: sys.exit("*Error generating figure with ggplot2")
+    print('plot_dimensional_reduction_results_rggplot done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
 def test_text():
@@ -359,25 +354,25 @@ if __name__ == "__main__":
     taxa_level = "Phylum"
 
 
-    # check_for_py3()
+    check_for_py3()
 
-    # read_and_parse_rast_annotations(inputfile, outputfile)
+    read_and_parse_rast_annotations(inputfile, outputfile)
 
-    # combine_external_checkm_and_taxonomy_info(file1, file2, file3, output1)
+    combine_external_checkm_and_taxonomy_info(file1, file2, file3, output1)
 
-    # import_and_merge_tables(saveoutput)
+    import_and_merge_tables(saveoutput)
 
-    # extract_lineages_from_table(taxa_level)
+    extract_lineages_from_table(taxa_level)
 
-    # # count_annotation_data_for_level(merge, outputfile1)
+    # count_annotation_data_for_level(merge, outputfile1)
 
-    # import_count_and_combine_with_genome_metadata()
+    import_count_and_combine_with_genome_metadata()
 
-    # run_tsne_dimensional_reduction(inputfile1)
+    run_tsne_dimensional_reduction(inputfile1)
 
-    # run_principal_component_analysis(inputfile1)
+    run_principal_component_analysis(inputfile1)
 
-    # plot_dimensional_reduction_results_seaborn(mode="pca")
+    plot_dimensional_reduction_results_seaborn(mode="pca")
 
     plot_dimensional_reduction_results_rggplot(mode="pca")
 
