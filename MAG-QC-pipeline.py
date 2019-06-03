@@ -16,6 +16,7 @@ from pathlib import Path
 import matplotlib
 import matplotlib.pyplot as plt
 
+#need to add "IMG" prefix to prevent failure (i.e. script expects strings for genomeID)
 
 # check to see if python3 installed and being used; should be automatic because of the shebang, but useful if someone calls explicitly with python 2
 def check_for_py3():
@@ -110,7 +111,7 @@ def read_and_parse_rast_annotations(inputfile, outputfile):
 
 
 
-def combine_external_checkm_and_taxonomy_info(file1, file2, file3, output1):
+def combine_external_checkm_and_taxonomy_info(file1, file2, file3):
     print("\n"+"Running combine_external_checkm_and_taxonomy_info")
     time_start = time.time()
     filenames = [file1, file2, file3]
@@ -138,11 +139,13 @@ def import_and_merge_tables(saveoutput):
     merge = f123.merge(d123q1, left_on=0, right_on=0)
     merge.columns = ['genomeID', 'genomeSet', 'V1', 'V2', 'V3', 'V4', 'GenomeType', 'V6', 'Completeness', 'Contamination', 'Domain', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species', 'RAST_Annotation']
     if saveoutput == "Yes":
-        merge.to_csv("_Master-table.tsv")
+        merge.to_csv("MAG-QC-output_all-merged-data.tsv")
     print('import_and_merge_tables done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
-def list_lineages_for_selected_level(taxa_level):
+def extract_lineages_for_selected_level(taxa_level):
+    print("\n"+"Running extract_lineages_for_selected_level")
+    time_start = time.time()
     if taxa_level == 'Domain':
         taxa_level_list = merge.Domain.unique()
         taxa_level_down1 = 'Phylum'
@@ -168,6 +171,7 @@ def list_lineages_for_selected_level(taxa_level):
         taxa_level_down1 = 'Species'
         taxa_level_down2 = ''
     return taxa_level_list, taxa_level_down1, taxa_level_down2
+    print('extract_lineages_for_selected_level done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
 # merge example
@@ -179,38 +183,29 @@ def list_lineages_for_selected_level(taxa_level):
 # 1861363 GCA_002509575.1_ASM250957v1_genomic PRJNA348753-8000Genomes y   y   y   ... o__Methanomicrobiales   f__Methanocullaceae g__Methanoculleus   s__GCA_002508705.1  Diadenosine 5'5'''-P1,P4-tetraphosphate pyroph...
 
 
-def extract_lineages_from_table(taxa_level):
-    print("\n"+"Running extract_lineages_from_table")
+
+
+def subset_data_by_lineage(lineage):
+    print("\n\t"+"Running subset_data_by_lineage")
     time_start = time.time()
-    global merge
     global merge_reduced
-    for lineage in range(len(list_lineages_for_selected_level(taxa_level)[0])):
-        # print(lineage)
-        print(list_lineages_for_selected_level(taxa_level)[0][lineage])
-        # merge = merge.loc[merge[taxa_level] == str(list_lineages_for_selected_level(taxa_level)[lineage])]
-    # print("merge " + str(type(merge)))
-    # print(merge.head())
-    merge = merge.loc[merge[taxa_level] == "p__Halobacterota"]
-    # print(list_lineages_for_selected_level(taxa_level)[1])
-    # down1list = merge[list_lineages_for_selected_level(taxa_level)[1]].to_string(index=False)
-    merge_reduced = merge.drop(columns="RAST_Annotation").drop_duplicates() # per genomeID, extra information. table is the length of the object used for dimensional reduction
-    # print(merge_reduced)
-    # list_taxa_down_one_level = merge_reduced[list_lineages_for_selected_level(taxa_level)[1]]
-    # list_genomeid = merge_reduced["genomeID"]
-    # print("down1list length"+str(len(down1list)))
-    # print(merge.head)
-    print('extract_lineages_from_table done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
+    global merge_reduced_trim
+    merge_reduced = merge.loc[merge[taxa_level] == lineage]
+    merge_reduced_trim = merge_reduced.drop(columns="RAST_Annotation").drop_duplicates() # per genomeID, extra information. 
+    print('\tsubset_data_by_lineage done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
-def count_annotation_data_for_level(merge, outputfile1):
-    print("\n"+"Running count_annotation_data_for_level")
+def count_annotation_data_for_level(merge_reduced, outputfile1, lineage):
+    print("\n\t"+"Running count_annotation_data_for_level")
     time_start = time.time()
-    if Path(outputfile1).is_file():
-        os.remove(outputfile1)
-    f1 = open(outputfile1, "w+")
-    f1 = open(outputfile1, "a")
-    genomelist = merge.genomeID.unique()
-    annotationlist = merge.RAST_Annotation.unique()
+    if Path(outputfile1+"_"+lineage+".tsv").is_file():
+        os.remove(outputfile1+"_"+lineage+".tsv")
+    f1 = open(outputfile1+"_"+lineage+".tsv", "w+")
+    f1 = open(outputfile1+"_"+lineage+".tsv", "a")
+    genomelist = merge_reduced.genomeID.unique()
+    #print("genomelist"+str(genomelist))
+    #print(type(genomelist))
+    annotationlist = merge_reduced.RAST_Annotation.unique()
     f1.write("Annotation" + "\t")  # write header line
     for genome in range(len(genomelist)):
         f1.write(str(genomelist[genome]))
@@ -218,86 +213,93 @@ def count_annotation_data_for_level(merge, outputfile1):
             f1.write("\t")
         else:
             f1.write("\n")
-    # for annotation in range(len(annotationlist)): # takes long to run (up to hours)
-    for annotation in range(0, 20):
+    for annotation in range(len(annotationlist)): # takes long to run (up to hours)
+    #for annotation in range(0, 20):
         f1.write(str(annotationlist[annotation]) + "\t")
-        temp_merge = merge.loc[merge['RAST_Annotation'] == annotationlist[annotation]]
-        dat = temp_merge['genomeID'].value_counts().rename_axis('genomeID').reset_index(name='counts')
+        temp_merge = merge_reduced.loc[merge_reduced['RAST_Annotation'] == annotationlist[annotation]]
+        #dat = temp_merge['genomeID'].value_counts().rename_axis('genomeID').reset_index(name='counts')
         for genome in range(len(genomelist)):
-            dat = temp_merge['genomeID'].rename_axis('V1').reset_index(name='genomeID')
-            f1.write(str(dat['genomeID'].str.contains(str(genomelist[genome])).sum()))
+            dat = temp_merge['genomeID'].value_counts().rename_axis('genomeID').reset_index(name='counts')
+            #dat = temp_merge['genomeID'].rename_axis('V1').reset_index(name='genomeID')
+            #print("dat")
+            #print(dat)
+            #print(str(genomelist[genome]))
+            #print(type(genomelist[genome]))
+            f1.write(str(dat['genomeID'].astype(str).str.contains(str(genomelist[genome])).sum()))
             if genome != (len(genomelist) - 1):
                 f1.write("\t")
             else:
                 f1.write("\n")
-    print('count_annotation_data_for_level done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
+    print('\tcount_annotation_data_for_level done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
+# for genome in range(len(genomelist)):
+#     print(dat['genomeID'].astype(str).str.contains(str(genomelist[genome])).sum())
 
-def import_count_and_combine_with_genome_metadata():
+def import_count_and_combine_with_genome_metadata(lineage):
     global dat
     global dat_combined
-    with open(inputfile1) as f:
+    global genome_number
+    with open(inputfile1+"_"+lineage+".tsv") as f:
         ncols = len(f.readline().split('\t'))
-    dat = numpy.loadtxt(inputfile1, delimiter="\t", skiprows=1, usecols=range(1, ncols))
+    dat = numpy.loadtxt(inputfile1+"_"+lineage+".tsv", delimiter="\t", skiprows=1, usecols=range(1, ncols))
     dat = numpy.transpose(dat)  # transpose data
-    print("***" + str(len(merge_reduced)))
-    print("***" + str(len(dat)))
+    genome_number = len(merge_reduced_trim)
+    print(dat)
+    print(merge_reduced_trim)
+    print("\tNumber of genomes: " + str(len(merge_reduced_trim)))
 
 
-def run_tsne_dimensional_reduction(inputfile1):
-    print("\n"+"Running run_tsne_dimensional_reduction")
+def run_tsne_dimensional_reduction():
+    print("\n\t"+"Running run_tsne_dimensional_reduction")
     time_start = time.time()
     from sklearn.manifold import TSNE
     tsne = TSNE(n_components=2, perplexity=40.0, early_exaggeration=12.0, learning_rate=200.0, n_iter=300, n_iter_without_progress=300, min_grad_norm=1e-07, metric="euclidean", init="random", verbose=1, random_state=None, method="barnes_hut", angle=0.5)
-    tsne_results = tsne.fit_transform(dat)  # fit into an embedded space
+    tsne_results = tsne.fit_transform(dat)  # run tsne, fit into an embedded space
     global dat1
     dat1 = pandas.DataFrame(data=tsne_results, columns=['tsne-2d-one', 'tsne-2d-two'])
-    dat1_combined = pandas.DataFrame(numpy.concatenate((dat1, merge_reduced),axis = 1)) # combine count table with genome metadata
+    dat1_combined = pandas.DataFrame(numpy.concatenate((dat1, merge_reduced_trim),axis = 1)) # combine count table with genome metadata
     dat1_combined.columns = ['tsne-2d-one', 'tsne-2d-two', 'genomeID', 'genomeSet', 'V1', 'V2', 'V3', 'V4', 'GenomeType', 'V6', 'Completeness', 'Contamination', 'Domain', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species']
-    print('run_tsne_dimensional_reduction done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
+    print('\trun_tsne_dimensional_reduction done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
-def run_principal_component_analysis(inputfile1):
-    print("\n"+"Running run_principal_component_analysis")
+def run_principal_component_analysis():
+    print("\n\t"+"Running run_principal_component_analysis")
     time_start = time.time()
     from sklearn.decomposition import PCA
     pca = PCA(n_components=3)
     pca_result = pca.fit_transform(dat)
     global dat1_combined
     dat1 = pandas.DataFrame(data=pca_result, columns=['PC1', 'PC2', 'PC3'])
-    dat1_combined = pandas.DataFrame(numpy.concatenate((dat1, merge_reduced),axis = 1)) # combine count table with genome metadata
+    dat1_combined = pandas.DataFrame(numpy.concatenate((dat1, merge_reduced_trim),axis = 1)) # combine count table with genome metadata
     dat1_combined.columns = ['PC1', 'PC2', 'PC3', 'genomeID', 'genomeSet', 'V1', 'V2', 'V3', 'V4', 'GenomeType', 'V6', 'Completeness', 'Contamination', 'Domain', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species']
-    print(dat1_combined)
-    print(dat1_combined.shape)
-    dat1_combined.to_csv("_Plot-input-data.tsv", sep='\t')
-    print('run_principal_component_analysis done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
+    #print(dat1_combined)
+    #print(dat1_combined.shape)
+    dat1_combined.to_csv("MAG-QC-output_PCA-input-data_"+str(lineage)+".tsv", sep='\t')
+    print('\trun_principal_component_analysis done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
-def plot_dimensional_reduction_results_seaborn(mode):
-    print("\n"+"Running plot_dimensional_reduction_results_seaborn")
+def plot_dimensional_reduction_results_seaborn(lineage, mode):
+    print("\n\t"+"Running plot_dimensional_reduction_results_seaborn")
     time_start = time.time()
     import seaborn
     # list_genomeid = merge_reduced["genomeID"]
     if mode == "tsne":
-        sns_plot = seaborn.scatterplot(x="tsne-2d-one", y="tsne-2d-two", hue="Class", style=None, size=None, data=dat1_combined, palette=seaborn.color_palette("hls", len(dat1_combined["Class"].unique())), hue_order=None, hue_norm=None, sizes=None, size_order=None, size_norm=None, markers=dat1_combined["Order"], style_order=None, x_bins=None, y_bins=None, units=None, estimator=None, ci=95, n_boot=1000, alpha=0.3, x_jitter=None, y_jitter=None, legend='full', ax=None)
+        sns_plot = seaborn.scatterplot(x="tsne-2d-one", y="tsne-2d-two", hue="Class", style=None, size=None, data=dat1_combined, palette=seaborn.color_palette("hls", len(dat1_combined["Class"].unique())), hue_order=None, hue_norm=None, sizes=None, size_order=None, size_norm=None, markers=dat1_combined["Class"], style_order=None, x_bins=None, y_bins=None, units=None, estimator=None, ci=95, n_boot=1000, alpha=0.3, x_jitter=None, y_jitter=None, legend='full', ax=None)
     else:
         # print(type(merge_reduced["Class"]))
-        # print(type(merge_reduced))
-        df = pandas.DataFrame(merge_reduced)
-        # print(type(df))
-        # print(df)
+        df = pandas.DataFrame(merge_reduced_trim)
         #sns_plot = seaborn.scatterplot(x="PC1", y="PC2", hue=df["Class"], style=None, size=None, data=dat1, palette=seaborn.color_palette("hls", len(df["Class"].unique())), hue_order=None, hue_norm=None, sizes=None, size_order=None, size_norm=None, markers=True, style_order=None, x_bins=None, y_bins=None, units=None, estimator=None, ci=95, n_boot=1000, alpha=0.3, x_jitter=None, y_jitter=None, legend='full', ax=None)
-        sns_plot = seaborn.scatterplot(x="PC1", y="PC2", hue="Class", style=None, size=None, data=dat1_combined, palette=seaborn.color_palette("hls", len(dat1_combined["Class"].unique())), hue_order=None, hue_norm=None, sizes=None, size_order=None, size_norm=None, markers=dat1_combined["Order"], style_order=None, x_bins=None, y_bins=None, units=None, estimator=None, ci=95, n_boot=1000, alpha=0.3, x_jitter=None, y_jitter=None, legend='full', ax=None)
+        sns_plot = seaborn.scatterplot(x="PC1", y="PC2", hue="Class", style=None, size=None, data=dat1_combined, palette=seaborn.color_palette("hls", len(dat1_combined["Class"].unique())), hue_order=None, hue_norm=None, sizes=None, size_order=None, size_norm=None, markers=dat1_combined["Class"], style_order=None, x_bins=None, y_bins=None, units=None, estimator=None, ci=95, n_boot=1000, alpha=0.3, x_jitter=None, y_jitter=None, legend='full', ax=None)
     fig = sns_plot.get_figure()
-    fig.savefig("output.png")
-    # plot_ex.show()
-    # plot_ex.savefig('test.png')
-    # plot_ex.savefig('test.pdf')
-    print('plot_dimensional_reduction_results_seaborn done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
+    fig.savefig("MAG-QC-output_PCA_"+str(lineage)+".png")
+    print('\tplot_dimensional_reduction_results_seaborn done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
-def plot_dimensional_reduction_results_rggplot(mode):
-    print("\n"+"Running plot_dimensional_reduction_results_rggplot")
+def plot_dimensional_reduction_results_rggplot(lineage, mode):
+    print("\n\t"+"Running plot_dimensional_reduction_results_rggplot")
+    import shutil
+    import os
+    shutil.copy("MAG-QC-output_PCA-input-data_"+str(lineage)+".tsv", "R-input-data.tsv")
     time_start = time.time()
     import subprocess
     command = "/Applications/ResearchSoftware/kb_MAG-QC/make_ggplot_scatterplot.R"
@@ -305,7 +307,9 @@ def plot_dimensional_reduction_results_rggplot(mode):
     process.wait()
     out, err = process.communicate()
     if process.returncode != 0: sys.exit("*Error generating figure with ggplot2")
-    print('plot_dimensional_reduction_results_rggplot done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
+    shutil.move("R-output-plot.pdf","MAG-QC-output_PCA_"+str(lineage)+".pdf")
+    os.remove("R-input-data.tsv")
+    print('\tplot_dimensional_reduction_results_rggplot done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
 def test_text():
@@ -314,12 +318,6 @@ def test_text():
     print(merge.shape[0])
     for col in merge.columns:
         print(col)
-    # print(type(merge['RAST_Annotation'].value_counts()))
-    # print(f123.columns)
-    # print(d123q1.columns)
-    # print(d1.tail(n=5))
-    # print(d2.tail(n=5))
-    # print(d3.tail(n=5))
     # print("f123\n"+str(f123.shape))
     # print("d123q1\n"+str(d123q1.shape))
     # print(merge.tail(n=5))
@@ -331,16 +329,16 @@ def test_text():
 if __name__ == "__main__":
 
     inputfile = os.path.realpath(sys.argv[1])
-    outputfile = os.path.realpath(sys.argv[2])
-    outputfile1 = os.path.realpath(sys.argv[3])
-    inputfile1 = os.path.realpath(sys.argv[3])
+    outputfile = "MAG-QC-output_query-flattened-annotation-data.tsv"
+    outputfile1 = "MAG-QC-output_annotation-count-data"
+    inputfile1 = "MAG-QC-output_annotation-count-data"
 
 
     # files needed for function combine_external_checkm_and_taxonomy_info AND import_and_merge_tables
     file1 = os.path.realpath("Delmont_genomeQC-data.tsv")
     file2 = os.path.realpath("IMG_genomeQC-data.tsv")
     file3 = os.path.realpath("Other_genomeQC-data.tsv")
-    output1 = os.path.realpath("_All_genomeQC-data.tsv")
+    #output1 = os.path.realpath("_All_genomeQC-data.tsv")
 
     # files needed for function import_and_merge_tables
     data1 = os.path.realpath("MAG-QC_Archaea.Isolates_clean.RAST.txt")
@@ -352,28 +350,45 @@ if __name__ == "__main__":
     # declare variables
     saveoutput = "Yes"
     taxa_level = "Phylum"
+    #lineage = "p__Euryarchaeota"
 
 
     check_for_py3()
 
     read_and_parse_rast_annotations(inputfile, outputfile)
 
-    combine_external_checkm_and_taxonomy_info(file1, file2, file3, output1)
+    #combine_external_checkm_and_taxonomy_info(file1, file2, file3)
 
     import_and_merge_tables(saveoutput)
 
-    extract_lineages_from_table(taxa_level)
+    taxalist = extract_lineages_for_selected_level(taxa_level)[0]  # get list of lineages to iterate over
 
-    # count_annotation_data_for_level(merge, outputfile1)
 
-    import_count_and_combine_with_genome_metadata()
+    for lineage_number in range(len(taxalist)):
+        lineage = taxalist[lineage_number]
+        if (str(lineage) == "p__Asgardarchaeota") or (str(lineage) == "p__Micrarchaeota"):
+            print("Starting with lineage: "+str(lineage))
 
-    run_tsne_dimensional_reduction(inputfile1)
+            subset_data_by_lineage(lineage)
 
-    run_principal_component_analysis(inputfile1)
+            count_annotation_data_for_level(merge_reduced, outputfile1, lineage)
 
-    plot_dimensional_reduction_results_seaborn(mode="pca")
+            import_count_and_combine_with_genome_metadata(lineage)
 
-    plot_dimensional_reduction_results_rggplot(mode="pca")
+            if genome_number > 3:
+
+                run_tsne_dimensional_reduction()
+
+                run_principal_component_analysis()
+
+                plot_dimensional_reduction_results_seaborn(lineage, mode="pca")
+
+                plot_dimensional_reduction_results_rggplot(lineage, mode="pca")
+            else:
+                print("\nWarning: not enough data (genomes) to run a meaningful dimensional reduction. Select a different group.")
+
+
+            print("Finished with lineage: "+str(lineage))
+
 
     # test_text()
