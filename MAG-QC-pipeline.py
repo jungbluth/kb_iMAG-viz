@@ -220,8 +220,8 @@ def count_annotation_data_for_level(merge_reduced, outputfile1, lineage):
             f1.write("\t")
         else:
             f1.write("\n")
-    #for annotation in range(len(annotationlist)): # takes long to run (up to hours)
-    for annotation in range(0, 20):
+    for annotation in range(len(annotationlist)): # takes long to run (up to hours)
+    #for annotation in range(0, 20):
         f1.write(str(annotationlist[annotation]) + "\t")
         temp_merge = merge_reduced.loc[merge_reduced['RAST_Annotation'] == annotationlist[annotation]]
         #dat = temp_merge['genomeID'].value_counts().rename_axis('genomeID').reset_index(name='counts')
@@ -367,30 +367,30 @@ if __name__ == "__main__":
     for lineage_number in range(len(taxalist)):
         lineage = taxalist[lineage_number]
         #if (str(lineage) == "p__Nanoarchaeota") or (str(lineage) == "p__Micrarchaeota") or (str(lineage) == "p__Euryarchaeota") or (str(lineage) == "p__Asgardarchaeota"):
-        if (str(lineage) == "p__Asgardarchaeota"):
+        #if (str(lineage) == "p__Asgardarchaeota"):
 
-            print("Starting with lineage: "+str(lineage))
+        print("Starting with lineage: "+str(lineage))
 
-            subset_data_by_lineage(lineage)
+        subset_data_by_lineage(lineage)
 
-            count_annotation_data_for_level(merge_reduced, outputfile1, lineage)
+        count_annotation_data_for_level(merge_reduced, outputfile1, lineage)
 
-            import_count_and_combine_with_genome_metadata(lineage)
+        import_count_and_combine_with_genome_metadata(lineage)
 
-            if genome_number > 3:
+        if genome_number > 3:
 
-                run_tsne_dimensional_reduction()
+            run_tsne_dimensional_reduction()
 
-                run_principal_component_analysis()
+            run_principal_component_analysis()
 
-                plot_dimensional_reduction_results_seaborn(lineage, mode="pca")
+            plot_dimensional_reduction_results_seaborn(lineage, mode="pca")
 
-                plot_dimensional_reduction_results_rggplot(lineage, mode="pca")
-            else:
-                print("\nWarning: not enough data (genomes) to run a meaningful dimensional reduction. Select a different group.")
+            plot_dimensional_reduction_results_rggplot(lineage, mode="pca")
+        else:
+            print("\nWarning: not enough data (genomes) to run a meaningful dimensional reduction. Select a different group.")
 
 
-            print("Finished with lineage: "+str(lineage))
+        print("Finished with lineage: "+str(lineage))
 
 
     # test_text()
