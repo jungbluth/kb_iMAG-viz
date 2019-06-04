@@ -120,24 +120,30 @@ def combine_external_checkm_and_taxonomy_info(file1, file2, file3):
             with open(fname) as infile:
                 for line in infile:
                     outfile.write(line)
+    print("\nTotal number of genomes in metadata table: " + str(len(open(output1).readlines())))
     print('combine_external_checkm_and_taxonomy_info done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
 def import_and_merge_tables(saveoutput):
     print("\n"+"Running import_and_merge_tables")
     time_start = time.time()
-    f1 = pandas.read_csv(file1, header=None, sep="\t")
-    f2 = pandas.read_csv(file2, header=None, sep="\t")
-    f3 = pandas.read_csv(file3, header=None, sep="\t")
-    d1 = pandas.read_csv(data1, header=None, sep="\t")
-    d2 = pandas.read_csv(data2, header=None, sep="\t")
-    d3 = pandas.read_csv(data3, header=None, sep="\t")
-    q1 = pandas.read_csv(query1, header=None, sep="\t")
+    f1 = pandas.read_csv(file1, header=None, sep="\t", index_col=False, dtype=str)
+    f2 = pandas.read_csv(file2, header=None, sep="\t", index_col=False, dtype=str)
+    f2.loc[f2[0] == "2740891978"]
+    f3 = pandas.read_csv(file3, header=None, sep="\t", index_col=False, dtype=str)
+    d1 = pandas.read_csv(data1, header=None, sep="\t", index_col=False, dtype=str)
+    d2 = pandas.read_csv(data2, header=None, sep="\t", index_col=False, dtype=str)
+    d3 = pandas.read_csv(data3, header=None, sep="\t", index_col=False, dtype=str)
+    q1 = pandas.read_csv(query1, header=None, sep="\t", index_col=False, dtype=str)
     f123 = pandas.concat([f1, f2, f3], axis=0)
+    f123.loc[f123[0] == "2740891978"]
     d123q1 = pandas.concat([d1, d2, d3, q1], axis=0)
+    d123q1.loc[d123q1[0] == "2740891978"]
     global merge
-    merge = f123.merge(d123q1, left_on=0, right_on=0)
+    merge = f123.merge(d123q1, how='outer', left_on=0, right_on=0)
     merge.columns = ['genomeID', 'genomeSet', 'V1', 'V2', 'V3', 'V4', 'GenomeType', 'V6', 'Completeness', 'Contamination', 'Domain', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species', 'RAST_Annotation']
+    merge.loc[merge["genomeID"] == "2740891978"]
+    merge.to_csv("c.txt")
     if saveoutput == "Yes":
         merge.to_csv("MAG-QC-output_all-merged-data.tsv")
     print('import_and_merge_tables done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
@@ -200,11 +206,10 @@ def count_annotation_data_for_level(merge_reduced, outputfile1, lineage):
     time_start = time.time()
     if Path(outputfile1+"_"+lineage+".tsv").is_file():
         os.remove(outputfile1+"_"+lineage+".tsv")
+
     f1 = open(outputfile1+"_"+lineage+".tsv", "w+")
     f1 = open(outputfile1+"_"+lineage+".tsv", "a")
     genomelist = merge_reduced.genomeID.unique()
-    #print("genomelist"+str(genomelist))
-    #print(type(genomelist))
     annotationlist = merge_reduced.RAST_Annotation.unique()
     f1.write("Annotation" + "\t")  # write header line
     for genome in range(len(genomelist)):
@@ -220,11 +225,6 @@ def count_annotation_data_for_level(merge_reduced, outputfile1, lineage):
         #dat = temp_merge['genomeID'].value_counts().rename_axis('genomeID').reset_index(name='counts')
         for genome in range(len(genomelist)):
             dat = temp_merge['genomeID'].value_counts().rename_axis('genomeID').reset_index(name='counts')
-            #dat = temp_merge['genomeID'].rename_axis('V1').reset_index(name='genomeID')
-            #print("dat")
-            #print(dat)
-            #print(str(genomelist[genome]))
-            #print(type(genomelist[genome]))
             f1.write(str(dat['genomeID'].astype(str).str.contains(str(genomelist[genome])).sum()))
             if genome != (len(genomelist) - 1):
                 f1.write("\t")
@@ -232,8 +232,6 @@ def count_annotation_data_for_level(merge_reduced, outputfile1, lineage):
                 f1.write("\n")
     print('\tcount_annotation_data_for_level done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
-# for genome in range(len(genomelist)):
-#     print(dat['genomeID'].astype(str).str.contains(str(genomelist[genome])).sum())
 
 def import_count_and_combine_with_genome_metadata(lineage):
     global dat
@@ -338,7 +336,7 @@ if __name__ == "__main__":
     file1 = os.path.realpath("Delmont_genomeQC-data.tsv")
     file2 = os.path.realpath("IMG_genomeQC-data.tsv")
     file3 = os.path.realpath("Other_genomeQC-data.tsv")
-    #output1 = os.path.realpath("_All_genomeQC-data.tsv")
+    output1 = os.path.realpath("_All_genomeQC-data.tsv")
 
     # files needed for function import_and_merge_tables
     data1 = os.path.realpath("MAG-QC_Archaea.Isolates_clean.RAST.txt")
@@ -366,7 +364,7 @@ if __name__ == "__main__":
 
     for lineage_number in range(len(taxalist)):
         lineage = taxalist[lineage_number]
-        if (str(lineage) == "p__Asgardarchaeota") or (str(lineage) == "p__Micrarchaeota"):
+        if (str(lineage) == "p__Nanoarchaeota") or (str(lineage) == "p__Micrarchaeota") or (str(lineage) == "p__Euryarchaeota") or (str(lineage) == "p__Asgardarchaeota"):
             print("Starting with lineage: "+str(lineage))
 
             subset_data_by_lineage(lineage)
