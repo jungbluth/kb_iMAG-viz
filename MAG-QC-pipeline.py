@@ -239,7 +239,6 @@ def import_count_and_combine_with_genome_metadata(lineage):
     global dat
     global dat_combined
     global genome_number
-    print("linaege"+str(lineage))
     with open(inputfile1+"_"+lineage+".tsv") as f:
         ncols = len(f.readline().split('\t'))
     dat = numpy.loadtxt(inputfile1+"_"+lineage+".tsv", delimiter="\t", skiprows=1, usecols=range(1, ncols))
@@ -369,8 +368,8 @@ if __name__ == "__main__":
     for lineage_number in range(len(taxalist)):
         lineage = taxalist[lineage_number]
         #if (str(lineage) == "p__Nanoarchaeota") or (str(lineage) == "p__Micrarchaeota") or (str(lineage) == "p__Euryarchaeota") or (str(lineage) == "p__Asgardarchaeota"):
-        if (str(lineage) == "p__Thermoplasmatota"):
-        #if (str(lineage) != "nan"): # some groups don't have phyla? need to work this out.
+        #if (str(lineage) == "p__Thermoplasmatota"):
+        if (str(lineage) != "nan"): # some groups don't have phyla? need to work this out.
 
 	        print("Starting with lineage: "+str(lineage))
 

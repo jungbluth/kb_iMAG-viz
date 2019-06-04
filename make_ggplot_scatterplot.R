@@ -1,57 +1,68 @@
-#/usr/bin/env Rscript
+#!/Users/sean/anaconda3/envs/renv/bin/Rscript
 
-# #!/Users/sean/anaconda3/envs/renv/bin/Rscript
+# #/usr/bin/env Rscript
+
 
 library(ggpubr)
 library(ggplot2)
 
 dat1<-read.csv("R-input-data.tsv", sep="\t", header=T)
 
-scale_shape_manual(values=c(24, 22, 21, 23))
-
 set_shape_to_genometype <- function(dat1) {
-	if (length(levels(dat1$GenomeType)) == 4) {
-		sympos1 <- 24
-		sympos2 <- 22
-		sympos3 <- 21
-		sympos4 <- 23
-		plotsym <- scale_shape_manual(values=c(24, 22, 21, 23))
-	}
-
-    # if (length(levels(dat1$GenomeType)) == 3) {
-    #     if (levels(dat1$GenomeType)[1] == "Query") { 
-    #     	sympos1 <- 24 
-    #     	if (levels(dat1$GenomeType)[2] == "Ref-Isolate") {
-    #     		sympos2 <- 22 }
-    #         if (levels(dat1$GenomeType)[2] == "Ref-MAG") {
-    #             sympos2 <- 21
-    #             sympos3 <- 23
-
-    #     }
-    #     if (levels(dat1$GenomeType)[1] == "Ref-Isolate") { 
-    #     	sympos1 <- 22
-    #     	sympos2 <- 21
-    #     	sympos3 <- 23 
-    #     }
-    #     plotsym <- scale_shape_manual(values=c(sympos1, sympos2, sympos3))
-
-
+    if ("Query" %in% levels(dat1$GenomeType)) {
+    if (which(levels(dat1$GenomeType) == "Query") == 1) {
+        sympos1 <- 24
+    }}
+    if ("Ref-Isolate" %in% levels(dat1$GenomeType)) {
+    if (which(levels(dat1$GenomeType) == "Ref-Isolate") == 1) {
+        sympos1 <- 22
+    }}
+    if ("Ref-MAG" %in% levels(dat1$GenomeType)) {
+    if (which(levels(dat1$GenomeType) == "Ref-MAG") == 1) {
+        sympos1 <- 21
+    }}
+    if ("Ref-SAG" %in% levels(dat1$GenomeType)) {
+    if (which(levels(dat1$GenomeType) == "Ref-SAG") == 1) {
+        sympos1 <- 23
+    }}
+    if ("Ref-Isolate" %in% levels(dat1$GenomeType)) {
+    if (which(levels(dat1$GenomeType) == "Ref-Isolate") == 2) {
+        sympos2 <- 22
+    }}
+    if ("Ref-MAG" %in% levels(dat1$GenomeType)) {
+    if (which(levels(dat1$GenomeType) == "Ref-MAG") == 2) {
+        sympos2 <- 21
+    }}
+    if ("Ref-SAG" %in% levels(dat1$GenomeType)) {
+    if (which(levels(dat1$GenomeType) == "Ref-SAG") == 2) {
+        sympos2 <- 23
+    }}
+    if ("Ref-MAG" %in% levels(dat1$GenomeType)) {
+    if (which(levels(dat1$GenomeType) == "Ref-MAG") == 3) {
+        sympos3 <- 21
+    }}
+    if ("Ref-SAG" %in% levels(dat1$GenomeType)) {
+    if (which(levels(dat1$GenomeType) == "Ref-SAG") == 3) {
+        sympos3 <- 23
+    }}
+    if ("Ref-SAG" %in% levels(dat1$GenomeType)) {
+    if (which(levels(dat1$GenomeType) == "Ref-SAG") == 4) {
+        sympos4 <- 23
+    }}
+    if (length(levels(dat1$GenomeType)) == 4) {
+        plotsym <- scale_shape_manual(values=c(sympos1, sympos2, sympos3, sympos4))
+    }
     if (length(levels(dat1$GenomeType)) == 3) {
-    	plotsym <- scale_shape_manual(values=c(24, 21, 22))
+        plotsym <- scale_shape_manual(values=c(sympos1, sympos2, sympos3))
     }
-
     if (length(levels(dat1$GenomeType)) == 2) {
-    	plotsym <- scale_shape_manual(values=c(24, 21))
+        plotsym <- scale_shape_manual(values=c(sympos1, sympos2))
     }
-
-	if (length(levels(dat1$GenomeType)) == 1) {
-		if (levels(dat1$GenomeType)[1] == "Query") { sympos1 <- 24 }
-		if (levels(dat1$GenomeType)[1] == "Ref-Isolate") { sympos1 <- 22 }
-		if (levels(dat1$GenomeType)[1] == "Ref-MAG") { sympos1 <- 21 }
-		if (levels(dat1$GenomeType)[1] == "Ref-SAG") { sympos1 <- 23 }
-		plotsym <- scale_shape_manual(values=c(sympos1))
-	}
-	return(plotsym)
+    if (length(levels(dat1$GenomeType)) == 1) {
+    	   print("1 detected")
+        plotsym <- scale_shape_manual(values=c(sympos1))
+    }
+    return(plotsym)
 }
 
 set_shape_to_genometype(dat1)
@@ -95,7 +106,7 @@ p4 <- p4 + labs(title = "PCA of RAST annotation", subtitle = "Color by Order tax
 p5 <- ggplot(dat1, aes(x=Completeness, y=Contamination))
 p5 <- p5 + theme_bw()
 p5 <- p5 + geom_point(aes(fill=Class, shape=GenomeType))
-p5 <- p5 + scale_shape_manual(values=c(24, 22, 21, 23))
+p5 <- p5 + set_shape_to_genometype(dat1)
 p5 <- p5 + guides(fill = guide_legend(title="Class", override.aes=list(shape=21)))
 p5 <- p5 + guides(shape = guide_legend(title="Genome Type"))
 p5 <- p5 + xlab("Completeness (%)") + ylab("Contamination (%)")
