@@ -16,7 +16,9 @@ from pathlib import Path
 import matplotlib
 import matplotlib.pyplot as plt
 
-#need to add "IMG" prefix to prevent failure (i.e. script expects strings for genomeID)
+
+#todo
+#convert matrix to presence/absence
 
 # check to see if python3 installed and being used; should be automatic because of the shebang, but useful if someone calls explicitly with python 2
 def check_for_py3():
@@ -128,22 +130,18 @@ def import_and_merge_tables(saveoutput):
     print("\n"+"Running import_and_merge_tables")
     time_start = time.time()
     f1 = pandas.read_csv(file1, header=None, sep="\t", index_col=False, dtype=str)
+    global f2
     f2 = pandas.read_csv(file2, header=None, sep="\t", index_col=False, dtype=str)
-    f2.loc[f2[0] == "2740891978"]
     f3 = pandas.read_csv(file3, header=None, sep="\t", index_col=False, dtype=str)
     d1 = pandas.read_csv(data1, header=None, sep="\t", index_col=False, dtype=str)
     d2 = pandas.read_csv(data2, header=None, sep="\t", index_col=False, dtype=str)
     d3 = pandas.read_csv(data3, header=None, sep="\t", index_col=False, dtype=str)
     q1 = pandas.read_csv(query1, header=None, sep="\t", index_col=False, dtype=str)
     f123 = pandas.concat([f1, f2, f3], axis=0)
-    f123.loc[f123[0] == "2740891978"]
     d123q1 = pandas.concat([d1, d2, d3, q1], axis=0)
-    d123q1.loc[d123q1[0] == "2740891978"]
     global merge
     merge = f123.merge(d123q1, how='outer', left_on=0, right_on=0)
     merge.columns = ['genomeID', 'genomeSet', 'V1', 'V2', 'V3', 'V4', 'GenomeType', 'V6', 'Completeness', 'Contamination', 'Domain', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species', 'RAST_Annotation']
-    merge.loc[merge["genomeID"] == "2740891978"]
-    merge.to_csv("c.txt")
     if saveoutput == "Yes":
         merge.to_csv("MAG-QC-output_all-merged-data.tsv")
     print('import_and_merge_tables done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
@@ -156,26 +154,32 @@ def extract_lineages_for_selected_level(taxa_level):
         taxa_level_list = merge.Domain.unique()
         taxa_level_down1 = 'Phylum'
         taxa_level_down2 = 'Class'
+        #query_unique = f2.Domain.unique()
     elif taxa_level == 'Phylum':
         taxa_level_list = merge.Phylum.unique()
         taxa_level_down1 = 'Class'
         taxa_level_down2 = 'Order'
+        #query_unique = f2.Phylum.unique()
     elif taxa_level == 'Class':
         taxa_level_list = merge.Class.unique()
         taxa_level_down1 = 'Order'
         taxa_level_down2 = 'Family'
+        #query_unique = f2.Class.unique()
     elif taxa_level == 'Order':
         taxa_level_list = merge.Order.unique()
         taxa_level_down1 = 'Family'
         taxa_level_down2 = 'Genus'
+        #query_unique = f2.Order.unique()
     elif taxa_level == 'Family':
         taxa_level_list = merge.Family.unique()
         taxa_level_down1 = 'Genus'
         taxa_level_down2 = 'Species'
+        #query_unique = f2.Family.unique()
     else:
         taxa_level_list = merge.Genus.unique()
         taxa_level_down1 = 'Species'
         taxa_level_down2 = ''
+        #query_unique = f2.Genus.unique()
     return taxa_level_list, taxa_level_down1, taxa_level_down2
     print('extract_lineages_for_selected_level done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
@@ -189,15 +193,13 @@ def extract_lineages_for_selected_level(taxa_level):
 # 1861363 GCA_002509575.1_ASM250957v1_genomic PRJNA348753-8000Genomes y   y   y   ... o__Methanomicrobiales   f__Methanocullaceae g__Methanoculleus   s__GCA_002508705.1  Diadenosine 5'5'''-P1,P4-tetraphosphate pyroph...
 
 
-
-
 def subset_data_by_lineage(lineage):
     print("\n\t"+"Running subset_data_by_lineage")
     time_start = time.time()
     global merge_reduced
     global merge_reduced_trim
     merge_reduced = merge.loc[merge[taxa_level] == lineage]
-    merge_reduced_trim = merge_reduced.drop(columns="RAST_Annotation").drop_duplicates() # per genomeID, extra information. 
+    merge_reduced_trim = merge_reduced.drop(columns="RAST_Annotation").drop_duplicates() # per genomeID, extra information.
     print('\tsubset_data_by_lineage done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
@@ -218,8 +220,8 @@ def count_annotation_data_for_level(merge_reduced, outputfile1, lineage):
             f1.write("\t")
         else:
             f1.write("\n")
-    for annotation in range(len(annotationlist)): # takes long to run (up to hours)
-    #for annotation in range(0, 20):
+    #for annotation in range(len(annotationlist)): # takes long to run (up to hours)
+    for annotation in range(0, 20):
         f1.write(str(annotationlist[annotation]) + "\t")
         temp_merge = merge_reduced.loc[merge_reduced['RAST_Annotation'] == annotationlist[annotation]]
         #dat = temp_merge['genomeID'].value_counts().rename_axis('genomeID').reset_index(name='counts')
@@ -355,7 +357,7 @@ if __name__ == "__main__":
 
     read_and_parse_rast_annotations(inputfile, outputfile)
 
-    #combine_external_checkm_and_taxonomy_info(file1, file2, file3)
+    combine_external_checkm_and_taxonomy_info(file1, file2, file3)
 
     import_and_merge_tables(saveoutput)
 
@@ -364,7 +366,9 @@ if __name__ == "__main__":
 
     for lineage_number in range(len(taxalist)):
         lineage = taxalist[lineage_number]
-        if (str(lineage) == "p__Nanoarchaeota") or (str(lineage) == "p__Micrarchaeota") or (str(lineage) == "p__Euryarchaeota") or (str(lineage) == "p__Asgardarchaeota"):
+        #if (str(lineage) == "p__Nanoarchaeota") or (str(lineage) == "p__Micrarchaeota") or (str(lineage) == "p__Euryarchaeota") or (str(lineage) == "p__Asgardarchaeota"):
+        if (str(lineage) == "p__Asgardarchaeota"):
+
             print("Starting with lineage: "+str(lineage))
 
             subset_data_by_lineage(lineage)
