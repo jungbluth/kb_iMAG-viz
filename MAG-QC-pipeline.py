@@ -239,13 +239,14 @@ def import_count_and_combine_with_genome_metadata(lineage):
     global dat
     global dat_combined
     global genome_number
+    print("linaege"+str(lineage))
     with open(inputfile1+"_"+lineage+".tsv") as f:
         ncols = len(f.readline().split('\t'))
     dat = numpy.loadtxt(inputfile1+"_"+lineage+".tsv", delimiter="\t", skiprows=1, usecols=range(1, ncols))
     dat = numpy.transpose(dat)  # transpose data
     genome_number = len(merge_reduced_trim)
-    print(dat)
-    print(merge_reduced_trim)
+    #print(dat)
+    #print(merge_reduced_trim)
     print("\tNumber of genomes: " + str(len(merge_reduced_trim)))
 
 
@@ -302,13 +303,13 @@ def plot_dimensional_reduction_results_rggplot(lineage, mode):
     shutil.copy("MAG-QC-output_PCA-input-data_"+str(lineage)+".tsv", "R-input-data.tsv")
     time_start = time.time()
     import subprocess
-    command = "/Applications/ResearchSoftware/kb_MAG-QC/make_ggplot_scatterplot.R"
+    command = "Rscript /Applications/ResearchSoftware/kb_MAG-QC/make_ggplot_scatterplot.R"
     process=subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     process.wait()
     out, err = process.communicate()
     if process.returncode != 0: sys.exit("*Error generating figure with ggplot2")
     shutil.move("R-output-plot.pdf","MAG-QC-output_PCA_"+str(lineage)+".pdf")
-    os.remove("R-input-data.tsv")
+    #os.remove("R-input-data.tsv")
     print('\tplot_dimensional_reduction_results_rggplot done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
@@ -363,34 +364,36 @@ if __name__ == "__main__":
 
     taxalist = extract_lineages_for_selected_level(taxa_level)[0]  # get list of lineages to iterate over
 
+    print(taxalist)
 
     for lineage_number in range(len(taxalist)):
         lineage = taxalist[lineage_number]
         #if (str(lineage) == "p__Nanoarchaeota") or (str(lineage) == "p__Micrarchaeota") or (str(lineage) == "p__Euryarchaeota") or (str(lineage) == "p__Asgardarchaeota"):
-        #if (str(lineage) == "p__Asgardarchaeota"):
+        if (str(lineage) == "p__Thermoplasmatota"):
+        #if (str(lineage) != "nan"): # some groups don't have phyla? need to work this out.
 
-        print("Starting with lineage: "+str(lineage))
+	        print("Starting with lineage: "+str(lineage))
 
-        subset_data_by_lineage(lineage)
+	        subset_data_by_lineage(lineage)
 
-        count_annotation_data_for_level(merge_reduced, outputfile1, lineage)
+	        #count_annotation_data_for_level(merge_reduced, outputfile1, lineage)
 
-        import_count_and_combine_with_genome_metadata(lineage)
+	        import_count_and_combine_with_genome_metadata(lineage)
 
-        if genome_number > 3:
+	        if genome_number > 3:
 
-            run_tsne_dimensional_reduction()
+	            run_tsne_dimensional_reduction()
 
-            run_principal_component_analysis()
+	            run_principal_component_analysis()
 
-            plot_dimensional_reduction_results_seaborn(lineage, mode="pca")
+	            plot_dimensional_reduction_results_seaborn(lineage, mode="pca")
 
-            plot_dimensional_reduction_results_rggplot(lineage, mode="pca")
-        else:
-            print("\nWarning: not enough data (genomes) to run a meaningful dimensional reduction. Select a different group.")
+	            plot_dimensional_reduction_results_rggplot(lineage, mode="pca")
+	        else:
+	            print("\nWarning: not enough data (genomes) to run a meaningful dimensional reduction. Select a different group.")
 
 
-        print("Finished with lineage: "+str(lineage))
+	        print("Finished with lineage: "+str(lineage))
 
 
     # test_text()
