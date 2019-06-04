@@ -147,7 +147,7 @@ def import_and_merge_tables(saveoutput):
     print('import_and_merge_tables done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
-def extract_lineages_for_selected_level(taxa_level):
+def extract_lineages_for_selected_level(taxa_level, file1):
     print("\n"+"Running extract_lineages_for_selected_level")
     time_start = time.time()
     if taxa_level == 'Domain':
@@ -159,7 +159,9 @@ def extract_lineages_for_selected_level(taxa_level):
         taxa_level_list = merge.Phylum.unique()
         taxa_level_down1 = 'Class'
         taxa_level_down2 = 'Order'
-        #query_unique = f2.Phylum.unique()
+        #print(file1)
+        #query_unique = query1[11].unique()
+        #print("query_unique"+query_unique)
     elif taxa_level == 'Class':
         taxa_level_list = merge.Class.unique()
         taxa_level_down1 = 'Order'
@@ -355,15 +357,13 @@ if __name__ == "__main__":
 
     check_for_py3()
 
-    read_and_parse_rast_annotations(inputfile, outputfile)
+    #read_and_parse_rast_annotations(inputfile, outputfile)
 
     combine_external_checkm_and_taxonomy_info(file1, file2, file3)
 
     import_and_merge_tables(saveoutput)
 
-    taxalist = extract_lineages_for_selected_level(taxa_level)[0]  # get list of lineages to iterate over
-
-    print(taxalist)
+    taxalist = extract_lineages_for_selected_level(taxa_level, file1)[0]  # get list of lineages to iterate over
 
     for lineage_number in range(len(taxalist)):
         lineage = taxalist[lineage_number]
@@ -390,7 +390,6 @@ if __name__ == "__main__":
 	            plot_dimensional_reduction_results_rggplot(lineage, mode="pca")
 	        else:
 	            print("\nWarning: not enough data (genomes) to run a meaningful dimensional reduction. Select a different group.")
-
 
 	        print("Finished with lineage: "+str(lineage))
 
