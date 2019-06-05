@@ -1,7 +1,6 @@
-#!/Users/sean/anaconda3/envs/renv/bin/Rscript
-
 # #/usr/bin/env Rscript
 
+# #!/Users/sean/anaconda3/envs/renv/bin/Rscript
 
 library(ggpubr)
 library(ggplot2)
@@ -10,45 +9,55 @@ dat1<-read.csv("R-input-data.tsv", sep="\t", header=T)
 
 set_shape_to_genometype <- function(dat1) {
     if ("Query" %in% levels(dat1$GenomeType)) {
-    if (which(levels(dat1$GenomeType) == "Query") == 1) {
-        sympos1 <- 24
-    }}
+        if (which(levels(dat1$GenomeType) == "Query") == 1) {
+            sympos1 <- 24
+        }
+    }
     if ("Ref-Isolate" %in% levels(dat1$GenomeType)) {
-    if (which(levels(dat1$GenomeType) == "Ref-Isolate") == 1) {
-        sympos1 <- 22
-    }}
+        if (which(levels(dat1$GenomeType) == "Ref-Isolate") == 1) {
+            sympos1 <- 22
+        }
+    }
     if ("Ref-MAG" %in% levels(dat1$GenomeType)) {
-    if (which(levels(dat1$GenomeType) == "Ref-MAG") == 1) {
-        sympos1 <- 21
-    }}
+        if (which(levels(dat1$GenomeType) == "Ref-MAG") == 1) {
+            sympos1 <- 21
+        }
+    }
     if ("Ref-SAG" %in% levels(dat1$GenomeType)) {
-    if (which(levels(dat1$GenomeType) == "Ref-SAG") == 1) {
-        sympos1 <- 23
-    }}
+        if (which(levels(dat1$GenomeType) == "Ref-SAG") == 1) {
+            sympos1 <- 23
+        }
+    }
     if ("Ref-Isolate" %in% levels(dat1$GenomeType)) {
-    if (which(levels(dat1$GenomeType) == "Ref-Isolate") == 2) {
-        sympos2 <- 22
-    }}
+        if (which(levels(dat1$GenomeType) == "Ref-Isolate") == 2) {
+            sympos2 <- 22
+        }
+    }
     if ("Ref-MAG" %in% levels(dat1$GenomeType)) {
-    if (which(levels(dat1$GenomeType) == "Ref-MAG") == 2) {
-        sympos2 <- 21
-    }}
+        if (which(levels(dat1$GenomeType) == "Ref-MAG") == 2) {
+            sympos2 <- 21
+        }
+    }
     if ("Ref-SAG" %in% levels(dat1$GenomeType)) {
-    if (which(levels(dat1$GenomeType) == "Ref-SAG") == 2) {
-        sympos2 <- 23
-    }}
+        if (which(levels(dat1$GenomeType) == "Ref-SAG") == 2) {
+            sympos2 <- 23
+        }
+    }
     if ("Ref-MAG" %in% levels(dat1$GenomeType)) {
-    if (which(levels(dat1$GenomeType) == "Ref-MAG") == 3) {
-        sympos3 <- 21
-    }}
+        if (which(levels(dat1$GenomeType) == "Ref-MAG") == 3) {
+            sympos3 <- 21
+        }
+    }
     if ("Ref-SAG" %in% levels(dat1$GenomeType)) {
-    if (which(levels(dat1$GenomeType) == "Ref-SAG") == 3) {
-        sympos3 <- 23
-    }}
+        if (which(levels(dat1$GenomeType) == "Ref-SAG") == 3) {
+            sympos3 <- 23
+        }
+    }
     if ("Ref-SAG" %in% levels(dat1$GenomeType)) {
-    if (which(levels(dat1$GenomeType) == "Ref-SAG") == 4) {
-        sympos4 <- 23
-    }}
+        if (which(levels(dat1$GenomeType) == "Ref-SAG") == 4) {
+            sympos4 <- 23
+        }
+    }
     if (length(levels(dat1$GenomeType)) == 4) {
         plotsym <- scale_shape_manual(values=c(sympos1, sympos2, sympos3, sympos4))
     }

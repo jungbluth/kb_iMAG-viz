@@ -310,7 +310,7 @@ def plot_dimensional_reduction_results_rggplot(lineage, mode):
     out, err = process.communicate()
     if process.returncode != 0: sys.exit("*Error generating figure with ggplot2")
     shutil.move("R-output-plot.pdf","MAG-QC-output_PCA_"+str(lineage)+".pdf")
-    #os.remove("R-input-data.tsv")
+    os.remove("R-input-data.tsv")
     print('\tplot_dimensional_reduction_results_rggplot done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
@@ -356,13 +356,9 @@ if __name__ == "__main__":
 
 
     check_for_py3()
-
     #read_and_parse_rast_annotations(inputfile, outputfile)
-
     combine_external_checkm_and_taxonomy_info(file1, file2, file3)
-
     import_and_merge_tables(saveoutput)
-
     taxalist = extract_lineages_for_selected_level(taxa_level, file1)[0]  # get list of lineages to iterate over
 
     for lineage_number in range(len(taxalist)):
@@ -370,27 +366,17 @@ if __name__ == "__main__":
         #if (str(lineage) == "p__Nanoarchaeota") or (str(lineage) == "p__Micrarchaeota") or (str(lineage) == "p__Euryarchaeota") or (str(lineage) == "p__Asgardarchaeota"):
         #if (str(lineage) == "p__Thermoplasmatota"):
         if (str(lineage) != "nan"): # some groups don't have phyla? need to work this out.
-
 	        print("Starting with lineage: "+str(lineage))
-
 	        subset_data_by_lineage(lineage)
-
 	        #count_annotation_data_for_level(merge_reduced, outputfile1, lineage)
-
 	        import_count_and_combine_with_genome_metadata(lineage)
-
 	        if genome_number > 3:
-
 	            run_tsne_dimensional_reduction()
-
 	            run_principal_component_analysis()
-
 	            plot_dimensional_reduction_results_seaborn(lineage, mode="pca")
-
 	            plot_dimensional_reduction_results_rggplot(lineage, mode="pca")
 	        else:
 	            print("\nWarning: not enough data (genomes) to run a meaningful dimensional reduction. Select a different group.")
-
 	        print("Finished with lineage: "+str(lineage))
 
 
