@@ -327,7 +327,7 @@ def test_text():
     # print(merge.Domain.unique())
 
 
-# run main MAG-QC-pipeline.py script
+# run main kb_iMAG-viz-workflow.py script
 if __name__ == "__main__":
 
     inputfile = os.path.realpath(sys.argv[1])
