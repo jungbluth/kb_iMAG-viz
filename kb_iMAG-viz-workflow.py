@@ -80,7 +80,7 @@ def read_and_parse_rast_annotations(inputfile, outputfile):
     print("\n"+"Running read_and_parse_rast_annotations")
     time_start = time.time()
     f1 = open(inputfile)
-    if Path(outputfile).is_file():
+    if os.path.exists(outputfile):
         os.remove(outputfile)
     f2 = open(outputfile, "w+")
     f2 = open(outputfile, "a")
@@ -304,7 +304,7 @@ def plot_dimensional_reduction_results_rggplot(lineage, mode):
     shutil.copy("MAG-QC-output_PCA-input-data_"+str(lineage)+".tsv", "R-input-data.tsv")
     time_start = time.time()
     import subprocess
-    command = "Rscript /Applications/ResearchSoftware/kb_MAG-QC/make_ggplot_scatterplot.R"
+    command = "Rscript /Applications/ResearchSoftware/kb_iMAG-viz/make_ggplot_scatterplot.R"
     process=subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     process.wait()
     out, err = process.communicate()
@@ -356,7 +356,7 @@ if __name__ == "__main__":
 
 
     check_for_py3()
-    #read_and_parse_rast_annotations(inputfile, outputfile)
+    read_and_parse_rast_annotations(inputfile, outputfile)
     combine_external_checkm_and_taxonomy_info(file1, file2, file3)
     import_and_merge_tables(saveoutput)
     taxalist = extract_lineages_for_selected_level(taxa_level, file1)[0]  # get list of lineages to iterate over
