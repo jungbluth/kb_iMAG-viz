@@ -12,13 +12,18 @@ import pandas
 import numpy
 import os
 import re
+import argparse
+from argparse import RawTextHelpFormatter
 from pathlib import Path
 import matplotlib
 import matplotlib.pyplot as plt
 
+# example quick command: kb_iMAG-viz-workflow.py -i /Applications/ResearchSoftware/kb_iMAG-viz/test/query-genomes/TARA-MAGs_Delmont-Archaea-only-2017.RAST.txt
 
-#todo
-#convert matrix to presence/absence
+# example long command: /Applications/ResearchSoftware/kb_iMAG-viz/kb_iMAG-viz-workflow.py -i /Applications/ResearchSoftware/kb_iMAG-viz/test/query-genomes/TARA-MAGs_Delmont-Archaea-only-2017.RAST.txt --taxa_level Phylum --save_master_table Yes --path_to_kb_imagviz /Applications/ResearchSoftware/kb_iMAG-viz --generate_count_tables n --dimensional_reduction_method pca --plotting_method ggplot
+
+# todo
+# convert matrix to presence/absence
 
 # check to see if python3 installed and being used; should be automatic because of the shebang, but useful if someone calls explicitly with python 2
 def check_for_py3():
@@ -51,7 +56,7 @@ def get_obj_id(obj_name):
 # From Miriam: function to return object data based on object ID
 def get_object_data(object_id):
     """
-    Fetch data from the workspace. Example1: get_object_data(get_obj_id("MAG-QC_Archaea.SAGs.RAST")); Example2: get_object_data(u'43402/2132/1')
+    Fetch data from the workspace. Example1: get_object_data(get_obj_id("iMAG-viz_Archaea.SAGs.RAST")); Example2: get_object_data(u'43402/2132/1')
     """
     from biokbase.workspace.client import Workspace
     ws = Workspace('https://kbase.us/services/ws')
@@ -76,14 +81,14 @@ def extract_annotations_from_genomeset(genomeset_name, export_filename):
 
 
 # wont be needed when annotation data pulled directly from Genome Set Objects
-def read_and_parse_rast_annotations(inputfile, outputfile):
+def read_and_parse_rast_annotations(query_annotation_table, output_query_annotation):
     print("\n"+"Running read_and_parse_rast_annotations")
     time_start = time.time()
-    f1 = open(inputfile)
-    if os.path.exists(outputfile):
-        os.remove(outputfile)
-    f2 = open(outputfile, "w+")
-    f2 = open(outputfile, "a")
+    f1 = open(query_annotation_table)
+    if os.path.exists(output_query_annotation):
+        os.remove(output_query_annotation)
+    f2 = open(output_query_annotation, "w+")
+    f2 = open(output_query_annotation, "a")
     ftrim = f1.readlines()[1:]
     for line in ftrim:
         rep = {"], [u": "|", "', u'": "|", '"': "", "[[u": ""}
@@ -113,41 +118,41 @@ def read_and_parse_rast_annotations(inputfile, outputfile):
 
 
 
-def combine_external_checkm_and_taxonomy_info(file1, file2, file3):
+def combine_external_checkm_and_taxonomy_info(query_genome_data, reference_IMG_genome_data, reference_Other_genome_data):
     print("\n"+"Running combine_external_checkm_and_taxonomy_info")
     time_start = time.time()
-    filenames = [file1, file2, file3]
-    with open(output1, 'w') as outfile:
+    filenames = [query_genome_data, reference_IMG_genome_data, reference_Other_genome_data]
+    with open(output_combined_genome_data, 'w') as outfile:
         for fname in filenames:
             with open(fname) as infile:
                 for line in infile:
                     outfile.write(line)
-    print("\nTotal number of genomes in metadata table: " + str(len(open(output1).readlines())))
+    print("\nTotal number of genomes in metadata table: " + str(len(open(output_combined_genome_data).readlines())))
     print('combine_external_checkm_and_taxonomy_info done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
-def import_and_merge_tables(saveoutput):
+def import_and_merge_tables(save_master_table):
     print("\n"+"Running import_and_merge_tables")
     time_start = time.time()
-    f1 = pandas.read_csv(file1, header=None, sep="\t", index_col=False, dtype=str)
+    f1 = pandas.read_csv(query_genome_data, header=None, sep="\t", index_col=False, dtype=str)
     global f2
-    f2 = pandas.read_csv(file2, header=None, sep="\t", index_col=False, dtype=str)
-    f3 = pandas.read_csv(file3, header=None, sep="\t", index_col=False, dtype=str)
-    d1 = pandas.read_csv(data1, header=None, sep="\t", index_col=False, dtype=str)
-    d2 = pandas.read_csv(data2, header=None, sep="\t", index_col=False, dtype=str)
-    d3 = pandas.read_csv(data3, header=None, sep="\t", index_col=False, dtype=str)
-    q1 = pandas.read_csv(query1, header=None, sep="\t", index_col=False, dtype=str)
+    f2 = pandas.read_csv(reference_IMG_genome_data, header=None, sep="\t", index_col=False, dtype=str)
+    f3 = pandas.read_csv(reference_Other_genome_data, header=None, sep="\t", index_col=False, dtype=str)
+    d1 = pandas.read_csv(query_isolate_annotation_data, header=None, sep="\t", index_col=False, dtype=str)
+    d2 = pandas.read_csv(query_MAG_annotation_data, header=None, sep="\t", index_col=False, dtype=str)
+    d3 = pandas.read_csv(query_SAG_annotation_data, header=None, sep="\t", index_col=False, dtype=str)
+    q1 = pandas.read_csv(query_annotation_data, header=None, sep="\t", index_col=False, dtype=str)
     f123 = pandas.concat([f1, f2, f3], axis=0)
     d123q1 = pandas.concat([d1, d2, d3, q1], axis=0)
     global merge
     merge = f123.merge(d123q1, how='outer', left_on=0, right_on=0)
     merge.columns = ['genomeID', 'genomeSet', 'V1', 'V2', 'V3', 'V4', 'GenomeType', 'V6', 'Completeness', 'Contamination', 'Domain', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species', 'RAST_Annotation']
-    if saveoutput == "Yes":
-        merge.to_csv("MAG-QC-output_all-merged-data.tsv")
+    if save_master_table == "Yes":
+        merge.to_csv("iMAG-viz-output_ALL_genomeQC-and-annotation-data.csv")
     print('import_and_merge_tables done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
-def extract_lineages_for_selected_level(taxa_level, file1):
+def extract_lineages_for_selected_level(taxa_level, query_genome_data):
     print("\n"+"Running extract_lineages_for_selected_level")
     time_start = time.time()
     if taxa_level == 'Domain':
@@ -159,8 +164,8 @@ def extract_lineages_for_selected_level(taxa_level, file1):
         taxa_level_list = merge.Phylum.unique()
         taxa_level_down1 = 'Class'
         taxa_level_down2 = 'Order'
-        #print(file1)
-        #query_unique = query1[11].unique()
+        #print(query_genome_data)
+        #query_unique = query_annotation_data[11].unique()
         #print("query_unique"+query_unique)
     elif taxa_level == 'Class':
         taxa_level_list = merge.Class.unique()
@@ -195,7 +200,7 @@ def extract_lineages_for_selected_level(taxa_level, file1):
 # 1861363 GCA_002509575.1_ASM250957v1_genomic PRJNA348753-8000Genomes y   y   y   ... o__Methanomicrobiales   f__Methanocullaceae g__Methanoculleus   s__GCA_002508705.1  Diadenosine 5'5'''-P1,P4-tetraphosphate pyroph...
 
 
-def subset_data_by_lineage(lineage):
+def subset_data_by_lineage(lineage, taxa_level):
     print("\n\t"+"Running subset_data_by_lineage")
     time_start = time.time()
     global merge_reduced
@@ -205,14 +210,14 @@ def subset_data_by_lineage(lineage):
     print('\tsubset_data_by_lineage done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
-def count_annotation_data_for_level(merge_reduced, outputfile1, lineage):
+def count_annotation_data_for_level(merge_reduced, output_annotation_count, lineage):
     print("\n\t"+"Running count_annotation_data_for_level")
     time_start = time.time()
-    if Path(outputfile1+"_"+lineage+".tsv").is_file():
-        os.remove(outputfile1+"_"+lineage+".tsv")
+    if Path(output_annotation_count+"_"+lineage+".tsv").is_file():
+        os.remove(output_annotation_count+"_"+lineage+".tsv")
 
-    f1 = open(outputfile1+"_"+lineage+".tsv", "w+")
-    f1 = open(outputfile1+"_"+lineage+".tsv", "a")
+    f1 = open(output_annotation_count+"_"+lineage+".tsv", "w+")
+    f1 = open(output_annotation_count+"_"+lineage+".tsv", "a")
     genomelist = merge_reduced.genomeID.unique()
     annotationlist = merge_reduced.RAST_Annotation.unique()
     f1.write("Annotation" + "\t")  # write header line
@@ -241,9 +246,9 @@ def import_count_and_combine_with_genome_metadata(lineage):
     global dat
     global dat_combined
     global genome_number
-    with open(inputfile1+"_"+lineage+".tsv") as f:
+    with open(output_annotation_count+"_"+lineage+".tsv") as f:
         ncols = len(f.readline().split('\t'))
-    dat = numpy.loadtxt(inputfile1+"_"+lineage+".tsv", delimiter="\t", skiprows=1, usecols=range(1, ncols))
+    dat = numpy.loadtxt(output_annotation_count+"_"+lineage+".tsv", delimiter="\t", skiprows=1, usecols=range(1, ncols))
     dat = numpy.transpose(dat)  # transpose data
     genome_number = len(merge_reduced_trim)
     #print(dat)
@@ -276,12 +281,12 @@ def run_principal_component_analysis():
     dat1_combined.columns = ['PC1', 'PC2', 'PC3', 'genomeID', 'genomeSet', 'V1', 'V2', 'V3', 'V4', 'GenomeType', 'V6', 'Completeness', 'Contamination', 'Domain', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species']
     #print(dat1_combined)
     #print(dat1_combined.shape)
-    dat1_combined.to_csv("MAG-QC-output_PCA-input-data_"+str(lineage)+".tsv", sep='\t')
+    dat1_combined.to_csv("iMAG-viz-output_PCA-input-data_"+str(lineage)+".tsv", sep='\t')
     print('\trun_principal_component_analysis done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
 def plot_dimensional_reduction_results_seaborn(lineage, mode):
-    print("\n\t"+"Running plot_dimensional_reduction_results_seaborn")
+    print("\n\t" + "Running plot_dimensional_reduction_results_seaborn")
     time_start = time.time()
     import seaborn
     # list_genomeid = merge_reduced["genomeID"]
@@ -293,7 +298,7 @@ def plot_dimensional_reduction_results_seaborn(lineage, mode):
         #sns_plot = seaborn.scatterplot(x="PC1", y="PC2", hue=df["Class"], style=None, size=None, data=dat1, palette=seaborn.color_palette("hls", len(df["Class"].unique())), hue_order=None, hue_norm=None, sizes=None, size_order=None, size_norm=None, markers=True, style_order=None, x_bins=None, y_bins=None, units=None, estimator=None, ci=95, n_boot=1000, alpha=0.3, x_jitter=None, y_jitter=None, legend='full', ax=None)
         sns_plot = seaborn.scatterplot(x="PC1", y="PC2", hue="Class", style=None, size=None, data=dat1_combined, palette=seaborn.color_palette("hls", len(dat1_combined["Class"].unique())), hue_order=None, hue_norm=None, sizes=None, size_order=None, size_norm=None, markers=dat1_combined["Class"], style_order=None, x_bins=None, y_bins=None, units=None, estimator=None, ci=95, n_boot=1000, alpha=0.3, x_jitter=None, y_jitter=None, legend='full', ax=None)
     fig = sns_plot.get_figure()
-    fig.savefig("MAG-QC-output_PCA_"+str(lineage)+".png")
+    fig.savefig("iMAG-viz-output_PCA_"+str(lineage)+".png")
     print('\tplot_dimensional_reduction_results_seaborn done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
@@ -301,7 +306,7 @@ def plot_dimensional_reduction_results_rggplot(lineage, mode):
     print("\n\t"+"Running plot_dimensional_reduction_results_rggplot")
     import shutil
     import os
-    shutil.copy("MAG-QC-output_PCA-input-data_"+str(lineage)+".tsv", "R-input-data.tsv")
+    shutil.copy("iMAG-viz-output_PCA-input-data_"+str(lineage)+".tsv", "R-input-data.tsv")
     time_start = time.time()
     import subprocess
     command = "Rscript /Applications/ResearchSoftware/kb_iMAG-viz/make_ggplot_scatterplot.R"
@@ -309,9 +314,10 @@ def plot_dimensional_reduction_results_rggplot(lineage, mode):
     process.wait()
     out, err = process.communicate()
     if process.returncode != 0: sys.exit("*Error generating figure with ggplot2")
-    shutil.move("R-output-plot.pdf","MAG-QC-output_PCA_"+str(lineage)+".pdf")
+    shutil.move("R-output-plot.pdf","iMAG-viz-output_PCA_"+str(lineage)+".pdf")
     os.remove("R-input-data.tsv")
     print('\tplot_dimensional_reduction_results_rggplot done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
+
 
 
 def test_text():
@@ -329,55 +335,97 @@ def test_text():
 
 # run main kb_iMAG-viz-workflow.py script
 if __name__ == "__main__":
-
-    inputfile = os.path.realpath(sys.argv[1])
-    outputfile = "MAG-QC-output_query-flattened-annotation-data.tsv"
-    outputfile1 = "MAG-QC-output_annotation-count-data"
-    inputfile1 = "MAG-QC-output_annotation-count-data"
-
-
-    # files needed for function combine_external_checkm_and_taxonomy_info AND import_and_merge_tables
-    file1 = os.path.realpath("Delmont_genomeQC-data.tsv")
-    file2 = os.path.realpath("IMG_genomeQC-data.tsv")
-    file3 = os.path.realpath("Other_genomeQC-data.tsv")
-    output1 = os.path.realpath("_All_genomeQC-data.tsv")
-
-    # files needed for function import_and_merge_tables
-    data1 = os.path.realpath("MAG-QC_Archaea.Isolates_clean.RAST.txt")
-    data2 = os.path.realpath("MAG-QC_Archaea.MAGs_clean.RAST.txt")
-    data3 = os.path.realpath("MAG-QC_Archaea.SAGs_clean.RAST.txt")
-    query1 = os.path.realpath("TARA-MAGs_Delmont-Archaea-only-2017_clean.RAST.txt")
-
-
-    # declare variables
-    saveoutput = "Yes"
-    taxa_level = "Phylum"
-    #lineage = "p__Euryarchaeota"
-
-
-    check_for_py3()
-    read_and_parse_rast_annotations(inputfile, outputfile)
-    combine_external_checkm_and_taxonomy_info(file1, file2, file3)
-    import_and_merge_tables(saveoutput)
-    taxalist = extract_lineages_for_selected_level(taxa_level, file1)[0]  # get list of lineages to iterate over
-
-    for lineage_number in range(len(taxalist)):
-        lineage = taxalist[lineage_number]
-        #if (str(lineage) == "p__Nanoarchaeota") or (str(lineage) == "p__Micrarchaeota") or (str(lineage) == "p__Euryarchaeota") or (str(lineage) == "p__Asgardarchaeota"):
-        #if (str(lineage) == "p__Thermoplasmatota"):
-        if (str(lineage) != "nan"): # some groups don't have phyla? need to work this out.
-	        print("Starting with lineage: "+str(lineage))
-	        subset_data_by_lineage(lineage)
-	        #count_annotation_data_for_level(merge_reduced, outputfile1, lineage)
-	        import_count_and_combine_with_genome_metadata(lineage)
-	        if genome_number > 3:
-	            run_tsne_dimensional_reduction()
-	            run_principal_component_analysis()
-	            plot_dimensional_reduction_results_seaborn(lineage, mode="pca")
-	            plot_dimensional_reduction_results_rggplot(lineage, mode="pca")
-	        else:
-	            print("\nWarning: not enough data (genomes) to run a meaningful dimensional reduction. Select a different group.")
-	        print("Finished with lineage: "+str(lineage))
+    parser = argparse.ArgumentParser(prog='kb_iMAG-viz-workflow',usage='%(prog)s.py -i [query_annotation_table] --version', description="""
+    kb_iMAG-viz is software to evaluate microbial genome quality against reference genomes.
+    ----------------------------------------------------------------------------------------------------------------
+    kb_iMAG-viz-workflow.py performs the following steps.
+    The workflow goes as follows:
+    STEP 1. Annotations data is read from a source (e.g. RAST), and converted into a tab-delimited text
+    STEP 1a. Raw data is cleaned to remove extraneous characters
+    STEP 2. Data are subsetted based on the taxonomic level of interest (e.g. domain, phylum, class, order, ...)
+    STEP 3. Annotation data is converted to presence/absence data (for that taxonomic level)
+    STEP 4: Dimensional reduction on annotation count data to identify major trends and outliers
+    STEP 5: Plotting dimensional reduction results and associated genome quality information."""
+    ,formatter_class=RawTextHelpFormatter)
+    #requiredNamed = parser.add_argument_group('required arguments')
+    #requiredNamed.add_argument("-i", dest="query_annotation_table", help="""Indicate a tab-delimited table where genome ID is the first column and subset columns correspond to gene names.".""", required=False)
+    parser.add_argument("-i", dest="query_annotation_table", help="""Indicate a tab-delimited table where genome ID is the first column and subset columns correspond to gene names (default: /Applications/ResearchSoftware/kb_iMAG-viz/test/query-genomes/TARA-MAGs_Delmont-Archaea-only-2017.RAST.txt)""", default="/Applications/ResearchSoftware/kb_iMAG-viz/test/query-genomes/TARA-MAGs_Delmont-Archaea-only-2017.RAST.txt")
+    parser.add_argument("--taxa_level", dest="taxa_level", help="""Indicate the taxonomic lineage. (default: Phylum)""", default="Phylum")
+    parser.add_argument("--save_master_table", dest="save_master_table", help="""Save the master merged table; warning it can be large as it contains an unflattened version of all the input data. (default: Yes)""", default="Yes")
+    parser.add_argument("--generate_count_tables", dest="generate_count_tables", help="""Regenerate annotation count tables (time-consuming step). (default: Yes)""", default="Yes")
+    parser.add_argument("--dimensional_reduction_method", dest="dimensional_reduction_method", help="""Pick a dimensional reduction method. (default: pca)""", default="pca")
+    parser.add_argument("--plotting_method", dest="plotting_method", help="""Pick a ploting method. (default: ggplot)""", default="ggplot")
+    parser.add_argument("--path_to_kb_imagviz", dest="path_to_kb_imagviz", help="""Indicate the path to kb_imagviz software""", default="/Applications/ResearchSoftware/kb_iMAG-viz")
+    parser.add_argument('--version', action='version', version='%(prog)s v0.1')
+    print("""
+__________________________________________________________
+|  _    _        _ __  __    _    ____            _      |
+| | | _| |__    (_)  \/  |  / \  / ___|    __   _(_)____ |
+| | |/ / '_ \   | | |\/| | / _ \| |  _ ____\ \ / / |_  / |
+| |   <| |_) |  | | |  | |/ ___ \ |_| |_____\ V /| |/ /  |
+| |_|\_\_.__/___|_|_|  |_/_/   \_\____|      \_/ |_/___| |
+|          |_____|                                       |
+|________________________________________________________|\n\n""")
+    args = parser.parse_args()
+    if len(sys.argv) is None:
+        parser.print_help()
+    elif args.query_annotation_table is None:
+        parser.print_help()
+    elif args.path_to_kb_imagviz is None:
+        parser.print_help()
+    else:
+        output_query_annotation = "iMAG-viz-output_query-flattened-annotation-data.tsv"
+        output_annotation_count = "iMAG-viz-output_annotation-count-data"
 
 
-    # test_text()
+        # files needed for function combine_external_checkm_and_taxonomy_info AND import_and_merge_tables
+        query_genome_data = os.path.realpath(args.path_to_kb_imagviz + "/test/query-genomes/Delmont_genomeQC-data.tsv")
+        reference_IMG_genome_data = os.path.realpath(args.path_to_kb_imagviz + "/test/reference-genomes/IMG_genomeQC-data.tsv")
+        reference_Other_genome_data = os.path.realpath(args.path_to_kb_imagviz + "/test/reference-genomes/Other_genomeQC-data.tsv")
+
+        # this output file contains all of the genome data used in the analysis
+        output_combined_genome_data = os.path.realpath("iMAG-viz-output_ALL_genomeQC-data.tsv")
+
+
+        # files needed for function import_and_merge_tables
+        query_annotation_data = os.path.realpath(args.path_to_kb_imagviz + "/test/query-genomes/TARA-MAGs_Delmont-Archaea-only-2017_clean.RAST.txt")
+
+
+        query_isolate_annotation_data = os.path.realpath(args.path_to_kb_imagviz + "/test/reference-genomes/Archaea.Isolates_clean.RAST.txt")
+        query_MAG_annotation_data = os.path.realpath(args.path_to_kb_imagviz + "/test/reference-genomes/Archaea.MAGs_clean.RAST.txt")
+        query_SAG_annotation_data = os.path.realpath(args.path_to_kb_imagviz + "/test/reference-genomes/Archaea.SAGs_clean.RAST.txt")
+
+
+        check_for_py3()
+        read_and_parse_rast_annotations(str(args.query_annotation_table), output_query_annotation)
+        combine_external_checkm_and_taxonomy_info(query_genome_data, reference_IMG_genome_data, reference_Other_genome_data)
+        import_and_merge_tables(args.save_master_table)
+        taxalist = extract_lineages_for_selected_level(args.taxa_level, query_genome_data)[0]  # get list of lineages to iterate over
+
+        for lineage_number in range(len(taxalist)):
+            lineage = taxalist[lineage_number]
+            #if (str(lineage) == "p__Nanoarchaeota") or (str(lineage) == "p__Micrarchaeota") or (str(lineage) == "p__Euryarchaeota") or (str(lineage) == "p__Asgardarchaeota"):
+            #if (str(lineage) == "p__Thermoplasmatota"):
+            if (str(lineage) != "nan"): # some groups don't have phyla? need to work this out.
+                print("Starting with lineage: "+str(lineage))
+                subset_data_by_lineage(lineage, args.taxa_level)
+                if (args.generate_count_tables == "Yes"):
+                    count_annotation_data_for_level(merge_reduced, output_annotation_count, lineage)
+                else:
+                    print("Skipping the count table generation (time-consuming step; assuming this has been done already or next steps will fail).\n")
+                import_count_and_combine_with_genome_metadata(lineage)
+                if genome_number > 3:
+                    if (args.dimensional_reduction_method == "pca"):
+                        run_principal_component_analysis()
+                    else:
+                        run_tsne_dimensional_reduction()
+                    if (args.plotting_method == "ggplot"):
+                        plot_dimensional_reduction_results_rggplot(lineage, mode="pca")
+                    else:
+                        plot_dimensional_reduction_results_seaborn(lineage, mode="pca")
+                else:
+                    print("\nWarning: not enough data (genomes) to run a meaningful dimensional reduction. Select a different group.")
+                print("Finished with lineage: "+str(lineage)+'\n')
+        print("Success! Done running kb_iMAG-viz")
+
+
