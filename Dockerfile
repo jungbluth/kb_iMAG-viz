@@ -11,9 +11,7 @@ MAINTAINER Sean Jungbluth <sjungbluth@lbl.gov>
 RUN apt-get update && apt-get install -y libgsl0-dev git zip unzip python-pip && \
     apt-get install -y r-base r-cran-ggplot2
 
-#RUN git clone https://github.com/jungbluth/kb_iMAG-viz
-
-ADD https://github.com/jungbluth/kb_iMAG-viz/blob/master/make_ggplot_scatterplot.R /usr/local/bin/
+RUN git clone https://github.com/jungbluth/kb_iMAG-viz
 
 RUN echo 'install.packages("ggpubr", dependencies=TRUE, repos = "http://cran.us.r-project.org")' > /tmp/packages.R \
     && Rscript /tmp/packages.R

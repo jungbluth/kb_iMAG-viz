@@ -411,8 +411,8 @@ if __name__ == "__main__":
         taxalist = extract_lineages_for_selected_level(args.taxa_level, query_genome_data)[0]  # get list of lineages to iterate over
         for lineage_number in range(len(taxalist)):
             lineage = taxalist[lineage_number]
-            #if (str(lineage) == "p__Nanoarchaeota") or (str(lineage) == "p__Micrarchaeota") or (str(lineage) == "p__Euryarchaeota") or (str(lineage) == "p__Asgardarchaeota"):
-            #if (str(lineage) == "p__Thermoplasmatota"):
+            # if (str(lineage) == "p__Nanoarchaeota") or (str(lineage) == "p__Micrarchaeota") or (str(lineage) == "p__Euryarchaeota") or (str(lineage) == "p__Asgardarchaeota"):
+            # if (str(lineage) == "p__Thermoplasmatota"):
             if (str(lineage) != "nan"): # some groups don't have phyla? need to work this out.
                 print("Starting with lineage: "+str(lineage))
                 subset_data_by_lineage(lineage, args.taxa_level)

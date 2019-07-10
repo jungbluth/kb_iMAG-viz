@@ -221,3 +221,29 @@ p_final4
 p_final5
 p_final6
 dev.off()
+
+
+#for screenshot png files
+# png("p_final1.png", width=600,height=800)
+# p_final1
+# dev.off()
+
+# png("p_final2.png", width=600,height=800)
+# p_final2
+# dev.off()
+
+# png("p_final3.png", width=600,height=800)
+# p_final3
+# dev.off()
+
+# png("p_final4.png", width=600,height=800)
+# p_final4
+# dev.off()
+
+# png("p_final5.png", width=600,height=800)
+# p_final5
+# dev.off()
+
+# png("p_final6.png", width=600,height=800)
+# p_final6
+# dev.off()
