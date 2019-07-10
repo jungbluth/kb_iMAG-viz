@@ -18,6 +18,8 @@ from pathlib import Path
 import matplotlib
 import matplotlib.pyplot as plt
 
+version = 0.1
+
 # example quick command: kb_iMAG-viz-workflow.py -i /Applications/ResearchSoftware/kb_iMAG-viz/test/query-genomes/TARA-MAGs_Delmont-Archaea-only-2017.RAST.txt
 
 # example long command: /Applications/ResearchSoftware/kb_iMAG-viz/kb_iMAG-viz-workflow.py -i /Applications/ResearchSoftware/kb_iMAG-viz/test/query-genomes/TARA-MAGs_Delmont-Archaea-only-2017.RAST.txt --taxa_level Phylum --save_master_table Yes --path_to_kb_imagviz /Applications/ResearchSoftware/kb_iMAG-viz --generate_count_tables n --dimensional_reduction_method pca --plotting_method ggplot
@@ -361,7 +363,8 @@ __________________________________________________________
 | |   <| |_) |  | | |  | |/ ___ \ |_| |_____\ V /| |/ /  |
 | |_|\_\_.__/___|_|_|  |_/_/   \_\____|      \_/ |_/___| |
 |          |_____|                                       |
-|________________________________________________________|\n\n""")
+|                                           version %s  |
+|________________________________________________________|\n\n""" % (version))
 
 
 def test_text():
