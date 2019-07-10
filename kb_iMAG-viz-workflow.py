@@ -326,23 +326,8 @@ def plot_dimensional_reduction_results_rggplot(lineage, mode):
     os.remove("R-input-data.tsv")
     print('\tplot_dimensional_reduction_results_rggplot done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
-
-
-def test_text():
-    print(merge.tail(n=5))
-    print(merge.shape)
-    print(merge.shape[0])
-    for col in merge.columns:
-        print(col)
-    # print("f123\n"+str(f123.shape))
-    # print("d123q1\n"+str(d123q1.shape))
-    # print(merge.tail(n=5))
-    # print(merge.shape)
-    # print(merge.Domain.unique())
-
-
-# run main kb_iMAG-viz-workflow.py script
-if __name__ == "__main__":
+# Declare variables
+def parse_args():
     parser = argparse.ArgumentParser(prog='kb_iMAG-viz-workflow',usage='%(prog)s.py -i [query_annotation_table] --version', description="""
     kb_iMAG-viz is software to evaluate microbial genome quality against reference genomes.
     ----------------------------------------------------------------------------------------------------------------
@@ -365,6 +350,9 @@ if __name__ == "__main__":
     parser.add_argument("--plotting_method", dest="plotting_method", help="""Pick a ploting method. (default: ggplot)""", default="ggplot")
     parser.add_argument("--path_to_kb_imagviz", dest="path_to_kb_imagviz", help="""Indicate the path to kb_imagviz software""", default="/Applications/ResearchSoftware/kb_iMAG-viz")
     parser.add_argument('--version', action='version', version='%(prog)s v0.1')
+    return parser.parse_args()
+
+def banner():
     print("""
 __________________________________________________________
 |  _    _        _ __  __    _    ____            _      |
@@ -374,7 +362,25 @@ __________________________________________________________
 | |_|\_\_.__/___|_|_|  |_/_/   \_\____|      \_/ |_/___| |
 |          |_____|                                       |
 |________________________________________________________|\n\n""")
-    args = parser.parse_args()
+
+
+def test_text():
+    print(merge.tail(n=5))
+    print(merge.shape)
+    print(merge.shape[0])
+    for col in merge.columns:
+        print(col)
+    # print("f123\n"+str(f123.shape))
+    # print("d123q1\n"+str(d123q1.shape))
+    # print(merge.tail(n=5))
+    # print(merge.shape)
+    # print(merge.Domain.unique())
+
+
+# run main kb_iMAG-viz-workflow.py script
+if __name__ == "__main__":
+    banner()
+    args = parse_args()
     if len(sys.argv) is None:
         parser.print_help()
     elif args.query_annotation_table is None:
@@ -384,32 +390,22 @@ __________________________________________________________
     else:
         output_query_annotation = "iMAG-viz-output_query-flattened-annotation-data.tsv"
         output_annotation_count = "iMAG-viz-output_annotation-count-data"
-
-
         # files needed for function combine_external_checkm_and_taxonomy_info AND import_and_merge_tables
         query_genome_data = os.path.realpath(args.path_to_kb_imagviz + "/test/query-genomes/Delmont_genomeQC-data.tsv")
         reference_IMG_genome_data = os.path.realpath(args.path_to_kb_imagviz + "/test/reference-genomes/IMG_genomeQC-data.tsv")
         reference_Other_genome_data = os.path.realpath(args.path_to_kb_imagviz + "/test/reference-genomes/Other_genomeQC-data.tsv")
-
         # this output file contains all of the genome data used in the analysis
         output_combined_genome_data = os.path.realpath("iMAG-viz-output_ALL_genomeQC-data.tsv")
-
-
         # files needed for function import_and_merge_tables
         query_annotation_data = os.path.realpath(args.path_to_kb_imagviz + "/test/query-genomes/TARA-MAGs_Delmont-Archaea-only-2017_clean.RAST.txt")
-
-
         query_isolate_annotation_data = os.path.realpath(args.path_to_kb_imagviz + "/test/reference-genomes/Archaea.Isolates_clean.RAST.txt")
         query_MAG_annotation_data = os.path.realpath(args.path_to_kb_imagviz + "/test/reference-genomes/Archaea.MAGs_clean.RAST.txt")
         query_SAG_annotation_data = os.path.realpath(args.path_to_kb_imagviz + "/test/reference-genomes/Archaea.SAGs_clean.RAST.txt")
-
-
         check_for_py3()
         read_and_parse_rast_annotations(str(args.query_annotation_table), output_query_annotation)
         combine_external_checkm_and_taxonomy_info(query_genome_data, reference_IMG_genome_data, reference_Other_genome_data)
         import_and_merge_tables(args.save_master_table)
         taxalist = extract_lineages_for_selected_level(args.taxa_level, query_genome_data)[0]  # get list of lineages to iterate over
-
         for lineage_number in range(len(taxalist)):
             lineage = taxalist[lineage_number]
             #if (str(lineage) == "p__Nanoarchaeota") or (str(lineage) == "p__Micrarchaeota") or (str(lineage) == "p__Euryarchaeota") or (str(lineage) == "p__Asgardarchaeota"):
