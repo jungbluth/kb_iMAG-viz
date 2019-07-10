@@ -2,21 +2,33 @@
 
 ### Under active development as of July 2019
 
+This script package uses genome annotation data as input to perform a taxa-specific assessment of genome, usually metagenome-assembled genome (MAG) quality.
+
+Requirements:
+* Python3
+* Python packages: (pandas, numpy)
+* R
+* R packages (ggplot, ggpubr)
+
 To run:
 
 1) Clone this repo
 
 ```git clone https://github.com/jungbluth/kb_iMAG-viz```
 
-2) Change permissions to executable
-
-```chmod +x kb_iMAG-viz-workflow.py```
-
-3) Set application location as a variable
+2) Set application location as a variable
 
 ```PATH_TO_KB_IMAG_VIZ="/Applications/ResearchSoftware/kb_iMAG-viz"```
 
-4) Run application
+3) Change permissions to executable
+
+```chmod +x ${PATH_TO_KB_IMAG_VIZ}/kb_iMAG-viz-workflow.py```
+
+4) Optional: if running on the test data, forgo the time-consuming count-table generation step by copying the count-tables to your local directory. If doing this, then in Step 5 set the --generate_count_tables flag to 'n'.
+
+```cp ${PATH_TO_KB_IMAG_VIZ}/test/output/*count-data* ./```
+
+5) Run application
 
 ```
 /Applications/ResearchSoftware/kb_iMAG-viz/kb_iMAG-viz-workflow.py \
@@ -28,3 +40,5 @@ To run:
 --dimensional_reduction_method pca \
 --plotting_method ggplot
 ```
+
+6) 
