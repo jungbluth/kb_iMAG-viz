@@ -62,6 +62,8 @@ def get_object_data(object_id):
     ws = Workspace('https://kbase.us/services/ws')
     return ws.get_objects([{"ref": object_id}])[0]
 
+
+# Function to extract genome annotation information from a KBase GenomeSets Object
 # todo: double check to see if indexed properly
 def extract_annotations_from_genomeset(genomeset_name, export_filename):
     print("\n"+"Running extract_annotations_from_genomeset")
@@ -81,6 +83,7 @@ def extract_annotations_from_genomeset(genomeset_name, export_filename):
 
 
 # wont be needed when annotation data pulled directly from Genome Set Objects
+# Function to clean up annotation data and parse as a tsv-like file
 def read_and_parse_rast_annotations(query_annotation_table, output_query_annotation):
     print("\n"+"Running read_and_parse_rast_annotations")
     time_start = time.time()
@@ -117,9 +120,9 @@ def read_and_parse_rast_annotations(query_annotation_table, output_query_annotat
     print('read_and_parse_rast_annotations done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
-
+# Function to combine multiple external required tables into a single table
 def combine_external_checkm_and_taxonomy_info(query_genome_data, reference_IMG_genome_data, reference_Other_genome_data):
-    print("\n"+"Running combine_external_checkm_and_taxonomy_info")
+    print("\n" + "Running combine_external_checkm_and_taxonomy_info")
     time_start = time.time()
     filenames = [query_genome_data, reference_IMG_genome_data, reference_Other_genome_data]
     with open(output_combined_genome_data, 'w') as outfile:
@@ -131,8 +134,9 @@ def combine_external_checkm_and_taxonomy_info(query_genome_data, reference_IMG_g
     print('combine_external_checkm_and_taxonomy_info done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
+# Function to merge all tables together (query and reference) into a large parseable master table used for key opertations
 def import_and_merge_tables(save_master_table):
-    print("\n"+"Running import_and_merge_tables")
+    print("\n" + "Running import_and_merge_tables")
     time_start = time.time()
     f1 = pandas.read_csv(query_genome_data, header=None, sep="\t", index_col=False, dtype=str)
     global f2
@@ -151,7 +155,7 @@ def import_and_merge_tables(save_master_table):
         merge.to_csv("iMAG-viz-output_ALL_genomeQC-and-annotation-data.csv")
     print('import_and_merge_tables done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
-
+#Function to assist with logical selection of categorical data
 def extract_lineages_for_selected_level(taxa_level, query_genome_data):
     print("\n"+"Running extract_lineages_for_selected_level")
     time_start = time.time()
@@ -199,7 +203,7 @@ def extract_lineages_for_selected_level(taxa_level, query_genome_data):
 # 1861362 GCA_002509575.1_ASM250957v1_genomic PRJNA348753-8000Genomes y   y   y   ... o__Methanomicrobiales   f__Methanocullaceae g__Methanoculleus   s__GCA_002508705.1  Iron(III)   dicitrate   transport   ATP-binding protein
 # 1861363 GCA_002509575.1_ASM250957v1_genomic PRJNA348753-8000Genomes y   y   y   ... o__Methanomicrobiales   f__Methanocullaceae g__Methanoculleus   s__GCA_002508705.1  Diadenosine 5'5'''-P1,P4-tetraphosphate pyroph...
 
-
+# Function to subset data by lineage (aka: taxonomic level) (e.g. Phylum, Order, Family, Genus, etc.)
 def subset_data_by_lineage(lineage, taxa_level):
     print("\n\t"+"Running subset_data_by_lineage")
     time_start = time.time()
@@ -210,6 +214,7 @@ def subset_data_by_lineage(lineage, taxa_level):
     print('\tsubset_data_by_lineage done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
+# Function to count annotation data for the subset lineage
 def count_annotation_data_for_level(merge_reduced, output_annotation_count, lineage):
     print("\n\t"+"Running count_annotation_data_for_level")
     time_start = time.time()
@@ -242,6 +247,7 @@ def count_annotation_data_for_level(merge_reduced, output_annotation_count, line
     print('\tcount_annotation_data_for_level done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
+# Function to combine annotation count table with genome metadata
 def import_count_and_combine_with_genome_metadata(lineage):
     global dat
     global dat_combined
@@ -255,7 +261,7 @@ def import_count_and_combine_with_genome_metadata(lineage):
     #print(merge_reduced_trim)
     print("\tNumber of genomes: " + str(len(merge_reduced_trim)))
 
-
+# Function to run TSNE (in dev, not really working to produce a meaningful visual)
 def run_tsne_dimensional_reduction():
     print("\n\t"+"Running run_tsne_dimensional_reduction")
     time_start = time.time()
@@ -269,6 +275,7 @@ def run_tsne_dimensional_reduction():
     print('\trun_tsne_dimensional_reduction done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
+# Function to run PCA (working fairly well)
 def run_principal_component_analysis():
     print("\n\t"+"Running run_principal_component_analysis")
     time_start = time.time()
@@ -285,6 +292,7 @@ def run_principal_component_analysis():
     print('\trun_principal_component_analysis done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
 
+# Function to plot with Seaborn (not used at the moment)
 def plot_dimensional_reduction_results_seaborn(lineage, mode):
     print("\n\t" + "Running plot_dimensional_reduction_results_seaborn")
     time_start = time.time()
@@ -301,7 +309,7 @@ def plot_dimensional_reduction_results_seaborn(lineage, mode):
     fig.savefig("iMAG-viz-output_PCA_"+str(lineage)+".png")
     print('\tplot_dimensional_reduction_results_seaborn done! Time elapsed: ' + '{}'.format(time.time() - time_start)[:7] + ' seconds\n')
 
-
+# Function to plot with ggplot by calling R externally
 def plot_dimensional_reduction_results_rggplot(lineage, mode):
     print("\n\t"+"Running plot_dimensional_reduction_results_rggplot")
     import shutil
