@@ -1,0 +1,1173 @@
+Annotation	2740891980	2740891976	2693430074	2693430072	2693430068	2693430046	2693430078	2693430071	2786546691	2786546692	2693430067	2693430045	2786546690	2786546689	2786546693	2786546688	2264867215	2617270704	GCA_001873845.1_ASM187384v1_genomic	GCA_002762655.1_ASM276265v1_genomic	GCA_002783845.1_ASM278384v1_genomic	GCA_002785505.1_ASM278550v1_genomic	GCA_002789105.1_ASM278910v1_genomic	GCA_002791795.1_ASM279179v1_genomic
+Chaperone protein DnaK	1	1	0	1	0	0	0	1	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Ribosomal large subunit pseudouridine synthase B (EC 4.2.1.70)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+FIG003033: Helicase domain protein	1	1	1	0	0	0	0	0	1	1	0	0	1	0	1	1	0	1	1	1	0	1	1	1
+COG2152 predicted glycoside hydrolase	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Indole-3-glycerol phosphate synthase (EC 4.1.1.48)	1	1	0	0	0	0	1	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+LSU ribosomal protein L35Ae	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Origin of replication recognition protein @ Cell division control protein 6	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Tyrosyl-tRNA synthetase (EC 6.1.1.1)	1	0	0	0	0	0	0	0	1	1	0	0	1	0	1	1	0	1	1	1	0	1	1	1
+Pyruvate:ferredoxin oxidoreductase, delta subunit (EC 1.2.7.1)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase (EC 2.1.1.14)	1	1	0	0	0	1	1	1	1	0	0	0	1	0	0	1	1	1	1	0	0	0	1	1
+L-Aspartate dehydrogenase (EC 1.4.1.21)	1	1	0	1	1	0	1	1	1	1	0	0	0	1	1	1	1	1	1	1	1	1	0	1
+Archaeal DNA polymerase I (EC 2.7.7.7)	1	1	1	0	0	0	1	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+Putative deoxyribonuclease YcfH	1	1	0	0	0	1	0	0	1	1	0	0	1	0	1	1	1	1	1	1	0	1	1	1
+Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16)	1	1	0	0	1	1	1	0	1	1	0	1	1	1	1	1	1	0	1	1	1	1	1	1
+NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)	1	1	0	0	0	0	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)	1	1	0	0	0	0	0	1	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+NADH-ubiquinone oxidoreductase chain D (EC 1.6.5.3)	1	1	1	0	0	0	0	1	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)	1	1	1	0	0	0	0	1	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)	1	1	0	0	0	1	1	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)	1	1	0	0	1	1	1	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Serine hydroxymethyltransferase (EC 2.1.2.1) / H4MPt-dependent SHMT	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ig family protein	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Putative cytoplasmic protein	1	1	0	0	0	0	0	1	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Isopentenyl-diphosphate delta-isomerase, FMN-dependent (EC 5.3.3.2)	1	1	0	0	1	1	1	0	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+CoB--CoM heterodisulfide reductase subunit C (EC 1.8.98.1)	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20)	1	1	0	1	0	1	0	1	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+D-arabino-3-hexulose 6-phosphate formaldehyde lyase / Hypothetical protein with distant similarity to Ribonuclease E inhibitor RraA (former MenG)	1	1	0	0	1	1	0	0	1	1	0	0	1	0	1	1	1	1	1	1	0	1	1	1
+Isoleucyl-tRNA synthetase (EC 6.1.1.5)	1	1	0	0	0	0	1	0	1	1	0	0	1	0	1	1	1	1	1	1	0	1	1	1
+Cation-transporting ATPase, E1-E2 family	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+(S)-3-O-geranylgeranylglyceryl phosphate synthase	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+GMP synthase [glutamine-hydrolyzing], amidotransferase subunit (EC 6.3.5.2)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+FIG002379: metal-dependent hydrolase	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Queuosine Biosynthesis QueE Radical SAM	1	1	0	0	1	0	1	0	0	1	0	0	1	0	1	1	0	1	1	1	0	1	1	0
+GMP synthase [glutamine-hydrolyzing], ATP pyrophosphatase subunit (EC 6.3.5.2)	1	1	0	0	1	0	1	0	1	1	0	0	0	0	1	1	1	0	1	1	0	1	0	1
+pyruvate formate-lyase activating enzyme (act-1)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Protein-L-isoaspartate O-methyltransferase (EC 2.1.1.77)	1	1	1	0	0	0	1	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Endonuclease IV (EC 3.1.21.2)	1	1	0	0	0	1	0	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+tRNA N6-threonylcarbamoyladenosine 2-methylthiotransferase (putative) @ tRNA-i(6)A37 methylthiotransferase	1	1	0	0	0	0	1	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Proteasome-activating AAA-ATPase (PAN), archaeal	1	1	0	0	0	0	0	1	1	0	0	0	1	0	1	1	0	0	1	0	0	1	1	1
+Phosphoserine phosphatase (EC 3.1.3.3)	1	1	0	0	0	0	0	1	0	1	0	1	0	0	1	1	0	1	1	1	0	1	0	0
+GTP cyclohydrolase I (EC 3.5.4.16) type 2	1	1	0	0	0	0	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+ATPase	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+diguanylate cyclase/phosphodiesterase (GGDEF & EAL domains) with PAS/PAC sensor(s)	1	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	1	0	0	0	0	0	1
+N-Acetyl-D-glucosamine ABC transport system, sugar-binding protein	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Phosphate regulon transcriptional regulatory protein PhoB (SphR)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Aspartate aminotransferase (EC 2.6.1.1)	1	1	0	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+Phage terminase large subunit	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Histidyl-tRNA synthetase (EC 6.1.1.21)	1	1	0	0	0	0	0	1	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+Putative RNA-binding protein COG1094	1	0	1	0	0	0	1	0	1	1	0	0	1	0	1	0	1	0	0	0	0	1	1	0
+Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Alpha,alpha-trehalose-phosphate synthase [UDP-forming] (EC 2.4.1.15)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Potassium efflux system KefA protein / Small-conductance mechanosensitive channel	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+DNA helicase II (EC 3.6.1.-)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+DNA-directed RNA polymerase subunit B (EC 2.7.7.6)	1	1	0	0	1	0	0	1	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+UPF0204 protein MJ0166	1	1	0	1	0	0	0	1	1	1	0	0	0	1	1	1	0	1	1	1	1	1	0	1
+Glutamyl-tRNA(Gln) amidotransferase asparaginase subunit (EC 6.3.5.7)	1	1	1	0	0	0	0	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Putative membrane-bound ClpP-class protease associated with aq_911	1	1	0	0	1	0	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Putative stomatin/prohibitin-family membrane protease subunit aq_911	1	1	0	1	0	1	0	1	1	0	0	0	1	1	1	1	1	0	1	0	1	1	1	1
+SSU ribosomal protein S4e	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Phosphopantothenoylcysteine decarboxylase (EC 4.1.1.36) / Phosphopantothenoylcysteine synthetase (EC 6.3.2.5)	1	1	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+nucleotidyltransferase	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Acetolactate synthase small subunit (EC 2.2.1.6)	1	1	0	0	1	1	0	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+DNA-directed RNA polymerase subunit N (EC 2.7.7.6)	1	1	0	0	1	0	0	0	1	1	0	0	1	0	1	1	1	0	1	1	0	1	1	1
+Isopentenyl phosphate kinase	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Molybdopterin biosynthesis protein MoeA	1	1	0	0	0	0	1	0	1	1	1	1	0	1	1	1	0	1	1	1	1	1	0	1
+Molybdenum transport system permease protein ModB (TC 3.A.1.8.1)	1	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1
+beta-ribofuranosylaminobenzene 5'-phosphate synthase	1	0	1	0	0	1	1	0	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+DNA-directed RNA polymerase subunit H (EC 2.7.7.6)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Pyruvate:ferredoxin oxidoreductase, gamma subunit (EC 1.2.7.1)	1	1	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	1	1	0	0	0	0	0
+Ferredoxin 3 fused to uncharacterized domain	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Light-independent protochlorophyllide reductase iron-sulfur ATP-binding protein ChlL (EC 1.18.-.-)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+DinG family ATP-dependent helicase CPE1197	1	1	1	0	0	1	1	0	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+Radical SAM domain heme biosynthesis protein	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ribulose-1,5-bisphosphate carboxylase, Type III (EC 4.1.1.39)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Permease of the drug/metabolite transporter (DMT) superfamily	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+Magnesium and cobalt transport protein CorA	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Cation-transporting ATPase	1	1	0	1	0	0	0	0	1	1	0	0	0	1	1	1	0	0	1	0	1	1	0	1
+ADP-ribose pyrophosphatase (EC 3.6.1.13)	1	1	0	0	1	0	0	0	1	1	0	0	1	0	1	1	0	1	1	1	0	1	1	1
+LSU ribosomal protein L7e (L30p)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+SSU ribosomal protein S2e (S5p)	1	0	0	0	0	0	0	1	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+DUF124 domain-containing protein	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Asparagine synthetase [glutamine-hydrolyzing] (EC 6.3.5.4)	1	1	0	0	0	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+Nucleoside diphosphate kinase (EC 2.7.4.6)	1	1	0	1	0	0	0	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+3-isopropylmalate dehydratase large subunit (EC 4.2.1.33)	1	1	1	0	0	0	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1
+Deacetylases, including yeast histone deacetylase and acetoin utilization protein	1	1	0	0	0	0	1	0	0	1	0	0	1	0	1	1	1	0	1	1	0	1	1	0
+Formylmethanofuran dehydrogenase (tungsten) subunit C (EC 1.2.99.5)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+O-phosphoseryl-tRNA(Cys) synthetase (EC 6.1.1.27)	1	1	0	0	0	0	0	0	1	1	1	0	0	1	1	1	0	1	1	1	1	1	0	1
+Acetyl-CoA synthase corrinoid iron-sulfur protein, large subunit	1	1	0	0	0	0	0	0	1	1	0	0	1	1	0	1	0	1	0	0	1	0	1	1
+Appr-1-p processing domain protein	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Anthranilate synthase, amidotransferase component (EC 4.1.3.27) @ Para-aminobenzoate synthase, amidotransferase component (EC 2.6.1.85)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Dihydroorotase (EC 3.5.2.3)	1	1	0	0	1	1	1	0	0	0	0	1	0	0	0	1	1	1	1	0	0	0	0	0
+Riboflavin synthase archaeal (EC 2.5.1.9)	1	1	0	0	0	0	1	0	1	1	0	1	1	0	1	1	1	0	1	1	0	1	1	1
+SSU ribosomal protein S6e	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2-isopropylmalate synthase (EC 2.3.3.13)	1	1	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Phosphoenolpyruvate carboxykinase [GTP] (EC 4.1.1.32)	1	1	0	0	1	0	0	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+LSU ribosomal protein L3e (L3p)	1	1	0	0	1	1	0	0	1	1	0	1	1	1	1	1	0	1	1	1	1	1	1	1
+LSU ribosomal protein L10Ae (L1p)	1	1	1	0	0	0	1	0	1	1	1	0	0	1	1	1	0	1	1	1	1	1	0	1
+Adenylate kinase, archaeal type (EC 2.7.4.3)	1	0	0	0	0	0	0	0	1	1	0	1	1	1	1	1	0	0	1	1	1	1	0	1
+Nicotinamide-nucleotide adenylyltransferase, NadR family (EC 2.7.7.1) / Ribosylnicotinamide kinase (EC 2.7.1.22)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ribosyl nicotinamide transporter, PnuC-like	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ornithine cyclodeaminase (EC 4.3.1.12)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+4-hydroxy-tetrahydrodipicolinate reductase (EC 1.17.1.8)	1	1	0	0	0	0	0	0	0	1	0	1	1	0	1	1	0	1	1	1	0	1	1	0
+Octaprenyl-diphosphate synthase (EC 2.5.1.-) / Dimethylallyltransferase (EC 2.5.1.1) / Geranyltranstransferase (farnesyldiphosphate synthase) (EC 2.5.1.10) / Geranylgeranyl pyrophosphate synthetase (EC 2.5.1.29)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Hydroxymethylglutaryl-CoA synthase (EC 2.3.3.10)	1	1	0	0	0	0	0	1	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+DNA topoisomerase I (EC 5.99.1.2)	1	1	0	1	0	0	1	1	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+DNA topoisomerase VI subunit A (EC 5.99.1.3)	1	1	1	0	0	0	1	0	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+LSU ribosomal protein L10e (L16p)	1	1	0	0	0	0	0	0	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+Amidophosphoribosyltransferase (EC 2.4.2.14)	1	1	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+Bipolar DNA helicase HerA	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+COG2102: Predicted ATPases of PP-loop superfamily	1	1	0	0	0	1	1	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Vitamin B12 ABC transporter, B12-binding component BtuF	1	1	0	0	1	1	1	0	1	1	0	0	0	1	1	1	0	1	1	1	1	1	0	1
+Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase (EC 2.4.2.21)	1	1	0	0	0	0	1	0	1	1	0	1	1	1	1	1	0	0	1	1	1	1	1	1
+High-affnity carbon uptake protein Hat/HatR	1	1	0	0	1	0	1	0	1	1	0	0	1	0	1	1	0	0	1	1	0	1	1	1
+Peptide chain release factor paralog	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Vitamin B12 ABC transporter, permease component BtuC	1	1	0	0	0	1	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	1	1	1
+Putative predicted metal-dependent hydrolase	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Trehalose-6-phosphate phosphatase (EC 3.1.3.12)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Peptidase M48, Ste24p precursor	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Glutamyl-tRNA(Gln) amidotransferase transferase subunit (EC 6.3.5.7)	1	1	0	0	0	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	0	1	1	1
+SSU ribosomal protein S27e	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Nickel responsive regulator NikR	1	1	0	0	0	1	1	1	0	0	0	0	0	0	1	1	0	1	1	0	0	1	0	0
+CO dehydrogenase/acetyl-CoA synthase subunit alpha, CO dehydrogenase subcomplex (EC 1.2.99.2)	1	1	0	0	0	0	0	0	1	1	0	1	0	1	1	1	1	1	1	1	1	1	0	1
+Ribonucleotide reductase of class III (anaerobic), activating protein (EC 1.97.1.4)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Cytosolic Fe-S cluster assembling factor NBP35	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+DNA gyrase subunit B (EC 5.99.1.3)	1	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+CO dehydrogenase/acetyl-CoA synthase subunit beta, acetyl-CoA synthase (EC 2.3.1.169)	1	1	0	0	0	1	0	0	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+Iron-sulfur cluster assembly scaffold protein IscU/NifU-like	1	1	0	0	1	0	0	0	0	0	0	0	1	0	1	1	0	1	1	0	0	1	1	0
+NAD(P)-dependent glyceraldehyde 3-phosphate dehydrogenase archaeal (EC 1.2.1.59)	1	1	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	1	0	0	0	1	0
+Thioredoxin	1	1	0	0	1	0	1	0	0	1	0	0	0	0	1	1	1	0	1	1	0	1	0	0
+Methyltransferase TM1293	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ABC-type cobalamin/Fe3+-siderophores transport systems, ATPase components	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ferrous iron transport protein B	1	1	1	1	1	0	1	1	1	1	0	0	0	1	1	1	0	1	1	1	1	1	0	1
+IMP cyclohydrolase (EC 3.5.4.10) / Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3)	1	1	0	0	0	0	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+MinD superfamily P-loop ATPase containing an inserted ferredoxin domain	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+ATPase component of general energizing module of ECF transporters	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Chromosome (plasmid) partitioning protein ParB	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TPR domain protein, putative component of TonB system	1	1	0	0	0	1	1	1	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Phosphoribosylformylglycinamidine cyclo-ligase (EC 6.3.3.1)	1	1	0	0	0	1	0	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Thymidylate kinase (EC 2.7.4.9)	1	1	0	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Single-stranded-DNA-specific exonuclease RecJ (EC 3.1.-.-)	1	1	1	0	0	0	0	0	1	1	0	0	0	1	1	1	1	0	1	1	1	1	0	1
+N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)	1	1	0	0	0	0	1	0	1	1	0	1	0	0	1	1	1	0	1	1	0	1	0	1
+Na+/H+ antiporter NhaD type	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+n-type ATP pyrophosphatase superfamily / TilS and TtcA-like	1	1	0	0	0	1	0	0	0	1	0	0	1	1	1	1	1	0	1	1	1	1	1	0
+Heat shock protein GrpE	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+L,L-diaminopimelate aminotransferase (EC 2.6.1.83), DapL2 type	1	0	0	0	0	0	0	0	0	1	0	0	1	0	1	1	1	1	1	1	0	1	1	0
+3,7-dideoxy-D-threo-hepto-2, 6-diulosonate synthase (EC 4.2.3.-)	1	0	0	0	0	0	1	0	1	1	0	0	0	1	1	1	1	1	1	1	1	1	0	1
+Exosome complex exonuclease 1	1	1	1	0	0	0	0	0	1	1	0	0	0	0	1	1	1	1	1	1	0	1	0	1
+Uridine monophosphate kinase (EC 2.7.4.22)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Circadian phase modifier	1	1	0	0	0	0	0	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+Squalene--hopene cyclase (EC 5.4.99.17)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Predicted exonuclease	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ATP-dependent RNA helicase, putative	1	1	0	1	0	1	0	1	1	0	0	0	1	1	1	1	1	0	1	0	1	1	1	1
+ATP-dependent DNA helicase	1	1	1	0	0	0	0	0	1	1	0	0	0	1	1	1	0	1	1	1	1	1	0	1
+LSU ribosomal protein L13Ae (L13p)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Imidazole glycerol phosphate synthase cyclase subunit (EC 4.1.3.-)	1	1	0	0	1	0	1	0	1	0	0	0	1	1	1	1	1	0	1	0	1	1	1	1
+Pyruvate:ferredoxin oxidoreductase, beta subunit (EC 1.2.7.1)	1	1	0	0	0	0	0	0	1	1	0	1	1	0	1	1	0	1	1	1	0	1	1	1
+Hypothetical ATP-binding protein, containing DUF265 domain	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Deoxyhypusine synthase (EC 2.5.1.46)	1	1	0	1	0	0	0	1	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Uncharacterized protein MJ1313	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+2-dehydropantoate 2-reductase (EC 1.1.1.169)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+DNA gyrase subunit A (EC 5.99.1.3)	1	1	0	0	0	0	1	1	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Iron-sulfur cluster-binding protein	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Phosphoribosylaminoimidazole carboxylase catalytic subunit (EC 4.1.1.21)	1	1	1	0	0	0	0	0	0	0	1	0	1	0	1	1	0	1	1	0	0	1	1	0
+Chromosome partition protein smc	1	1	0	0	0	0	1	1	1	1	0	0	1	1	1	0	0	1	0	1	1	1	1	1
+Cell division transporter, ATP-binding protein FtsE (TC 3.A.5.1.1)	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+Transcription initiation factor B	1	0	0	0	1	1	0	0	1	1	0	0	0	1	1	1	0	1	1	1	1	1	0	1
+tRNA pseudouridine 13 synthase (EC 4.2.1.-)	1	1	0	0	0	1	0	0	1	1	0	0	0	1	1	1	0	0	1	1	1	1	0	1
+Adenylate cyclase (EC 4.6.1.1)	1	1	0	0	0	0	0	0	1	1	1	0	1	0	1	1	1	0	1	1	0	1	1	1
+Circadian clock protein KaiC	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacillosamine/Legionaminic acid biosynthesis aminotransferase PglE	1	1	0	0	0	0	0	0	1	1	0	0	0	1	0	1	1	1	1	1	1	0	0	1
+4-keto-6-deoxy-N-Acetyl-D-hexosaminyl-(Lipid carrier) aminotransferase	1	1	0	0	0	0	0	0	1	1	0	0	0	1	0	1	1	1	1	1	1	0	0	1
+Pyruvate dehydrogenase E1 component beta subunit (EC 1.2.4.1)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Pyruvate dehydrogenase E1 component alpha subunit (EC 1.2.4.1)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undecaprenyl-phosphate galactosephosphotransferase (EC 2.7.8.6)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Lipid carrier : UDP-N-acetylgalactosaminyltransferase (EC 2.4.1.-) / Alpha-1,3-N-acetylgalactosamine transferase PglA (EC 2.4.1.-)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Putative glycosyltransferase	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ABC transporter, permease protein	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CoB--CoM heterodisulfide reductase subunit B (EC 1.8.98.1)	1	1	0	0	0	0	0	1	1	0	1	1	0	1	1	1	0	1	1	0	1	1	0	1
+Assimilatory nitrate reductase large subunit (EC 1.7.99.4)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Nitrite reductase probable electron transfer 4Fe-S subunit (EC 1.7.1.4)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Nitrite reductase probable [NAD(P)H] subunit (EC 1.7.1.4)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Respiratory nitrate reductase alpha chain (EC 1.7.99.4)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Heat shock protein 60 family chaperone GroEL / Thermosome subunit	1	1	0	1	0	0	0	1	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Ser-tRNA(Ala) deacylase @ Gly-tRNA(Ala) deacylase	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Phosphoglycerate kinase (EC 2.7.2.3)	1	1	0	0	0	1	0	0	0	0	0	0	0	0	0	1	1	1	1	0	0	0	0	0
+Glutamate N-acetyltransferase (EC 2.3.1.35) / N-acetylglutamate synthase (EC 2.3.1.1)	1	1	0	0	0	0	0	0	1	1	0	1	0	0	1	1	1	1	1	1	0	1	0	1
+Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA (TC 3.A.1.5.1)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Formylmethanofuran dehydrogenase subunit A (EC 1.2.99.5)	1	1	0	0	0	0	1	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Arsenical pump-driving ATPase (EC 3.6.3.16)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Cysteine desulfurase (EC 2.8.1.7), SufS subfamily	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+predicted protein	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Nicotinamidase (EC 3.5.1.19)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Nicotinate phosphoribosyltransferase (EC 2.4.2.11)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Thiazole biosynthetic enzyme Thi4 / Ribose 1,5-bisphosphate or 5-ribose-1,2-cyclic phosphate dehydrogenase	1	1	0	0	0	0	1	1	1	1	0	1	0	1	1	1	0	1	1	1	1	1	0	1
+Xanthosine/inosine triphosphate pyrophosphatase	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LonB like ATP-ase no protease domain	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Tryptophan synthase alpha chain (EC 4.2.1.20)	1	1	0	0	1	0	0	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Serine peptidase	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ferredoxin	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+DNA polymerase III alpha subunit (EC 2.7.7.7)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Excinuclease ABC subunit B	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Excinuclease ABC subunit A	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Excinuclease ABC subunit C	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Transcriptional regulator, HxlR family	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Deoxyguanosinetriphosphate triphosphohydrolase (EC 3.1.5.1)	1	1	0	0	0	0	1	1	1	1	0	1	1	1	1	1	0	1	1	1	1	1	1	1
+SSU ribosomal protein S23e (S12p)	1	1	0	0	0	1	0	1	1	1	0	1	1	0	1	1	1	1	1	1	0	1	1	1
+Arginyl-tRNA synthetase (EC 6.1.1.19)	1	1	0	0	0	0	0	1	1	0	0	0	0	0	1	1	0	1	1	0	0	1	0	1
+NAD-dependent glyceraldehyde-3-phosphate dehydrogenase (EC 1.2.1.12)	1	1	1	0	0	0	0	0	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+DNA primase (EC 2.7.7.-)	1	1	0	0	1	0	0	0	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1
+FIG056164: rhomboid family serine protease	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Hydroxyacylglutathione hydrolase (EC 3.1.2.6)	1	1	0	0	0	0	0	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+Triphosphoribosyl-dephospho-CoA synthetase	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Queuosine Biosynthesis QueC ATPase	1	0	0	0	1	0	0	0	0	0	0	0	1	0	1	1	0	1	1	0	0	1	1	0
+Translation elongation factor 1 alpha subunit	1	1	0	0	1	0	1	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Chemotaxis protein methyltransferase CheR (EC 2.1.1.80)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+DNA replication helicase protein MCM	1	1	0	0	1	0	0	0	1	1	0	0	0	1	1	1	1	1	1	1	1	1	0	1
+Quinolinate synthetase (EC 2.5.1.72)	1	1	0	0	0	1	1	0	0	0	0	0	1	0	1	1	1	1	1	0	0	1	1	0
+Bona fide RidA/YjgF/TdcF/RutC subgroup	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Cyclic 2,3-diphosphoglycerate synthase	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+N-acetylglucosamine-1-phosphate uridyltransferase (EC 2.7.7.23) / Glucosamine-1-phosphate N-acetyltransferase (EC 2.3.1.157)	1	1	0	0	0	0	0	0	0	0	1	0	0	1	1	1	1	0	1	0	1	1	0	0
+Chromosomal replication initiator protein DnaA	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+DNA polymerase III beta subunit (EC 2.7.7.7)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Dephospho-CoA kinase (EC 2.7.1.24)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Transcription termination factor Rho	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Glycine cleavage system H protein	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CoB--CoM heterodisulfide reductase subunit A (EC 1.8.98.1)	1	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Cyclic pyranopterin monophosphate synthase (EC 4.1.99.18)	1	1	0	0	0	0	1	0	1	1	0	0	1	0	1	1	0	1	1	1	0	1	1	1
+DNA-damage-inducible protein d	1	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	1	1	0	1	0	0	0	0
+Valyl-tRNA synthetase (EC 6.1.1.9)	1	1	0	0	0	0	0	1	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Homoserine dehydrogenase (EC 1.1.1.3)	1	1	0	0	0	1	0	0	1	1	1	0	1	1	1	1	0	0	1	1	1	1	1	1
+SSU ribosomal protein S9e (S4p)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Nicotinamide-nucleotide adenylyltransferase, NadM family (EC 2.7.7.1)	1	1	1	0	0	1	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	1	0	1
+Glucose-1-phosphate thymidylyltransferase (EC 2.7.7.24)	1	1	1	0	0	0	1	0	1	1	1	0	0	1	1	1	0	1	1	1	1	1	0	1
+Protease	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LSU ribosomal protein L8e (L2p)	1	1	0	0	1	1	0	0	1	1	0	1	1	1	1	1	0	1	1	1	1	1	1	1
+Argininosuccinate lyase (EC 4.3.2.1)	1	0	0	0	1	0	0	0	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+tRNA (adenine57/58-N1)-methyltransferase (EC 2.1.1.36)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+tRNA:Cm32/Um32 methyltransferase	1	0	0	1	0	0	1	1	1	1	0	0	1	1	0	1	1	1	1	1	1	1	1	1
+Hydroxymethylpyrimidine phosphate synthase ThiC (EC 4.1.99.17)	1	0	0	0	0	1	0	1	1	1	0	0	1	0	1	1	1	1	1	1	0	1	1	1
+Mobile element protein	1	1	1	0	0	1	0	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Site-specific tyrosine recombinase	1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Arsenical-resistance protein ACR3	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Transporter	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100)	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Carbamoyl-phosphate synthase large chain (EC 6.3.5.5)	1	1	0	1	0	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1
+Carbamoyl-phosphate synthase small chain (EC 6.3.5.5)	1	1	0	0	0	0	1	0	1	1	0	0	1	0	1	1	1	1	1	1	0	1	1	1
+Alcohol dehydrogenase (EC 1.1.1.1)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Autoinducer 2 (AI-2) aldolase LsrF (EC 4.2.1.-)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryotic peptide chain release factor subunit 1	1	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+GTP-binding protein RBG1/RBG2	1	1	0	0	0	1	1	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Glycerol-3-phosphate dehydrogenase (EC 1.1.5.3)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Sarcosine oxidase alpha subunit (EC 1.5.3.1)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Glutamine synthetase type I (EC 6.3.1.2)	1	0	0	0	0	1	0	0	1	1	1	0	1	0	0	1	1	1	1	1	0	0	1	1
+CO dehydrogenase accessory protein CooC (nickel insertion)	1	1	0	0	1	0	0	0	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+Cell division protein FtsZ (EC 3.4.24.-)	1	1	1	0	0	0	0	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+FIG002473: Protein YcaR in KDO2-Lipid A biosynthesis cluster	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Phosphoglucosamine mutase (EC 5.4.2.10)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Leucyl-tRNA synthetase (EC 6.1.1.4)	1	1	0	0	0	1	1	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+Periplasmic divalent cation tolerance protein CutA	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryotic translation initiation factor 5A	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryotic translation initiation factor 2 alpha subunit	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ABC transporter, ATP-binding protein	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+archaeal ATPase, fused to C-terminal DUF234 domain	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Phosphoribosylformylglycinamidine synthase, PurS subunit (EC 6.3.5.3)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Inositol-1-phosphate synthase (EC 5.5.1.4)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Transposase	1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Formaldehyde activating enzyme / D-arabino-3-hexulose 6-phosphate formaldehyde lyase	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Branched-chain amino acid aminotransferase (EC 2.6.1.42)	1	0	1	0	0	0	1	0	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+Aspartyl-tRNA(Asn) amidotransferase subunit B (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit B (EC 6.3.5.7)	1	1	1	0	0	0	1	0	1	1	1	0	0	1	1	1	0	1	1	1	1	1	0	1
+Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6)	1	0	0	1	0	0	0	1	1	1	0	0	0	1	1	1	0	1	1	1	1	1	0	1
+Molybdopterin biosynthesis protein MoeB	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+NADH dehydrogenase (EC 1.6.99.3)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Cysteine desulfurase (EC 2.8.1.7)	1	0	0	0	1	0	0	0	0	0	0	0	1	0	1	1	0	1	1	0	0	1	1	0
+ATP-dependent DNA ligase (EC 6.5.1.1) clustered with Ku protein, LigD	1	0	0	0	1	1	0	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+Proteasome subunit alpha (EC 3.4.25.1), archaeal	1	0	0	0	1	0	0	0	1	1	0	1	1	1	1	1	0	1	1	1	1	1	1	1
+Undecaprenyl diphosphate synthase (EC 2.5.1.31)	1	0	0	0	0	0	0	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+Iron-sulfur cluster assembly protein SufB	1	0	0	0	0	0	0	0	0	1	0	0	0	0	1	1	0	0	1	1	0	1	0	0
+Rubrerythrin	1	0	0	0	0	0	0	1	0	1	1	0	0	0	1	1	0	1	1	1	0	1	0	0
+Methyltransferase	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Superoxide reductase (EC 1.15.1.2)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+Acetolactate synthase large subunit (EC 2.2.1.6)	1	1	0	1	1	0	1	1	1	1	0	0	0	1	1	1	1	1	1	1	1	1	0	1
+Cobalt-zinc-cadmium resistance protein CzcD	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Lead, cadmium, zinc and mercury transporting ATPase (EC 3.6.3.3) (EC 3.6.3.5)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Copper-translocating P-type ATPase (EC 3.6.3.4)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Cob(I)alamin adenosyltransferase (EC 2.5.1.17)	1	1	0	0	1	1	1	0	1	1	0	0	0	1	1	1	0	1	1	1	1	1	0	1
+Ribonucleotide reductase of class II (coenzyme B12-dependent) (EC 1.17.4.1)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Uncharacterized protein MJ1433	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Arsenic efflux pump protein	1	1	0	0	0	0	0	0	1	1	0	0	0	1	1	1	0	1	1	1	0	1	0	1
+Heat shock protein HtpX (EC 3.4.24.-)	1	1	0	0	1	0	0	0	0	1	0	0	0	0	0	1	1	0	1	1	0	0	0	0
+LemA protein	1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0
+tRNA cytosine methylase Pos56	1	1	0	0	0	0	0	0	1	1	0	0	0	0	1	1	1	1	1	1	0	1	0	1
+Ribonuclease P protein component 1 (EC 3.1.26.5)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Protein similar to polyadenylation specificity factor, MJ1236 type	1	1	0	1	0	1	0	1	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+Threonine synthase (EC 4.2.3.1)	1	1	0	0	0	0	1	1	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+[NiFe] hydrogenase metallocenter assembly protein HypF	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+[NiFe] hydrogenase metallocenter assembly protein HypE	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+[NiFe] hydrogenase metallocenter assembly protein HypD	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+[NiFe] hydrogenase metallocenter assembly protein HypC	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Uptake hydrogenase large subunit (EC 1.12.99.6)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Uptake hydrogenase small subunit precursor (EC 1.12.99.6)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Twin-arginine translocation protein TatC	1	1	0	0	1	0	0	0	1	1	0	1	1	1	1	1	0	0	1	1	1	1	1	1
+Formate dehydrogenase O alpha subunit (EC 1.2.1.2) @ selenocysteine-containing	1	1	0	0	0	0	0	0	1	1	1	0	1	1	1	1	0	1	1	1	1	1	1	1
+CoB--CoM heterodisulfide reductase 2 iron-sulfur subunit D (EC 1.8.98.1)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+membrane protein, putative	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Molybdopterin biosynthesis protein MoeA / Periplasmic molybdate-binding domain	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Fumarate hydratase class I, aerobic (EC 4.2.1.2)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+L(+)-tartrate dehydratase alpha subunit (EC 4.2.1.32)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Hydroxymethylglutaryl-CoA reductase (EC 1.1.1.34)	1	1	0	1	0	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Glycyl-tRNA synthetase (EC 6.1.1.14)	1	1	0	0	0	0	1	0	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+Methionine aminopeptidase (EC 3.4.11.18)	1	1	0	0	0	0	0	0	1	1	0	0	1	0	1	1	1	1	1	1	0	1	1	1
+DNA repair and recombination protein RadA	1	1	0	0	1	0	0	1	0	0	0	0	0	0	1	1	0	0	1	0	0	1	0	0
+LSU ribosomal protein L18e	1	0	0	1	0	0	0	1	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+DNA-directed RNA polymerase subunit D (EC 2.7.7.6)	1	0	0	1	0	0	0	1	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+SSU ribosomal protein S14e (S11p)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Glutamyl-tRNA synthetase (EC 6.1.1.17) @ Glutamyl-tRNA(Gln) synthetase (EC 6.1.1.24)	1	1	0	1	0	0	0	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+Shwachman-Bodian-Diamond syndrome protein	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+predicted exosome subunit	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Archaeal DNA polymerase II large subunit (EC 2.7.7.7)	1	0	0	0	1	0	0	0	1	1	0	1	0	1	1	1	1	1	1	1	1	1	0	1
+Pyridoxine biosynthesis glutamine amidotransferase, synthase subunit (EC 2.4.2.-)	1	1	1	1	0	1	1	1	1	1	0	1	0	1	1	1	1	1	1	1	1	1	0	1
+(S)-2,3-di-O-geranylgeranylglyceryl phosphate synthase	1	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	1	0	0	0	0
+tRNA (guanine(26)-N(2))-dimethyltransferase (EC 2.1.1.216)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Predicted functional analog of homoserine kinase (EC 2.7.1.-)	1	1	0	0	1	0	0	0	1	0	0	0	1	1	1	1	0	1	1	0	1	1	1	1
+AMP phosphohydrolase	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+GDP-mannose mannosyl hydrolase (EC 3.6.1.-)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+carbonic anhydrase, family 3	1	1	0	0	1	1	0	0	1	1	0	1	1	1	1	1	0	0	1	1	1	1	1	1
+Prephenate dehydratase (EC 4.2.1.51)	1	0	0	0	0	0	1	0	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+LSU ribosomal protein L11e (L5p)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+DNA/RNA-binding protein Alba	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Exonuclease SbcC	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+DNA-cytosine methyltransferase (EC 2.1.1.37)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+Very-short-patch mismatch repair endonuclease (G-T specific)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+Acetylornithine aminotransferase (EC 2.6.1.11)	1	0	0	0	0	0	1	0	1	1	0	1	1	1	1	1	1	0	1	1	1	1	1	1
+Fe-S oxidoreductase	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ABC-type tungstate transport system, periplasmic binding protein	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ABC-type tungstate transport system, permease protein	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ABC-type tungstate transport system, ATP-binding protein	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Probable low-affinity inorganic phosphate transporter	1	1	0	0	0	0	0	0	0	1	1	0	0	1	1	1	0	0	1	1	1	1	0	0
+FIG137478: Hypothetical protein YbgI	1	1	0	0	1	0	0	0	1	1	0	1	1	0	1	1	0	1	1	1	0	1	1	1
+LSU ribosomal protein L40e	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Triosephosphate isomerase (EC 5.3.1.1)	1	0	0	0	0	0	0	0	0	1	0	0	1	0	1	1	1	0	1	1	0	1	1	0
+Ribonuclease HII (EC 3.1.26.4)	1	0	0	0	0	1	0	0	1	1	0	0	0	1	1	1	1	1	1	1	1	1	0	1
+Anthranilate synthase, aminase component (EC 4.1.3.27)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Twin-arginine translocation protein TatA	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+DNA polymerase III subunits gamma and tau (EC 2.7.7.7)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ADP-heptose--lipooligosaccharide heptosyltransferase II (EC 2.4.1.-)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+DNA repair protein RadC	1	1	1	1	0	1	1	1	1	1	0	0	0	1	1	1	0	1	1	1	1	1	0	1
+Type I restriction-modification system, DNA-methyltransferase subunit M (EC 2.1.1.72)	1	1	1	0	0	0	1	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Tryptophanyl-tRNA synthetase (EC 6.1.1.2)	1	1	0	0	0	0	0	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+Formylmethanofuran--tetrahydromethanopterin N-formyltransferase (EC 2.3.1.101)	1	0	0	0	0	0	0	1	0	0	0	0	0	0	1	1	1	1	1	0	0	1	0	0
+duf556 family protein	1	0	0	0	0	0	1	0	1	1	0	1	1	0	1	1	0	1	1	1	0	1	1	1
+UDP-glucose 6-dehydrogenase (EC 1.1.1.22)	1	1	0	0	0	1	0	0	1	1	0	1	1	1	1	1	1	0	1	1	1	1	1	1
+Nucleotide sugar epimerase	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+glycosyl transferase, group 1 family protein	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ADP-heptose synthase (EC 2.7.-.-) / D-glycero-beta-D-manno-heptose 7-phosphate kinase	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Transketolase, N-terminal section (EC 2.2.1.1)	1	0	0	0	0	0	1	0	1	0	0	0	1	1	1	1	1	1	1	0	1	1	1	1
+Transketolase, C-terminal section (EC 2.2.1.1)	1	0	0	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Transaldolase (EC 2.2.1.2)	1	0	1	0	0	0	1	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+D,D-heptose 7-phosphate kinase	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Phosphoheptose isomerase 1 (EC 5.3.1.-)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+D-glycero-D-manno-heptose 1,7-bisphosphate phosphatase (EC 3.1.1.-)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Fe-S OXIDOREDUCTASE (1.8.-.-) Wyeosine biosynthesis	1	0	0	0	1	1	0	0	1	1	0	1	1	1	1	1	1	0	1	1	1	1	1	1
+Type III restriction-modification system methylation subunit (EC 2.1.1.72)	1	1	0	0	0	1	1	0	0	1	1	1	0	0	0	1	0	1	1	1	0	0	0	0
+Phenylalanyl-tRNA synthetase beta chain (EC 6.1.1.20)	1	0	0	1	0	0	0	1	1	1	0	0	0	0	1	1	1	1	1	1	0	1	0	1
+SSU ribosomal protein S13e (S15p)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase (EC 2.7.8.-)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Nickel insertion protein	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ATP-dependent protease LonB Type II	1	1	0	1	0	1	0	1	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+internalin, putative	1	1	1	1	1	1	1	1	1	1	1	0	0	1	1	1	0	0	1	1	1	1	0	1
+UDP-glucose 4-epimerase (EC 5.1.3.2)	1	1	0	0	1	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+CTP synthase (EC 6.3.4.2)	1	1	0	0	1	0	1	1	1	1	0	1	1	0	1	1	0	0	1	1	0	1	1	1
+Huntington interacting protein HYPE	1	1	0	0	0	0	1	0	1	1	0	0	0	1	1	1	0	0	1	0	1	1	0	1
+Aspartate carbamoyltransferase (EC 2.1.3.2)	1	1	0	0	0	1	0	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+DNA-directed RNA polymerase subunit A' (EC 2.7.7.6)	1	1	0	0	0	0	0	1	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+L(+)-tartrate dehydratase beta subunit (EC 4.2.1.32)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+LSU ribosomal protein L23e (L14p)	1	1	1	0	0	0	0	0	1	1	0	0	1	0	1	1	1	1	1	1	0	1	1	1
+PlcB, ORFX, ORFP, ORFB, ORFA, ldh gene	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+SSU ribosomal protein S13p (S18e)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+FIG006285: ICC-like protein phosphoesterase	1	1	1	0	0	0	0	0	1	0	0	0	0	0	1	1	0	0	1	0	0	1	0	1
+Translation initiation factor SUI1-related protein	1	1	0	0	0	1	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Chorismate synthase (EC 4.2.3.5)	1	1	0	0	1	0	0	0	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+Ribonucleotide reductase of class III (anaerobic), large subunit (EC 1.17.4.2)	1	1	1	0	0	0	0	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Molybdenum cofactor biosynthesis protein MoaC	1	1	0	0	0	0	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+V-type ATP synthase subunit D (EC 3.6.3.14)	1	1	0	0	1	1	0	1	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Putative Zn-dependent hydrolase in polyisoprenoid biosynthetic cluster	1	1	0	0	1	0	1	1	1	1	0	1	0	1	1	1	0	0	1	1	1	1	0	1
+Tryptophan synthase beta chain (EC 4.2.1.20)	1	0	1	0	0	0	1	0	1	1	0	0	0	1	1	1	0	1	1	1	1	1	0	1
+Thiamine-monophosphate kinase (EC 2.7.4.16)	1	1	0	0	0	0	0	0	1	0	0	0	0	0	1	1	1	0	1	0	0	1	0	1
+Ketol-acid reductoisomerase (EC 1.1.1.86)	1	1	0	1	1	0	0	1	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Pheromone shutdown protein	1	0	0	0	0	0	0	0	0	1	0	0	0	1	1	0	0	1	0	1	0	1	0	0
+Signal recognition particle receptor protein FtsY (=alpha subunit) (TC 3.A.5.1.1)	1	0	1	0	0	1	0	0	1	1	0	0	0	0	1	1	0	1	1	1	0	1	0	1
+RecD-like DNA helicase Atu2026	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Molybdopterin-guanine dinucleotide biosynthesis protein MobB	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Membrane bound hydrogenase, 4Fe-4S cluster-binding subunit MbhN	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Phosphopantothenate synthetase, archaeal (EC 6.3.2.36)	1	1	0	0	0	1	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Phosphoribosylamine--glycine ligase (EC 6.3.4.13)	1	1	1	1	0	1	0	1	1	1	1	0	0	1	1	1	1	1	1	1	1	1	0	1
+phosphoribosyltransferase	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+RNA-2',3'-PO4:RNA-5'-OH ligase	1	1	0	0	1	0	0	1	1	1	0	1	1	1	1	1	0	1	1	1	1	1	1	1
+Uncharacterized ATP-dependent helicase MJ0104	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Diaminopimelate decarboxylase (EC 4.1.1.20)	1	1	0	0	0	1	1	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Uncharacterized protein AF0741 (similar to YjbQ)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+COG2078: Uncharacterized ACR	1	1	0	0	0	0	1	1	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+Imidazole glycerol phosphate synthase amidotransferase subunit (EC 2.4.2.-)	1	1	0	0	0	0	0	0	1	1	1	0	1	0	1	1	1	1	1	1	0	1	1	1
+Archaeal DNA polymerase II large subunit (EC 2.7.7.7) @ intein-containing	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+UDP-N-acetylglucosamine 2-epimerase (EC 5.1.3.14)	1	1	0	0	0	0	1	0	1	1	0	1	0	1	1	1	1	0	1	1	1	1	0	1
+UDP-glucuronate decarboxylase (EC 4.1.1.35)	1	1	0	0	0	1	0	0	1	1	0	1	1	1	1	1	1	0	1	1	1	1	1	1
+Sulfate adenylyltransferase subunit 2 (EC 2.7.7.4)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Adenine deaminase (EC 3.5.4.2)	1	1	0	0	0	0	0	1	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Coenzyme F420-reducing hydrogenase, beta subunit	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+3',5'-cyclic-nucleotide phosphodiesterase	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+cation-transporting ATPase, E1-E2 family	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Magnesium and cobalt efflux protein CorC	1	1	0	0	0	1	0	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+Lysine 2,3-aminomutase (EC 5.4.3.2)	1	1	0	1	1	0	1	1	1	1	0	1	1	0	1	1	1	1	1	1	0	1	1	1
+D-alanine--D-alanine ligase (EC 6.3.2.4)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CTP:Inositol-1-phosphate cytidylyltransferase (2.7.7.-) / Phospho-di-inositol-1-phosphate synthase (EC 2.7.8.-)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Pyruvoyl-dependent arginine decarboxylase (EC 4.1.1.19)	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1	0	0	1	0	0	1	1	0
+SSU ribosomal protein S27Ae	1	1	0	0	0	1	1	0	1	1	0	1	0	1	1	1	0	1	1	1	1	1	0	1
+Nascent polypeptide-associated complex protein	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Glycosyl transferase, group 2 family protein	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Phosphate transport ATP-binding protein PstB (TC 3.A.1.7.1)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Phosphate transport system permease protein PstA (TC 3.A.1.7.1)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Phosphate transport system permease protein PstC (TC 3.A.1.7.1)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Phosphate ABC transporter, periplasmic phosphate-binding protein PstS (TC 3.A.1.7.1)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Histidinol dehydrogenase (EC 1.1.1.23)	1	1	0	0	0	0	0	0	1	1	0	0	0	0	1	1	1	1	1	1	0	1	0	1
+Acylphosphatases-like	1	0	0	0	0	0	0	1	0	0	0	0	1	0	1	0	0	0	0	0	0	1	1	0
+tRNA pseudouridine 55 synthase (EC 4.2.1.70)	1	0	0	0	0	0	1	0	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+(R)-citramalate synthase (EC 2.3.1.182)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+integral membrane protein	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+pyrimidine dimer DNA glycosylase	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+UPF0218 protein MJ0395	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Undecaprenyl-diphosphatase (EC 3.6.1.27)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+nitroreductase	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Replication factor A (ssDNA-binding protein)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Histidinol-phosphate aminotransferase (EC 2.6.1.9)	1	0	0	0	0	0	1	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Candidate gene for the hypothesized phosphomevalonate decarboxylase	1	0	0	0	0	0	0	0	0	1	0	0	1	0	1	1	1	0	1	1	0	1	1	0
+COG1355, Predicted dioxygenase	1	0	0	0	0	0	0	0	0	1	0	0	1	0	1	1	1	1	1	1	0	1	1	0
+SSU ribosomal protein S16e (S9p)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Shikimate kinase II (EC 2.7.1.71)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Uncharacterized protein conserved in archaea	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ATPase component NikO of energizing module of nickel ECF transporter	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Transmembrane component NikQ of energizing module of nickel ECF transporter	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Substrate-specific component NikM of nickel ECF transporter	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Methylthioribose-1-phosphate isomerase (EC 5.3.1.23)	1	0	0	0	0	0	0	1	1	1	0	0	0	1	1	1	1	1	1	1	1	1	0	1
+Acylphosphate phosphohydrolase (EC 3.6.1.7), putative	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Serine/threonine protein kinase related protein	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Thioredoxin reductase (EC 1.8.1.9)	1	1	0	0	1	0	1	1	1	1	1	0	0	1	1	1	1	1	1	1	1	1	0	1
+Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase (EC 5.3.1.16)	1	1	0	0	0	1	0	0	1	1	0	0	1	0	1	1	1	1	1	1	0	1	1	1
+DNA helicase IV	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Acetyl-CoA synthase corrinoid activation protein	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Uncharacterized protein COG3461	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Cell surface protein	1	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0
+S-adenosylmethionine-dependent methyltransferase YaeB	1	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Radical SAM domain protein	1	1	0	0	1	0	0	0	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+DNA mismatch repair protein	1	1	0	1	1	1	0	1	1	0	0	0	1	1	1	1	0	0	1	0	1	1	1	1
+DNA double-strand break repair Rad50 ATPase	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Acetyl-coenzyme A synthetase (EC 6.2.1.1)	1	1	0	0	1	0	0	0	1	1	1	0	0	1	1	0	0	1	0	1	1	1	0	1
+zinc/iron permease	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Digeranylgeranylglycerophospholipid reductase	1	1	0	0	1	0	0	0	1	1	0	0	1	0	1	1	1	1	1	1	0	1	1	1
+V-type ATP synthase subunit I (EC 3.6.3.14)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Orotate phosphoribosyltransferase (EC 2.4.2.10)	1	1	0	0	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	1	0	1	0	0
+COG2047: Uncharacterized protein (ATP-grasp superfamily)	1	1	0	0	0	0	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+OB-fold nucleic acid binding domain protein	1	1	1	0	0	0	1	0	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+MoaA/NifB/PqqE family protein MJ0619	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Phosphoribosylglycinamide formyltransferase 2 (EC 2.1.2.-)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Oxalate/formate antiporter	1	0	0	0	1	0	1	0	1	1	1	1	0	1	1	1	0	0	1	0	1	1	0	1
+Glucose-6-phosphate isomerase (EC 5.3.1.9)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LSU ribosomal protein L7Ae	1	0	0	1	0	0	0	1	1	1	0	1	1	0	1	1	1	0	1	1	0	1	1	1
+Fructokinase (EC 2.7.1.4)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Potassium channel protein	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Archaeal DNA polymerase II small subunit (EC 2.7.7.7)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+Alanyl-tRNA synthetase (EC 6.1.1.7)	1	1	0	0	0	0	0	0	1	1	1	0	1	0	1	1	1	1	1	1	0	1	1	1
+RNA 3'-terminal phosphate cyclase (EC 6.5.1.4)	1	1	0	0	0	1	0	0	1	1	0	0	1	0	1	1	1	1	1	1	0	1	1	1
+SSU ribosomal protein S15Ae (S8p)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+DNA topoisomerase VI subunit B (EC 5.99.1.3)	1	1	0	0	0	1	0	0	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1
+Adenylosuccinate lyase (EC 4.3.2.2)	1	1	0	0	1	0	0	0	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+MoxR-like ATPase in aerotolerance operon	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+5-Enolpyruvylshikimate-3-phosphate synthase (EC 2.5.1.19)	1	1	0	0	0	0	1	0	1	1	1	0	1	1	1	1	0	1	1	1	1	1	1	1
+Teichoic acid export ATP-binding protein TagH (EC 3.6.3.40)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+dTDP-4-dehydrorhamnose reductase (EC 1.1.1.133)	1	0	1	0	0	0	0	0	1	1	0	0	0	1	1	1	0	1	1	1	1	1	0	1
+dTDP-4-dehydrorhamnose 3,5-epimerase (EC 5.1.3.13)	1	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+dTDP-glucose 4,6-dehydratase (EC 4.2.1.46)	1	0	1	0	0	0	0	0	1	1	0	1	0	1	1	1	1	1	1	1	1	1	0	1
+Dolichol-phosphate mannosyltransferase (EC 2.4.1.83)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rRNA 2'-O-methyltransferase fibrillarin	1	1	0	0	0	0	1	1	1	1	0	0	1	0	1	1	1	1	1	1	0	1	1	1
+Fumarylacetoacetate hydrolase family protein	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Formylmethanofuran dehydrogenase subunit B (EC 1.2.99.5)	1	1	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+UbiX family decarboxylase associated with menaquinone via futalosine	1	1	0	0	0	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	0	1	1	1
+Replication factor C small subunit	1	1	0	0	0	0	1	0	1	1	1	0	1	1	1	1	0	0	1	1	1	1	1	1
+rRNA biogenesis protein Nop5/Nop56	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+COG1293, Predicted RNA-binding protein homologous to eukaryotic snRNP	1	0	0	0	0	1	0	0	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+Malate dehydrogenase (EC 1.1.1.37)	1	0	0	0	0	0	0	0	1	0	0	0	1	0	1	1	0	0	1	0	0	1	1	1
+DNA repair and recombination protein RadB	1	0	0	1	0	0	0	1	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+Restriction modification enzyme	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+FIG022979: MoxR-like ATPases	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+3-isopropylmalate dehydratase small subunit (EC 4.2.1.33)	1	1	0	0	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	0	1	1	0	1
+V-type ATP synthase subunit B (EC 3.6.3.14)	1	0	0	0	1	1	0	0	1	1	0	1	1	0	1	1	1	1	1	1	0	1	1	1
+Related to Dihydropteroate synthase	1	1	0	0	0	0	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Molybdenum transport ATP-binding protein ModC (TC 3.A.1.8.1)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Secreted protein containing C-terminal beta-propeller domain distantly related to WD-40 repeats	1	1	1	0	0	0	0	1	1	0	0	0	1	0	1	1	0	0	1	0	0	1	1	1
+ATP-dependent DNA helicase recG (EC 3.6.1.-)	1	1	0	0	0	1	0	0	0	1	0	0	1	1	1	1	0	0	1	1	1	1	1	0
+TATA-box binding protein	1	1	1	0	0	0	0	1	1	1	0	0	0	1	1	1	1	1	1	1	1	1	0	1
+Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6) @ Glutamyl-tRNA(Gln) amidotransferase subunit A (EC 6.3.5.7)	1	1	0	0	0	0	0	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1
+Potassium uptake protein TrkH	1	1	0	0	0	0	1	0	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1
+Ribonuclease HIII (EC 3.1.26.4)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Adenosylcobinamide-phosphate guanylyltransferase (EC 2.7.7.62)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Adenosylcobinamide-phosphate synthase (EC 6.3.1.10)	1	1	0	0	0	0	0	0	1	1	0	1	0	1	1	1	0	1	1	1	1	1	0	1
+L-threonine 3-O-phosphate decarboxylase (EC 4.1.1.81)	1	1	1	0	0	0	0	0	0	1	0	0	0	0	1	1	0	1	1	1	0	1	0	0
+Vitamin B12 ABC transporter, ATPase component BtuD	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Putative DNA-binding protein in cluster with Type I restriction-modification system	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Diphthine synthase (EC 2.1.1.98)	1	1	0	0	0	0	0	0	1	1	0	1	1	1	1	1	0	0	1	1	1	1	1	1
+NifU-like domain protein	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Conserved protein	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Kinase-Associated Endopeptidase (Kae1), required for threonylcarbamoyladenosine t(6)A37 formation in tRNA	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Hydroxymethylpyrimidine phosphate kinase ThiD (EC 2.7.4.7)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Aconitate hydratase X, predicted	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Fructose-1,6-bisphosphatase, type V, archaeal (EC 3.1.3.11)	1	1	1	0	1	1	0	0	0	1	0	0	0	0	1	1	0	0	1	1	0	1	0	0
+[NiFe] hydrogenase nickel incorporation-associated protein HypB	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Type I restriction-modification system, specificity subunit S (EC 3.1.21.3)	1	1	1	1	1	0	0	1	1	1	0	0	0	1	1	1	1	1	1	1	1	1	0	1
+Prophage antirepressor	1	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	1	0	0	0	1	0	0
+Argininosuccinate synthase (EC 6.3.4.5)	1	1	0	0	1	0	0	0	1	1	0	0	1	0	1	1	1	1	1	1	0	1	1	1
+Phosphoribosylanthranilate isomerase (EC 5.3.1.24)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+SSU ribosomal protein S5e (S7p)	1	1	0	0	1	0	1	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Anthranilate phosphoribosyltransferase (EC 2.4.2.18)	1	1	1	0	0	0	0	1	1	1	0	0	0	1	1	1	1	1	1	1	1	1	0	1
+Beta-phosphoglucomutase (EC 5.4.2.6)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Cell division protein FtsH (EC 3.4.24.-)	1	1	0	0	0	1	1	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Uncharacterized protein MJ1492	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryotic translation initiation factor 2 gamma subunit	1	1	1	0	0	0	0	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+abortive infection protein, putative	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Adenosine deaminase (EC 3.5.4.4), alternative form	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	1	1	0	0	0	0	0
+LSU ribosomal protein P0 (L10p)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Type I restriction-modification system, restriction subunit R (EC 3.1.21.3)	1	1	1	1	1	0	1	1	1	1	0	0	0	1	1	1	1	1	1	1	1	1	0	1
+Xanthine-guanine phosphoribosyltransferase (EC 2.4.2.22)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11)	1	1	0	0	0	0	0	0	1	1	0	1	1	0	1	1	0	0	1	1	0	1	1	1
+Mevalonate kinase (EC 2.7.1.36)	1	0	0	0	0	1	0	0	1	1	1	0	1	1	1	1	1	0	1	1	1	1	1	1
+LSU ribosomal protein L5e (L18p)	1	0	0	0	0	0	0	1	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+archaeosine tRNA-ribosyltransferase (EC 2.4.2.-) type 1	1	0	0	0	0	0	1	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Chaperone protein DnaJ	1	1	0	0	0	0	1	0	1	1	1	1	0	1	1	1	1	1	1	1	1	1	0	1
+Glycerol-1-phosphate dehydrogenase [NAD(P)] (EC 1.1.1.261)	1	1	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	1	1	1	0	0	0	0
+Uncharacterized protein MJ1295	1	1	1	0	0	0	0	0	1	1	0	1	1	0	1	1	0	1	1	1	0	1	1	1
+3-ketoacyl-CoA thiolase (EC 2.3.1.16)	1	1	0	0	0	0	0	0	1	0	0	1	1	1	1	1	0	0	1	0	1	1	1	1
+RNase L inhibitor	1	0	0	0	0	0	0	1	1	1	0	1	0	1	1	1	1	1	1	1	1	1	0	1
+LSU ribosomal protein L9e (L6p)	1	0	1	0	0	0	0	1	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+LSU ribosomal protein L19e	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Leucine-rich-repeat protein	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ornithine carbamoyltransferase (EC 2.1.3.3)	1	1	1	1	0	0	0	1	1	1	0	0	0	1	1	1	1	0	1	1	1	1	0	1
+Putative ski2-type helicase MJ1124	1	1	0	0	0	0	0	0	1	1	0	1	1	0	1	1	0	1	1	1	0	1	1	1
+ATP-dependent DNA ligase (EC 6.5.1.1)	1	1	0	0	0	1	0	1	0	0	0	0	0	0	1	1	1	1	1	0	0	1	0	0
+Peptidyl-tRNA hydrolase, archaeal type (EC 3.1.1.29)	1	1	0	0	0	0	1	0	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+UbiD family decarboxylase, MJ1133 type	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Pyridoxine biosynthesis glutamine amidotransferase, glutaminase subunit (EC 2.4.2.-)	1	0	0	0	0	0	0	0	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+Uncharacterized protein MJ1634	1	0	0	0	0	0	0	1	1	0	0	0	0	1	1	1	1	0	1	0	1	1	0	1
+Predicted transcriptional regulator with C-terminal CBS domain	1	1	0	0	0	0	0	0	1	1	0	1	1	0	1	1	0	0	1	1	0	1	1	1
+Cytidylate kinase (EC 2.7.4.25)	1	0	0	0	1	0	0	0	0	0	0	0	1	1	1	1	0	1	1	0	1	1	1	0
+Lipoate-protein ligase A	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+SAM-dependent methyltransferase DSY4148 (UbiE paralog)	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Arsenical resistance operon repressor	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+NusA protein homolog, archaeal	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+DNA-directed RNA polymerase subunit A'' (EC 2.7.7.6)	1	1	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Type II/IV secretion system ATP hydrolase TadA/VirB11/CpaF, TadA subfamily	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+L-tyrosine decarboxylase (EC 4.1.1.25)	1	1	0	0	0	0	0	1	1	1	0	0	1	0	1	1	0	0	1	1	0	1	1	1
+Dihydroorotate dehydrogenase, catalytic subunit (EC 1.3.3.1)	1	1	0	0	0	1	1	0	1	1	0	0	0	1	1	1	1	1	1	1	1	1	0	1
+ATP-utilizing enzyme of the PP-loop superfamily	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+FIG060329: MOSC domain protein	1	1	0	0	1	0	0	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+RloF	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+NAD(P)HX epimerase / NAD(P)HX dehydratase	1	1	0	0	0	0	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0
+SSU ribosomal protein S20e (S10p)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+heterodisulfide reductase, subunit A/methylviologen reducing hydrogenase, subunit delta	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Aspartokinase (EC 2.7.2.4)	1	1	0	0	1	1	1	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+4-hydroxy-tetrahydrodipicolinate synthase (EC 4.3.3.7)	1	1	0	0	0	0	1	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+tRNA (guanine(10)-N(2))-dimethyltransferase (EC 2.1.1.213)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+COG1242: Predicted Fe-S oxidoreductase	1	1	0	0	1	0	1	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+DEAD-box ATP-dependent RNA helicase CshA (EC 3.6.4.13)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+3',5'-cyclic-nucleotide phosphodiesterase (EC 3.1.4.17)	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ATP-dependent RNA helicase	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Heptaprenyl diphosphate synthase component II (EC 2.5.1.30)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+3-dehydroquinate dehydratase I (EC 4.2.1.10)	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Preprotein translocase secY subunit (TC 3.A.5.1.1)	1	0	0	0	0	0	0	1	1	1	0	0	1	0	1	1	1	1	1	1	0	1	1	1
+CRISPR-associated protein Csx11	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+DUF324 domain containing Cmr2-like protein	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+CRISPR-associated RAMP Cmr1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+CRISPR-associated protein Cas1	1	1	0	0	1	0	0	1	1	1	0	0	0	0	1	1	1	1	1	1	0	1	0	1
+GTP-binding protein AF1181	1	0	1	0	0	0	1	0	0	0	0	0	1	0	1	1	1	1	1	0	0	1	1	0
+LSU ribosomal protein L15e	1	1	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+DNA methylase N-4/N-6 domain protein	1	1	0	1	1	0	1	1	1	1	0	1	1	0	1	1	0	0	1	1	0	1	1	1
+Adenosylhomocysteinase (EC 3.3.1.1)	1	1	0	0	1	1	1	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Shikimate 5-dehydrogenase I alpha (EC 1.1.1.25)	1	0	0	0	0	0	0	0	1	1	0	0	0	1	1	1	0	1	1	1	1	1	0	1
+Phosphoenolpyruvate synthase (EC 2.7.9.2)	1	1	0	0	0	1	0	0	1	1	0	1	1	1	1	1	0	0	1	1	1	1	1	1
+Iron-sulfur cluster assembly ATPase protein SufC	1	1	0	0	0	0	0	0	0	1	0	0	0	0	1	1	0	0	1	1	0	1	0	0
+Sulfite oxidase and related enzymes	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+COG1565: Uncharacterized conserved protein	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+histone acetyltransferase, ELP3 family	1	1	0	1	0	0	1	1	0	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0
+SSU ribosomal protein S8e	1	1	1	0	0	0	0	1	1	1	0	0	0	1	1	1	1	1	1	1	1	1	0	1
+TldD protein, part of TldE/TldD proteolytic complex	1	1	0	0	0	0	0	1	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Helicase, SNF2/RAD54 family	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TldE protein, part of TldE/TldD proteolytic complex	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Uncharacterized hydrolase MJ0555	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ribonuclease Z (EC 3.1.26.11)	0	1	1	0	1	0	0	0	0	0	1	0	1	0	1	1	1	1	1	0	0	1	1	0
+Signal recognition particle, subunit Ffh SRP54 (TC 3.A.5.1.1)	0	1	0	0	0	0	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Protein-export membrane protein SecD (TC 3.A.5.1.1)	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+3-isopropylmalate dehydrogenase (EC 1.1.1.85)	0	1	0	0	0	0	1	0	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+putative	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ORF located using Glimmer/Genemark	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Alanine dehydrogenase (EC 1.4.1.1)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Archease	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Molybdenum cofactor biosynthesis protein MoaE	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Flap structure-specific endonuclease (EC 3.-.-.-)	0	1	1	0	0	0	0	0	1	1	0	1	1	0	1	1	1	1	1	1	0	1	1	1
+GCN5-related N-acetyltransferase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Diaminopimelate epimerase (EC 5.1.1.7)	0	1	0	0	0	0	0	0	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1	1
+Translation initiation factor 2	0	1	1	0	0	0	0	0	1	1	0	0	0	1	1	1	0	1	1	1	1	1	0	1
+Enolase (EC 4.2.1.11)	0	1	0	0	1	0	0	0	0	1	1	1	0	0	1	1	1	1	1	1	0	1	0	0
+GDP-mannose 4,6-dehydratase (EC 4.2.1.47)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Alpha-1,4-N-acetylgalactosamine transferase PglJ (EC 2.4.1.-)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Glycosyl transferase, group 1	0	1	0	0	0	0	0	0	1	0	0	1	0	1	0	1	0	0	1	0	1	0	0	1
+glycosyl transferase, family 2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Lipopolysaccharide biosynthesis protein WzxC	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.78)	0	1	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Translation elongation factor 1 alpha-related protein	0	1	0	0	1	0	1	0	1	0	0	0	1	1	1	1	0	1	1	0	1	1	1	1
+tRNA S(4)U 4-thiouridine synthase (former ThiI)	0	1	0	0	0	0	0	1	1	0	0	0	0	1	1	1	1	1	1	0	1	1	0	1
+O-phosphoseryl-tRNA:Cysteinyl-tRNA synthase	0	1	0	0	1	0	0	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Pyruvate:ferredoxin oxidoreductase, alpha subunit (EC 1.2.7.1)	0	1	1	0	0	1	0	0	1	1	0	0	0	0	1	1	0	1	1	1	0	1	0	1
+UTP--glucose-1-phosphate uridylyltransferase (EC 2.7.7.9)	0	1	1	0	0	0	0	0	1	1	1	0	0	1	1	1	1	0	1	1	1	1	0	1
+CRISPR-associated RAMP Cmr6	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CRISPR-associated RAMP Cmr4	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+SSU rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))-dimethyltransferase (EC 2.1.1.182)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+V-type ATP synthase subunit A (EC 3.6.3.14)	0	1	0	0	1	0	0	0	1	1	0	1	1	0	1	1	1	1	1	1	0	1	1	1
+Homocitrate synthase (EC 2.3.3.14)	0	1	0	0	0	0	0	0	1	0	0	0	0	1	1	1	1	1	1	0	1	1	0	1
+LSU ribosomal protein L1e (L4p)	0	1	0	0	1	1	0	0	1	1	0	1	1	1	1	1	0	1	1	1	1	1	1	1
+putative phosphoglycerate mutase family protein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Translation elongation factor 2	0	1	0	0	1	0	1	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Glycolate dehydrogenase (EC 1.1.99.14), subunit GlcD	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Perosamine synthase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Maltose O-acetyltransferase (EC 2.3.1.79)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Methionyl-tRNA formyltransferase (EC 2.1.2.9)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Phosphoribosylglycinamide formyltransferase (EC 2.1.2.2)	0	1	0	1	0	0	0	1	1	1	1	0	1	1	1	1	0	1	1	1	1	1	1	1
+N-acetylneuraminate synthase (EC 2.5.1.56)	0	1	0	0	0	1	0	0	1	1	0	1	0	1	0	1	0	0	1	1	1	0	0	1
+Similar to imidazole glycerol phosphate synthase cyclase subunit (LPS cluster)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+LPS biosynthesis protein WbpG	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Formate dehydrogenase chain D (EC 1.2.1.2)	0	1	0	0	0	0	0	0	1	0	0	0	1	0	1	1	1	1	1	0	0	1	1	1
+kelch-like 5 (Drosophila)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+NADH:ubiquinone oxidoreductase subunit 5 (chain L)/Multisubunit Na+/H+ antiporter, MnhA subunit	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Response regulator of zinc sigma-54-dependent two-component system	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Biotin carboxyl carrier protein of acetyl-CoA carboxylase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Biotin carboxylase of acetyl-CoA carboxylase (EC 6.3.4.14)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Glycine dehydrogenase [decarboxylating] (glycine cleavage system P1 protein) (EC 1.4.4.2)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+S-adenosylhomocysteine deaminase (EC 3.5.4.28)	0	1	0	0	0	0	1	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Methylthioadenosine deaminase	0	1	0	0	0	0	1	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+UDP-4-amino-4-deoxy-L-arabinose--oxoglutarate aminotransferase (EC 2.6.1.87)	0	1	0	0	0	0	0	0	1	1	0	1	1	1	1	1	1	0	1	1	1	1	1	1
+probable acetyltransferase	0	1	0	0	0	0	0	0	1	1	0	1	1	1	1	1	0	0	1	1	1	1	1	1
+Eight transmembrane protein EpsH	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Choline-sulfatase (EC 3.1.6.6)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Arylsulfatase (EC 3.1.6.1)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Aspartyl-tRNA synthetase (EC 6.1.1.12) @ Aspartyl-tRNA(Asn) synthetase (EC 6.1.1.23)	0	1	0	0	1	0	1	0	1	1	1	1	1	0	1	1	1	1	1	1	0	1	1	1
+O-antigen export system permease protein RfbD	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Flagellar motor rotation protein MotA	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Tungsten-containing aldehyde:ferredoxin oxidoreductase (EC 1.2.7.5)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+endonuclease/exonuclease/phosphatase family protein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Enoyl-CoA hydratase (EC 4.2.1.17)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Cysteinyl-tRNA synthetase (EC 6.1.1.16)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Glycogen phosphorylase (EC 2.4.1.1)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Putative glycogen debranching enzyme, archaeal type, TIGR01561	0	1	0	0	0	0	0	0	0	1	0	1	1	1	1	1	0	1	1	1	1	1	1	0
+CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC 2.7.8.5)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+tRNA nucleotidyltransferase, archaeal type (EC 2.7.7.21) (EC 2.7.7.25)	0	1	0	0	0	0	1	0	1	1	0	1	1	1	1	1	1	0	1	1	1	1	1	1
+NAD-dependent protein deacetylase of SIR2 family	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+OmpA-like transmembrane domain protein	0	1	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0
+Cell well associated RhsD protein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ISPg4, transposase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+4-hydroxythreonine-4-phosphate dehydrogenase (EC 1.1.1.262)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ribose ABC transport system, ATP-binding protein RbsA (TC 3.A.1.2.1)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ribose ABC transport system, permease protein RbsC (TC 3.A.1.2.1)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+2,4-dienoyl-CoA reductase [NADPH] (EC 1.3.1.34)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Creatinine amidohydrolase (EC 3.5.2.10)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+3-ketoacyl-CoA thiolase (EC 2.3.1.16) @ Acetyl-CoA acetyltransferase (EC 2.3.1.9)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+transferase, putative	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+putative methyltransferase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+glycosyl transferase, group 1	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+CoB--CoM heterodisulfide reductase subunit D (EC 1.8.98.1)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+L-ectoine synthase (EC 4.2.1.-)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ribonuclease III (EC 3.1.26.3)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+NADPH:quinone oxidoreductase (EC 1.6.5.5)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Methyl-accepting chemotaxis protein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Putative methyltransferase (EC 2.1.1.72)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+FIG038648: MoaD and/or ThiS families	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Threonyl-tRNA synthetase (EC 6.1.1.3)	0	1	0	0	1	1	0	0	1	1	1	0	0	1	1	1	0	1	1	1	1	1	0	1
+Sulfur carrier protein adenylyltransferase ThiF	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Molybdenum cofactor biosynthesis protein MoaB	0	1	0	0	1	0	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+ATP synthase F0 sector subunit a (EC 3.6.3.14)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Dihydroxy-acid dehydratase (EC 4.2.1.9)	0	1	0	0	1	0	0	0	1	1	0	0	0	1	1	1	0	0	1	1	1	1	0	1
+Cell division protein FtsI [Peptidoglycan synthetase] (EC 2.4.1.129)	0	1	0	1	1	0	0	1	1	1	0	0	0	1	1	1	0	0	1	1	1	1	0	1
+Endonuclease III (EC 4.2.99.18)	0	1	0	0	0	0	1	0	1	1	0	0	0	1	1	1	1	0	1	1	1	1	0	1
+UDP-2,3-diacetamido-2,3-dideoxy-D-glucuronic acid 2-epimerase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Trk system potassium uptake protein TrkA	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+COG1180: Radical SAM, Pyruvate-formate lyase-activating enzyme like	0	1	0	1	1	0	1	1	1	1	0	0	1	0	1	1	1	0	1	1	0	1	1	1
+Seryl-tRNA synthetase (EC 6.1.1.11)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+UPF0129 protein MJ1474	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Glutamate synthase [NADPH] large chain (EC 1.4.1.13)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Hypothetical protein YggS, proline synthase co-transcribed bacterial homolog PROSC	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Deblocking aminopeptidase (EC 3.4.11.-)	0	1	0	0	0	1	0	0	1	1	0	0	1	0	1	1	0	1	1	1	0	1	1	1
+Xaa-Pro aminopeptidase (EC 3.4.11.9)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Heterodisulfide reductase, cytochrome reductase subunit	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Small heat shock protein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+conserved protein associated with acetyl-CoA C-acyltransferase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Small-conductance mechanosensitive channel	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Archaeal flavoprotein COG1036	0	1	0	1	1	0	0	1	1	1	0	0	1	0	1	1	0	1	1	1	0	1	1	1
+CO dehydrogenase/acetyl-CoA synthase subunit delta, corrinoid iron-sulfur subcomplex small subunit	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+Catalase (EC 1.11.1.6) / Peroxidase (EC 1.11.1.7)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+O-linked GlcNAc transferase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+DNA double-strand break repair protein Mre11	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Type III restriction-modification system DNA endonuclease res (EC 3.1.21.5)	0	1	0	0	0	1	1	0	0	1	0	1	1	0	1	1	0	1	1	1	0	1	1	0
+Phosphate transport system regulatory protein PhoU	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+UDP-N-acetylglucosamine 4,6-dehydratase (EC 4.2.1.-)	0	1	0	0	0	0	0	0	1	1	0	1	0	1	0	1	0	0	1	1	1	0	0	1
+Glutamate-1-semialdehyde aminotransferase (EC 5.4.3.8)	0	1	0	0	0	1	0	0	1	1	0	1	0	1	0	1	0	0	1	1	1	0	0	1
+L-carnitine dehydratase/bile acid-inducible protein F (EC 2.8.3.16)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+NAD-specific glutamate dehydrogenase (EC 1.4.1.2)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+NADP-specific glutamate dehydrogenase (EC 1.4.1.4)	0	1	0	0	0	1	0	0	1	1	1	0	0	0	0	0	1	1	0	1	0	0	0	1
+Efflux pump antibiotic resistance protein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+NADH-ubiquinone oxidoreductase chain E (EC 1.6.5.3)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+NAD-reducing hydrogenase subunit HoxF (EC 1.12.1.2)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Benzoyl-CoA reductase subunit BadG (EC 1.3.99.15)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Alkaline phosphatase (EC 3.1.3.1)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LSU ribosomal protein L37e	0	1	0	0	1	0	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+putative DNA or RNA helicase of superfamily II	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Hydrogenase expression/formation protein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Alpha-L-fucosidase (EC 3.2.1.51)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Mannonate dehydratase (EC 4.2.1.8)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+type 11 methyltransferase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+putative glycosyltransferase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Urocanate hydratase (EC 4.2.1.49)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+tRNA-i(6)A37 methylthiotransferase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Putative dNTP triphosphohydrolase, Archaeal subgroup	0	1	0	1	1	0	1	1	1	1	0	1	1	0	1	1	1	1	1	1	0	1	1	1
+Tol-Pal system beta propeller repeat protein TolB	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Probable exosome complex RNA-binding protein 1	0	1	0	0	0	1	1	0	1	1	0	0	0	1	1	1	1	1	1	1	1	1	0	1
+Uncharacterized ferredoxin oxidoreductase MJ0100	0	1	1	0	0	0	0	0	1	1	0	1	1	0	1	1	0	1	1	1	0	1	1	1
+Agmatinase (EC 3.5.3.11)	0	1	0	0	0	0	1	0	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1
+Type III restriction-modification enzyme helicase subunit	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Phosphoribosylaminoimidazolecarboxamide formyltransferase [alternate form]	0	1	0	0	0	1	1	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Uncharacterized protein MJ0202	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+heterodisulfide reductase, iron-sulfur binding subunit, putative	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)	0	1	0	0	0	0	0	0	1	1	1	1	0	1	1	1	1	0	1	1	1	1	0	1
+2,3-bisphosphoglycerate-independent phosphoglycerate mutase, archaeal type (EC 5.4.2.1)	0	1	0	0	1	0	1	0	1	1	0	0	0	0	1	1	0	0	1	1	0	1	0	1
+4Fe-4S ferredoxin, iron-sulfur binding	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Thiaminase II (EC 3.5.99.2) involved in salvage of thiamin pyrimidine moiety, TenA subgroup with Cys in active site	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Serine protease inhibitor (serpin family)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+GTP-binding protein, gtp1/obg family	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Lipoprotein releasing system transmembrane protein LolE	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Lipoprotein releasing system ATP-binding protein LolD	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Putative ATP:guanido phosphotransferase YacI (EC 2.7.3.-)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ATP-dependent Clp protease ATP-binding subunit ClpA	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+PUTATIVE PERIPLASMIC PROTEIN	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Carbon starvation protein A	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+FKBP-type peptidyl-prolyl cis-trans isomerase SlyD (EC 5.2.1.8)	0	1	1	0	1	0	1	0	1	1	0	1	1	1	1	1	0	0	1	1	1	1	1	1
+Multicopper oxidase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+M. jannaschii predicted coding region MJ0455	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Cobalt-zinc-cadmium resistance protein	0	1	1	0	0	0	0	0	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+putative ATP-dependent protease	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Dipeptidyl carboxypeptidase Dcp (EC 3.4.15.5)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ribose-1,5-bisphosphate isomerase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+DNA polymerase sliding clamp protein PCNA	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+DNA repair photolyase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Anaerobic dehydrogenases, typically selenocysteine-containing	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Phenazine biosynthesis protein PhzF like	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Histone acetyltransferase HPA2 and related acetyltransferases	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+5-methyltetrahydrofolate:corrinoid iron-sulfur protein methyltransferase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Exonuclease SbcD	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Glutamate synthase, alpha subunit domain protein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Glutamine amidotransferase, class-II	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+GTP-binding and nucleic acid-binding protein YchF	0	1	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	0	1	0	0	1	1	0
+carbonic anhydrase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Dihydroorotate dehydrogenase electron transfer subunit (EC 1.3.3.1)	0	1	0	0	0	1	0	1	1	1	0	0	0	1	1	1	1	1	1	1	1	1	0	1
+Adenylosuccinate synthetase (EC 6.3.4.4)	0	1	0	0	0	0	1	1	1	1	0	0	1	0	1	1	1	1	1	1	0	1	1	1
+site-specific DNA-methyltransferase, putative	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Mu-like prophage protein gp29	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Modification methylase MjaIII (EC 2.1.1.72)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Putative transcription antitermination protein NusG	0	1	0	0	0	1	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+LSU ribosomal protein L12e (L11p)	0	1	0	0	0	1	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Ribosome biogenesis protein TSR3	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+tolB protein precursor, periplasmic protein involved in the tonb-independent uptake of group A colicins	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Septum formation protein Maf	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.12)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Acetoin dehydrogenase E1 component beta-subunit (EC 1.2.4.-)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Acetoin dehydrogenase E1 component alpha-subunit (EC 1.2.4.-)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+TPR domain protein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)	0	1	0	0	0	0	1	1	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+CRISPR-associated protein Cas2	0	1	0	0	1	0	0	1	1	0	0	0	0	0	1	1	1	0	1	0	0	1	0	1
+CRISPR-associated RecB family exonuclease Cas4a	0	1	0	0	1	0	0	1	1	1	0	0	0	0	1	1	1	0	1	1	0	1	0	1
+Zn-dependent hydrolase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Phage tail fibers	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Uncharacterized HTH-type transcriptional regulator MJ0272	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+3-hydroxybutyryl-CoA dehydrogenase (EC 1.1.1.157)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Acetylornithine deacetylase (EC 3.5.1.16)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Biotin operon repressor / Biotin--protein ligase (EC 6.3.4.9)(EC 6.3.4.10)(EC 6.3.4.11)(EC 6.3.4.15)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+RTX toxins and related Ca2+-binding proteins	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Metal-dependent phosphohydrolase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Iron-dependent repressor IdeR/DtxR	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+NAD(FAD)-utilizing dehydrogenases	0	1	0	0	0	0	0	0	0	1	0	0	1	0	1	1	0	0	1	1	0	1	1	0
+DNA-directed RNA polymerase subunit E' (EC 2.7.7.6)	0	1	0	1	1	1	1	1	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Manganese-dependent inorganic pyrophosphatase (EC 3.6.1.1)	0	1	1	0	0	0	1	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+putative glycosyl transferase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Myo-inositol 2-dehydrogenase 1 (EC 1.1.1.18)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Prolyl-tRNA synthetase (EC 6.1.1.15), archaeal/eukaryal type	0	1	0	0	0	0	0	1	1	0	0	0	1	1	1	1	0	1	1	0	1	1	1	1
+2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate synthase (EC 2.5.1.-)	0	1	0	0	0	0	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+CBS/parB domain-containing protein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Isocitrate dehydrogenase [NAD] (EC 1.1.1.41)	0	1	0	0	1	0	0	0	1	0	0	0	1	1	1	1	1	1	1	0	1	1	1	1
+2'-5' RNA ligase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+Aspartate carbamoyltransferase regulatory chain (PyrI)	0	1	0	0	0	1	0	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Archaeal S-adenosylmethionine synthetase (EC 2.5.1.6)	0	1	0	0	1	0	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Butyryl-CoA dehydrogenase (EC 1.3.8.1)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Electron transfer flavoprotein, alpha subunit	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Electron transfer flavoprotein, beta subunit	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Phosphomannomutase (EC 5.4.2.8) / Phosphoglucosamine mutase (EC 5.4.2.10)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Beta-galactosidase (EC 3.2.1.23)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+NADH dehydrogenase (quinone)( EC:1.6.99.5 )	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+PH adaptation potassium efflux system protein C	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+sodium- potassium/hydrogen antiporter subunit C	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Na+/H+ antiporter MnhB subunit-related protein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rRNA small subunit 7-methylguanosine (m7G) methyltransferase GidB	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Chromosome (plasmid) partitioning protein ParA	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ATP synthase F0 sector subunit c (EC 3.6.3.14)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ATP synthase delta chain (EC 3.6.3.14)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ATP synthase alpha chain (EC 3.6.3.14)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ATP synthase gamma chain (EC 3.6.3.14)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+DUF324 domain-containing protein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Nodulation protein nolO (EC 2.1.3.-)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+conserved protein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ribose 5-phosphate isomerase A (EC 5.3.1.6)	0	1	0	0	0	1	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Inositol transport system ATP-binding protein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ABC transporter sugar-binding protein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Inositol transport system permease protein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+5-methyltetrahydrofolate--homocysteine methyltransferase (EC 2.1.1.13)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Aldose 1-epimerase (EC 5.1.3.3)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Sorbitol dehydrogenase (EC 1.1.1.14)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ABC sugar transport ATP binding protein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Maltose/maltodextrin ABC transporter, permease protein MalG	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Galactokinase (EC 2.7.1.6)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Unknown pentose isomerase TM0951	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+COG1801: Uncharacterized conserved protein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ATP-dependent DNA helicase UvrD/PcrA	0	1	0	0	1	0	1	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+tRNA:m(5)U-54 MTase gid	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Uncharacterized protein TM0723	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Aminomethyltransferase (glycine cleavage system T protein) (EC 2.1.2.10)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Glycine dehydrogenase [decarboxylating] (glycine cleavage system P2 protein) (EC 1.4.4.2)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Heat shock protein 60 family chaperone GroEL	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Heat shock protein 60 family co-chaperone GroES	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+NAD(FAD)-utilizing dehydrogenase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Glycosyltransferase (EC 2.4.1.-)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Exopolysaccharide biosynthesis glycosyltransferase EpsF (EC 2.4.1.-)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (EC 2.7.1.148)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0
+Coenzyme gamma-F420-2:L-glutamate ligase (EC 6.3.2.32)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Oxygen-independent coproporphyrinogen III oxidase, putative	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Phosphoribosylformylglycinamidine synthase, glutamine amidotransferase subunit (EC 6.3.5.3)	0	1	0	1	0	0	0	1	1	1	0	0	0	1	1	1	0	0	1	1	1	1	0	1
+Thymidylate synthase (EC 2.1.1.45)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+SSU ribosomal protein S15e (S19p)	0	1	0	0	1	1	0	0	1	1	0	1	1	1	1	1	0	1	1	1	1	1	1	1
+phytol kinase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Methionyl-tRNA synthetase (EC 6.1.1.10)	0	1	0	0	0	0	1	1	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Assimilatory nitrate reductase large subunit (EC:1.7.99.4)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Dihydrofolate synthase (EC 6.3.2.12) @ Folylpolyglutamate synthase (EC 6.3.2.17)	0	1	0	0	0	0	1	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Pyrrolo-quinoline quinone	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+terminase	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Cobalt-precorrin-4 C11-methyltransferase (EC 2.1.1.133)	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+putative FtsX-related transmembrane transport protein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+putative lipoprotein	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Methylenetetrahydrofolate dehydrogenase (NADP+) (EC 1.5.1.5) / Methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)	0	0	1	0	0	0	1	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+type IIS restriction enzyme M1 protein (mod)	0	0	1	0	0	0	0	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+TYPE II DNA MODIFICATION ENZYME (METHYLTRANSFERASE)	0	0	1	0	0	0	0	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+Uncharacterized protein MJ1554 precursor	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+LSU ribosomal protein L5p (L11e)	0	0	1	0	0	0	0	1	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+LSU ribosomal protein L26e (L24p)	0	0	1	0	0	0	1	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Sulfite reduction-associated complex DsrMKJOP protein DsrK (=HmeD)	0	0	1	0	0	0	0	0	1	1	0	0	0	1	1	0	0	0	0	1	1	1	0	1
+Metal transporter, ZIP family	0	0	1	0	1	0	1	1	1	1	0	0	0	1	1	1	0	0	1	1	1	1	0	1
+Ca ion P-type ATPase	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CRISPR-associated negative autoregulator	0	0	1	0	0	0	1	0	1	1	1	0	1	0	1	1	0	1	1	1	0	1	1	1
+CRISPR-associated helicase Cas3	0	0	1	0	1	0	1	0	1	1	1	0	1	0	1	1	1	1	1	1	0	1	1	1
+Modification methylase	0	0	1	0	0	0	1	0	1	1	1	1	1	1	1	1	0	0	1	1	1	1	1	1
+Type II restriction enzyme HinfI (EC 3.1.21.4) (Endonuclease HinfI) (R.HinfI)	0	0	1	0	0	0	0	0	1	1	0	1	1	0	1	1	0	0	1	1	0	1	1	1
+Rossmann fold nucleotide-binding protein Smf possibly involved in DNA uptake	0	0	1	0	0	1	1	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Arsenate reductase (EC 1.20.4.1)	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Cytochrome c biogenesis protein	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Probable Co/Zn/Cd efflux system membrane fusion protein	0	0	1	0	0	1	0	0	0	1	0	0	0	0	1	1	0	0	0	1	0	1	0	0
+ATP-dependent DNA helicase RecQ	0	0	1	0	0	1	0	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Thymidylate synthase thyX (EC 2.1.1.-)	0	0	0	1	0	0	0	1	1	1	0	0	0	0	1	1	0	1	1	1	0	1	0	1
+Mannose-1-phosphate guanylyltransferase (GDP) (EC 2.7.7.22) / Mannose-6-phosphate isomerase (EC 5.3.1.8)	0	0	0	1	0	0	0	1	1	1	0	0	1	0	1	1	0	1	1	1	0	1	1	1
+COG2110, Macro domain, possibly ADP-ribose binding module	0	0	0	1	0	0	0	1	1	1	0	0	0	1	1	1	0	0	1	1	1	1	0	1
+LSU ribosomal protein L37Ae	0	0	0	1	0	0	1	1	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+SSU ribosomal protein S9p (S16e)	0	0	0	1	0	0	0	1	1	1	1	0	1	1	1	1	0	1	1	1	1	1	1	1
+Ribose-phosphate pyrophosphokinase (EC 2.7.6.1)	0	0	0	1	0	0	0	1	1	1	1	0	1	1	1	1	1	1	1	1	1	1	1	1
+Alpha,alpha-trehalose-phosphate synthase [UDP-forming] (EC 2.4.1.15) / Trehalose-6-phosphate phosphatase (EC 3.1.3.12)	0	0	0	1	0	0	0	1	1	1	0	1	1	0	1	1	0	1	1	1	0	1	1	1
+Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23)	0	0	0	1	1	0	0	1	1	1	0	0	1	1	1	1	1	0	1	1	1	1	1	1
+2-isopropylmalate synthase	0	0	0	1	1	0	1	1	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+Ribulose-phosphate 3-epimerase (EC 5.1.3.1)	0	0	0	1	1	1	1	1	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+ChlI component of cobalt chelatase involved in B12 biosynthesis / ChlD component of cobalt chelatase involved in B12 biosynthesis	0	0	0	1	0	0	0	1	1	0	0	1	1	1	1	1	0	0	1	0	1	1	1	1
+CobN component of cobalt chelatase involved in B12 biosynthesis	0	0	0	1	0	0	1	1	1	1	0	1	1	1	1	1	0	0	1	1	1	1	1	1
+tRNA N2,N2-dimethyl(Guanine26-N2)-methyltransferase (EC 2.1.1.32)	0	0	0	1	0	1	1	1	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+DNA methylase N-4/N-6	0	0	0	1	0	0	0	1	0	0	0	0	0	0	1	0	0	1	0	0	0	1	0	0
+Periplasmic protein TonB, links inner and outer membranes	0	0	0	0	1	0	1	0	1	1	1	1	0	1	1	1	0	0	1	1	1	1	0	1
+Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase related protein	0	0	0	0	1	0	0	0	1	0	0	1	0	1	1	1	0	0	1	0	1	1	0	1
+DNA repair helicase	0	0	0	0	1	0	0	0	1	0	1	0	0	1	1	1	0	0	1	0	1	1	0	1
+2-Amino-2-deoxy-isochorismate synthase (EC 4.1.3.-) PhzE	0	0	0	0	1	0	0	0	1	1	1	1	1	1	1	1	0	0	1	1	1	1	1	1
+peptidase C14 caspase catalytic subunit p20	0	0	0	0	1	0	0	0	1	0	0	0	1	1	1	1	0	0	1	0	1	1	1	1
+Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)	0	0	0	0	1	0	0	0	1	0	0	1	0	1	1	1	0	0	1	0	1	1	0	1
+Aconitate hydratase (EC 4.2.1.3)	0	0	0	0	1	1	0	0	1	1	0	0	0	1	1	1	1	1	1	1	1	1	0	1
+Menaquinone via futalosine polyprenyltransferase (MenA homolog)	0	0	0	0	1	0	0	0	1	1	0	0	0	1	1	1	0	1	1	1	1	1	0	1
+Adenine-specific methyltransferase (EC 2.1.1.72)	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+LSU ribosomal protein L12a (P1/P2)	0	0	0	0	1	1	1	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Acetyl-CoA acetyltransferase	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	1	1	0	1	0	0	0	0
+Energy conserving hydrogenase Ehb protein Q	0	0	0	0	1	0	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Gene SCO4494, often clustered with other genes in menaquinone via futalosine pathway	0	0	0	0	1	0	0	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+ATP phosphoribosyltransferase (EC 2.4.2.17)	0	0	0	0	1	1	0	1	1	1	0	0	0	1	1	1	0	0	1	1	1	1	0	1
+SSU ribosomal protein S19e	0	0	0	0	1	1	1	0	1	1	1	0	0	0	1	1	0	0	1	1	0	1	0	1
+Lysyl-tRNA synthetase (class I) (EC 6.1.1.6)	0	0	0	0	1	1	1	0	1	1	1	0	0	1	1	1	0	1	1	1	1	1	0	1
+CRISPR repeat RNA endoribonuclease Cas6	0	0	0	0	1	1	1	0	1	1	0	0	0	1	1	1	0	1	1	1	1	1	0	1
+Flavodoxin	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	1	0	0	1	1	0	0	0	0
+Zinc ABC transporter, periplasmic-binding protein ZnuA	0	0	0	0	1	0	0	1	1	1	0	0	0	1	1	1	0	1	1	1	1	1	0	1
+Glucose-1-phosphate adenylyltransferase (EC 2.7.7.27)	0	0	0	0	1	0	0	0	1	1	0	0	1	1	1	1	0	0	1	1	0	1	1	1
+Ethidium bromide-methyl viologen resistance protein EmrE	0	0	0	0	1	0	0	0	0	0	0	0	1	0	1	1	0	0	1	0	0	1	1	0
+tRNA (Guanine37-N1) -methyltransferase (EC 2.1.1.31)	0	0	0	0	1	1	1	1	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+Aliphatic amidase AmiE (EC 3.5.1.4)	0	0	0	0	1	1	1	1	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Formamidopyrimidine-DNA glycosylase (EC 3.2.2.23)	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Possible acid phosphatase (EC 3.1.3.2)	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+COG1872	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Phosphopantetheine adenylyltransferase (EC 2.7.7.3)	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Ribosomal RNA small subunit methyltransferase D (EC 2.1.1.-)	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+FIG015287: Zinc protease	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+FIG015547: peptidase, M16 family	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Zinc ABC transporter, inner membrane permease protein ZnuB	0	0	0	0	1	0	1	0	1	1	0	0	0	0	1	1	0	1	1	1	0	1	0	1
+Imidazolonepropionase (EC 3.5.2.7)	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Tungstate ABC transporter, periplasmic substrate-binding protein WtpA	0	0	0	0	1	0	1	0	1	1	0	1	0	1	1	1	0	1	1	1	1	1	0	1
+Tungstate ABC transporter, permease protein WtpB	0	0	0	0	1	1	1	0	0	1	0	0	0	1	1	1	0	1	1	1	1	1	0	0
+UDP-glucose dehydrogenase (EC 1.1.1.22)	0	0	0	0	1	0	0	0	1	1	0	1	0	1	0	1	1	0	1	1	1	0	0	1
+Zinc-finger protein	0	0	0	0	1	0	0	0	0	0	0	0	1	0	1	0	1	0	0	0	0	1	1	0
+COG1032: Fe-S oxidoreductase	0	0	0	0	1	0	0	0	1	1	0	0	1	1	1	0	0	0	0	1	1	1	1	1
+Methyltransferase type 11	0	0	0	0	1	1	0	0	1	1	0	0	0	1	1	1	0	1	1	1	1	1	0	1
+Dihydropteroate synthase (EC 2.5.1.15)	0	0	0	0	1	0	0	0	1	1	0	0	0	1	1	1	0	1	1	1	1	1	0	1
+Aminopeptidase YpdF (MP-, MA-, MS-, AP-, NP- specific)	0	0	0	0	1	1	0	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+Sucrose-6-phosphate hydrolase (EC 3.2.1.B3)	0	0	0	0	1	0	0	1	0	0	0	1	0	0	1	0	0	0	0	0	0	1	0	0
+Menaquinone via futalosine step 4	0	0	0	0	1	0	0	0	1	1	0	1	1	0	1	1	0	1	1	1	0	1	1	1
+UDP-galactose-lipid carrier transferase (EC 2.-.-.-)	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+DNA primase small subunit (EC 2.7.7.-)	0	0	0	0	1	1	0	0	1	0	0	0	1	1	1	1	1	1	1	0	1	1	1	1
+TniA putative transposase	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+transposase	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Transposase and inactivated derivatives	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Phosphoribosylformylglycinamidine synthase, PurS subunit (EC 6.3.5.3) / Phosphoribosylformylglycinamidine synthase, synthetase subunit (EC 6.3.5.3)	0	0	0	0	1	0	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Aspartate ammonia-lyase (EC 4.3.1.1)	0	0	0	0	1	0	0	1	1	1	0	1	1	1	1	1	0	1	1	1	1	1	1	1
+Thymidine phosphorylase (EC 2.4.2.4)	0	0	0	0	0	1	0	0	1	0	0	0	1	0	1	1	1	0	1	0	0	1	1	1
+putative DNA processing chain A	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Carotenoid cis-trans isomerase	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	1	0	0	1	0	0	0	0	0
+Seryl-tRNA synthetase (EC 6.1.1.11), archaeal	0	0	0	0	0	1	1	0	1	1	0	0	1	0	1	1	0	1	1	1	0	1	1	1
+Site-specific recombinase	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Methionine biosynthesis and transport regulator MtaR, LysR family	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+D-alanyl-D-alanine carboxypeptidase (EC 3.4.16.4)	0	0	0	0	0	1	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0
+Isocitrate dehydrogenase [NADP] (EC 1.1.1.42)	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+3,4-dihydroxy-2-butanone 4-phosphate synthase (EC 4.1.99.12) / GTP cyclohydrolase II (EC 3.5.4.25)	0	0	0	0	0	1	0	1	1	1	0	0	0	1	1	1	1	0	1	1	1	1	0	1
+Deoxycytidine triphosphate deaminase (EC 3.5.4.13)	0	0	0	0	0	1	1	0	0	0	1	0	1	0	1	1	0	0	1	0	0	1	1	0
+KH domain-containing protein MJ1533	0	0	0	0	0	1	1	0	0	0	0	0	1	0	1	1	0	0	1	0	0	1	1	0
+Possible subunit variant of phosphoribosylaminoimidazolecarboxamide formyltransferase [alternate form]	0	0	0	0	0	1	0	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+COG1720: Uncharacterized conserved protein	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Pyruvate kinase (EC 2.7.1.40)	0	0	0	0	0	1	0	0	0	1	0	0	1	0	1	1	0	0	1	1	0	1	1	0
+DNA repair and recombination protein, putative helicase	0	0	0	0	0	1	0	0	1	1	1	1	1	0	1	1	0	0	1	1	0	1	1	1
+formyltransferase	0	0	0	0	0	1	1	0	0	1	0	1	0	1	0	1	0	0	1	1	1	0	0	0
+Function Code: 16.1 Conserved Hypothetical	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+UbiD family decarboxylase associated with menaquinone via futalosine	0	0	0	0	0	1	0	1	1	1	0	0	1	0	1	0	0	0	0	1	0	1	1	1
+Acetylglutamate kinase (EC 2.7.2.8)	0	0	0	0	0	1	1	0	1	1	0	1	0	1	1	1	0	1	1	1	1	1	0	1
+Probable transmembrane protein	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	1	1	0	0	0	0	0
+Nucleoside 5-triphosphatase RdgB (dHAPTP, dITP, XTP-specific) (EC 3.6.1.15)	0	0	0	0	0	1	0	1	0	1	0	1	1	0	1	1	1	1	1	1	0	1	1	0
+Endonuclease V (EC 3.1.21.7)	0	0	0	0	0	1	0	0	1	1	0	0	1	0	1	1	0	0	1	1	0	1	1	1
+Formyltetrahydrofolate deformylase (EC 3.5.1.10)	0	0	0	0	0	0	1	1	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+Glutathione-regulated potassium-efflux system protein KefC	0	0	0	0	0	0	1	0	1	1	0	0	0	0	1	1	1	1	1	1	0	1	0	1
+Protein ydhR precursor	0	0	0	0	0	0	1	0	1	1	0	0	1	0	1	1	0	0	1	1	1	1	1	1
+Periplasmic thiol:disulfide interchange protein DsbA	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+5'-methylthioadenosine phosphorylase (EC 2.4.2.28)	0	0	0	0	0	0	1	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+Glycosyltransferase LafB, responsible for the formation of Gal-Glc-DAG	0	0	0	0	0	0	1	0	0	1	0	0	0	0	1	1	0	0	1	1	0	1	0	0
+modification methylase	0	0	0	0	0	0	1	0	0	0	0	0	1	0	1	1	0	1	1	0	0	1	1	0
+Serine hydroxymethyltransferase (EC 2.1.2.1)	0	0	0	0	0	0	1	1	1	1	0	1	1	1	1	1	0	0	1	1	1	1	1	1
+Alpha-amylase (EC 3.2.1.1)	0	0	0	0	0	0	1	0	1	1	0	0	1	1	1	1	1	1	1	1	1	1	1	1
+Menaquinone via futalosine step 3	0	0	0	0	0	0	1	0	1	1	1	0	1	1	1	1	0	0	1	1	1	1	1	1
+Cobalamin synthase (EC 2.7.8.26)	0	0	0	0	0	0	1	0	0	1	0	0	1	0	1	1	0	0	1	1	0	1	1	0
+Predicted cobalt transporter in sulfate-reducing delta-proteobacteria	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+archaeosine tRNA-ribosyltransferase (EC 2.4.2.-) type 2	0	0	0	0	0	0	1	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+glycosyl transferase, group 2 family protein	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	1	0	0	1	1	0	0	0	0
+glycosyl transferase family 2	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	1	0	0	1	1	0	0	0	0
+5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)	0	0	0	0	0	0	1	0	0	0	0	1	0	0	1	1	0	1	1	0	0	1	0	0
+FIG146085: 3'-to-5' oligoribonuclease A, Bacillus type	0	0	0	0	0	0	0	1	1	1	0	0	1	0	1	1	0	0	1	1	0	1	1	1
+Isochorismatase (EC 3.3.2.1)	0	0	0	0	0	0	0	1	0	0	1	0	1	0	1	1	0	0	1	0	0	1	1	0
+NAD kinase (EC 2.7.1.23)	0	0	0	0	0	0	0	1	1	1	1	0	1	1	1	1	0	0	1	1	1	1	1	1
+Diphosphomevalonate decarboxylase (EC 4.1.1.33)	0	0	0	0	0	0	0	1	1	0	0	0	1	0	1	1	0	1	1	0	0	1	1	1
+8-oxoguanine-DNA-glycosylase	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CRISPR-associated protein, Csh2 family	0	0	0	0	0	0	0	1	1	1	0	0	1	0	1	1	1	0	1	1	0	1	1	1
+CRISPR-associated protein, Csh1 family	0	0	0	0	0	0	0	1	1	1	0	0	1	0	1	1	0	0	1	1	0	1	1	1
+Phosphopantetheine adenylyltransferase, type II eukaryotic (EC 2.7.7.3)	0	0	0	0	0	0	0	1	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+ATPase involved in DNA repair	0	0	0	0	0	0	0	1	0	1	0	0	0	0	1	1	0	1	1	1	0	1	0	0
+Glycosyltransferase	0	0	0	0	0	0	0	1	1	1	0	0	1	0	1	1	0	1	1	1	0	1	1	1
+Glucose-1-phosphate cytidylyltransferase (EC 2.7.7.33)	0	0	0	0	0	0	0	1	0	1	0	0	1	0	1	1	0	1	1	1	0	1	1	0
+ulcer associated adenine specific DNA methyltransferase	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0
+TPR/glycosyl transferase domain protein	0	0	0	0	0	0	0	0	1	1	0	1	0	0	0	1	0	0	1	1	0	0	0	1
+DNA recombination protein RmuC	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0
+Oxidoreductase	0	0	0	0	0	0	0	0	1	1	0	1	0	1	0	1	0	0	1	1	1	0	0	1
+3-deoxy-manno-octulosonate cytidylyltransferase (EC 2.7.7.38)	0	0	0	0	0	0	0	0	1	1	0	0	0	1	0	1	0	0	1	1	1	0	0	1
+Kinase-Associated Endopeptidase (Kae1), required for threonylcarbamoyladenosine t(6)A37 formation in tRNA / Kinase (Bud32/PRPK), required for threonylcarbamoyladenosine t(6)A37 formation in tRNA (p53-regulating)	0	0	0	0	0	0	0	0	1	1	0	1	1	1	1	1	0	1	1	1	1	1	1	1
+Phosphoglycolate phosphatase (EC 3.1.3.18)	0	0	0	0	0	0	0	0	1	1	0	1	1	1	1	1	0	0	1	1	1	1	1	1
+Anaerobic dimethyl sulfoxide reductase chain B (EC 1.8.5.3)	0	0	0	0	0	0	0	0	1	1	1	0	0	0	1	0	0	0	0	1	0	0	1	0
+UDP-N-acetylmannosamine dehydrogenase (NAD(+))	0	0	0	0	0	0	0	0	1	1	0	1	0	1	1	1	0	0	1	1	1	1	0	1
+multidrug efflux protein	0	0	0	0	0	0	0	0	1	1	0	1	0	0	1	1	0	0	1	1	0	1	0	1
+CRISPR-associated protein, Cas5h family	0	0	0	0	0	0	0	0	1	1	0	0	1	0	1	1	0	0	1	1	0	1	1	1
+Late competence protein ComEC, DNA transport	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	1	0	1
+Phosphoglycerate mutase (EC 5.4.2.1)	0	0	0	0	0	0	0	0	1	0	1	0	1	0	1	1	0	0	1	0	0	1	1	1
+Adenosylcobinamide kinase (EC 2.7.1.156) / Adenosylcobinamide-phosphate guanylyltransferase (EC 2.7.7.62)	0	0	0	0	0	0	0	0	1	0	1	0	1	0	1	1	0	0	1	0	0	1	1	1
+Hydroxymethylpyrimidine phosphate kinase ThiD (EC 2.7.4.7) / Thiamin-phosphate synthase ThiN (EC 2.5.1.3)	0	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	0	0	1	1	1	1	1	1
+Ribosome biogenesis protein Nop10	0	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	0	1	1	1	1	1	1	1
+DNA modification methyltransferase (EC 2.1.1.-)	0	0	0	0	0	0	0	0	1	1	0	0	0	1	1	1	0	0	1	1	1	1	0	1
+DNA topoisomerase III (EC 5.99.1.2)	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+methyltransferase, putative	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	1	0	0	1	1	0	0	1	0
+Protein containing aminopeptidase domain	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	1	0	0	0	0
+type II restriction enzyme	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	1	0	0	0	0
+coenzyme F420-reducing hydrogenase, beta subunit homolog	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	1	0	1	1	1	0	0	1	0
+Alanine racemase (EC 5.1.1.1)	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+CRISPR-associated RAMP Csm3	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	1	0	0	0	0	0	0	0	0
+Cephalosporin hydroxylase	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0
+Phosphate transport regulator (distant homolog of PhoU)	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	1	0	1	0	0
+COG1548 family protein	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0
+Aspartyl-tRNA synthetase (EC 6.1.1.12)	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+Adenylylsulfate kinase (EC 2.7.1.25)	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	1	0	1	1	0	0	1	1	0
+Sensor protein fixL (EC 2.7.3.-)	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	1	1	0	0	0	0	0
+O-acetylhomoserine sulfhydrylase (EC 2.5.1.49) / O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+Homoserine O-acetyltransferase (EC 2.3.1.31)	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+Cysteine synthase (EC 2.5.1.47)	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+NAD synthetase (EC 6.3.1.5)	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	1	1	0	0	1	1	0
+Peptidoglycan N-acetylglucosamine deacetylase (EC 3.5.1.-)	0	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	0	0	1	0	1	1	1	0
+Molybdopterin-guanine dinucleotide biosynthesis protein MobA	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1	0	1	1	0	0	1	1	0
+Mediator of hyperadherence YidE	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0
+2-(5''-triphosphoribosyl)-3'-dephosphocoenzyme-A synthase (EC 2.7.8.25)	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0
+outer membrane protein, OmpA family	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	1	1	0	0
+metal-dependent phosphohydrolase	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	0
+putative hydrolase	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0
+Protein serine/threonine phosphatase PrpC, regulation of stationary phase	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0
+type II DNA modification methyltransferase	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0
+type II DNA modification methyltransferase M.TdeIII	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1	0	0	0	0	0
+dolichol-P-glucose synthetase, putative	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0
+Type I restriction-modification enzyme M subunit	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0
+DNA-directed RNA polymerase beta' subunit (EC 2.7.7.6)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0
+N-acetylmuramoyl-L-alanine amidase (EC 3.5.1.28)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0
+Cryptochrome	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0
+FMN adenylyltransferase, type 3 archaeal (EC 2.7.7.2)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+LSU ribosomal protein L31e	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+sensor protein fixL( EC:2.7.3.- )	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Type II restriction enzyme DpnI (dpnC)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Methyl-directed repair DNA adenine methylase (EC 2.1.1.72)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+Multi antimicrobial extrusion protein (Na(+)/drug antiporter), MATE family of MDR efflux pumps	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Putative stomatin/prohibitin-family membrane protease subunit YbbK	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Duplicated ATPase component CbrU of energizing module of predicted cobalamin ECF transporter	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Aspartate 1-decarboxylase (EC 4.1.1.11)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+L-lactate dehydrogenase (EC 1.1.1.27)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Nitrogen regulatory protein P-II	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+Ammonium transporter	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+Transcriptional regulator, AsnC family	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Periplasmic [Fe] hydrogenase large subunit (EC 1.12.7.2)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Cardiolipin synthetase (EC 2.7.8.-)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+5-formyltetrahydrofolate cyclo-ligase (EC 6.3.3.2)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Acetyl-CoA synthetase (ADP-forming) alpha and beta chains, putative	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+iron-sulfur flavoprotein	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Mannosyltransferase WbkA	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Metallo-beta-lactamase family protein, RNA-specific	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Geranylgeranyl diphosphate synthase (EC 2.5.1.29)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+dCMP deaminase (EC 3.5.4.12)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+3,4-dihydroxy-2-butanone 4-phosphate synthase (EC 4.1.99.12)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+SSU ribosomal protein S11p (S14e)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Electron transport complex protein RnfG	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Electron transport complex protein RnfD	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Electron transport complex protein RnfC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+hydrogenase, subunit gamma related protein	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Putative type IIS restriction /modification enzyme, N-terminal half	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+redox-active disulfide protein 2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+7,8 dihydropteroate synthase (methanopterin)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Zinc transporter, ZIP family	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Methylene tetrahydromethanopterin dehydrogenase (EC 1.5.99.9)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Formate dehydrogenase-O, major subunit (EC 1.2.1.2)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Methylsuccinyl-CoA dehydrogenase, predicted by (Erb et al, 2007)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+ThiJ/PfpI family protein	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+D-glycerate 2-kinase (EC 2.7.1.165)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Myo-inositol 2-dehydrogenase	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Serine acetyltransferase (EC 2.3.1.30)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+Lipopolysaccharide biosynthesis protein RffA	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Spermidine synthase (EC 2.5.1.16)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Anthranilate synthase, amidotransferase component (EC 4.1.3.27)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Related to HTH domain of SpoOJ/ParA/ParB/repB family, involved in chromosome partitioning	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Cell division protein FtsX	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Protein-export membrane protein SecF (TC 3.A.5.1.1)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+Peptidyl-prolyl cis-trans isomerase (EC 5.2.1.8)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Para-aminobenzoate synthase, aminase component (EC 2.6.1.85)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Adenine phosphoribosyltransferase (EC 2.4.2.7)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Lipid A export ATP-binding/permease protein MsbA	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+probable carbamoyl transferase	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+multidrug ABC transporter, permease protein	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+COG0092: Ribosomal protein S3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+A/G-specific adenine glycosylase (EC 3.2.2.-)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+LSU ribosomal protein L13p (L13Ae)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+SSU ribosomal protein SAe (S2p)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Inosine-5'-monophosphate dehydrogenase (EC 1.1.1.205)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Nucleoside triphosphate pyrophosphohydrolase MazG (EC 3.6.1.8)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+3'->5' exoribonuclease Bsu YhaM	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26) / 5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Manganese transport protein MntH	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+DegT/DnrJ/EryC1/StrS aminotransferase	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Phosphatidylserine decarboxylase (EC 4.1.1.65)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+CDP-diacylglycerol--serine O-phosphatidyltransferase (EC 2.7.8.8)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Fructose-1,6-bisphosphatase, type I (EC 3.1.3.11)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Phosphomannomutase (EC 5.4.2.8)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Dolichol-phosphate mannosyltransferase (EC 2.4.1.83) homolog	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Ribokinase (EC 2.7.1.15)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+putative cell division protein [Pyrobaculum aerophilum]	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+COG1537: Predicted RNA-binding proteins	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+6-phospho-3-hexuloisomerase	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Thiol peroxidase, Bcp-type (EC 1.11.1.15)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Hydroxyethylthiazole kinase (EC 2.7.1.50)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Flavoprotein WrbA	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+DNA-directed RNA polymerase subunit B'' (EC 2.7.7.6)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+DNA-directed RNA polymerase subunit B' (EC 2.7.7.6)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Phosphatidate cytidylyltransferase (EC 2.7.7.41)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Probable exosome complex exonuclease 2 (EC 3.1.13.-)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Benzodiazepine receptor TspO	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Protease (EC 3.4.-.-)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Mannose-1-phosphate guanylyltransferase (EC 2.7.7.13 ) / Phosphomannomutase (EC 5.4.2.8)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0
+Endonuclease	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Hemolysins and related proteins containing CBS domains	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+tRNA m5C48-49 methylase	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Eukaryotic translation initiation factor 2 beta subunit	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Zinc ABC transporter, ATP-binding protein ZnuC	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+putative membrane protein	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+3-polyprenyl-4-hydroxybenzoate carboxy-lyase UbiX (EC 4.1.1.-)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+putative type II restriction enzyme	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Type III restriction enzyme, res subunit:DEAD/DEAH box helicase, N-terminal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+DNA-damage-inducible protein D	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+NADP-dependent malic enzyme (EC 1.1.1.40)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+DedA family protein	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Chitinase (EC 3.2.1.14)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+ATP-dependent RNA helicase, EIF-4A family	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Topoisomerase IV subunit B (EC 5.99.1.-)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+COG0553: Superfamily II DNA/RNA helicases, SNF2 family	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Uncharacterized protein MJ1480	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+endonuclease III domain protein	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Polysaccharide deacetylase	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Phosphoenolpyruvate carboxylase, archaeal (EC 4.1.1.31)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+DNA modification methylase	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Phage-related regulatory protein cII	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Hydroxylamine reductase (EC 1.7.-.-)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Snf2 family helicase	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Deoxyuridine 5'-triphosphate nucleotidohydrolase (EC 3.6.1.23)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+CRISPR-associated protein, Csm1 family	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+perosamine synthetase	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+nonessential protein	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+lysogenic conversion	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+exonuclease	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+blocks growth of phage lambda	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Transcriptional activator of acetoin dehydrogenase operon AcoR	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+[Ni/Fe] hydrogenase, group 1, small subunit	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Ribosomal RNA small subunit methyltransferase F (EC 2.1.1.-)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+putative transcriptional regulator	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+ABC transporter	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Retron-type RNA-directed DNA polymerase (EC 2.7.7.49)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Esterase/lipase	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+modification methylase, type II R/M system	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Type III restriction-modification enzyme, helicase subunit	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+O-antigen export system, permease protein	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Metal-dependent hydrolase (EC 3.-.-.-)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+ABC transporter ATP-binding protein YvcR	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+LSU ribosomal protein L10p (P0)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+type II restriction endonuclease TdeIII	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Type I restriction-modification system, DNA-methyltransferase subunit M (EC 2.1.1.72) / Type I restriction-modification system, specificity subunit S (EC 3.1.21.3)	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Proteasome subunit beta (EC 3.4.25.1), archaeal	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Substrate-specific component NikM of nickel ECF transporter / Additional substrate-specific component NikN of nickel ECF transporter	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+Putative N-acetylgalactosaminyl-diphosphoundecaprenol glucuronosyltransferase	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+S-ribosylhomocysteine lyase (EC 4.4.1.21) / Autoinducer-2 production protein LuxS	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1

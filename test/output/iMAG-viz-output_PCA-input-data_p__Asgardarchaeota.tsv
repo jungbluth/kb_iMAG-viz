@@ -1,0 +1,15 @@
+	PC1	PC2	PC3	genomeID	genomeSet	V1	V2	V3	V4	GenomeType	V6	Completeness	Contamination	Domain	Phylum	Class	Order	Family	Genus	Species
+0	9.617113609759677	2.6787058877915433	-3.1000550045947377	2740891981	IMG-genomes	y	y	y	n	Ref-MAG	n	90.19	6.54	d__Archaea	p__Asgardarchaeota	c__Lokiarchaeia	o__SMTZ1-83	f__SMTZ1-83	g__SMTZ1-83	s__GCA_001563325.1
+1	6.065505508644432	-4.321322948437551	12.272164168421918	2721755898	IMG-genomes	y	y	y	n	Ref-MAG	n	98.13	2.8	d__Archaea	p__Asgardarchaeota	c__Lokiarchaeia	o__	f__	g__	s__
+2	1.8760686749538331	-1.5032926374703235	10.347673853928383	2740891985	IMG-genomes	y	y	y	n	Ref-MAG	n	80.45	2.34	d__Archaea	p__Asgardarchaeota	c__Lokiarchaeia	o__Lokiarchaeales	f__CR-4	g__CR-4	s__GCA_001940655.1
+3	8.25622599240624	2.539118686999533	-4.111626636917688	2775506787	IMG-genomes	y	y	y	n	Ref-MAG	n	90.12	3.19	d__Archaea	p__Asgardarchaeota	c__Lokiarchaeia	o__SMTZ1-83	f__SMTZ1-83	g__AB-25	s__GCA_001940705.1
+4	5.149644090741712	-2.3171589979279683	-6.403851899087122	2740891978	IMG-genomes	y	y	y	n	Ref-MAG	n	70.78	4.67	d__Archaea	p__Asgardarchaeota	c__Lokiarchaeia	o__SMTZ1-83	f__SMTZ1-83	g__SMTZ1-45	s__GCA_001563335.1
+5	10.746816321771663	3.809847571110572	-6.2043739205228166	2740891977	IMG-genomes	y	y	y	n	Ref-MAG	n	87.69	5.14	d__Archaea	p__Asgardarchaeota	c__Lokiarchaeia	o__SMTZ1-83	f__SMTZ1-83	g__SMTZ1-45	s__GCA_001563335.1
+6	-6.212793991949483	-10.190022636103341	-3.8681184758478047	2728369303	IMG-genomes	y	y	y	n	Ref-MAG	n	14.49	0.93	d__Archaea	p__Asgardarchaeota	c__Lokiarchaeia	o__Odinarchaeales	f__	g__	s__
+7	2.3227362758744468	-4.760572804985954	6.814905447188905	2740891986	IMG-genomes	y	y	y	n	Ref-MAG	n	96.26	1.4	d__Archaea	p__Asgardarchaeota	c__Lokiarchaeia	o__Odinarchaeales	f__LCB-4	g__LCB-4	s__GCA_001940665.1
+8	-6.6719693834945035	-9.920307262919525	-3.424026238435457	2728369316	IMG-genomes	y	y	y	n	Ref-MAG	n	10.98	0	d__Archaea	p__Asgardarchaeota	c__Lokiarchaeia	o__	f__	g__	s__
+9	-4.3578021637460855	-0.07335315514153609	-2.8353830905717423	2740891990	IMG-genomes	y	y	y	n	Ref-MAG	n	79.37	2.34	d__Archaea	p__Asgardarchaeota	c__Heimdallarchaeia	o__UBA460	f__UBA460	g__UBA460	s__GCA_001940755.1
+10	-8.488360528798152	9.286787167491555	1.5874317572095789	2740891991	IMG-genomes	y	y	y	n	Ref-MAG	n	72.43	4.21	d__Archaea	p__Asgardarchaeota	c__Heimdallarchaeia	o__LC-2	f__LC-2	g__LC-2	s__GCA_001940725.1
+11	-8.872518957827843	0.0985722963655108	-2.7744069813429384	2778261486	IMG-genomes	y	y	y	n	Ref-MAG	n	83.18	1.87	d__Archaea	p__Asgardarchaeota	c__Heimdallarchaeia	o__LC-2	f__LC-2	g__	s__
+12	-6.311557734067267	12.527247390114429	3.55113792143171	2740891993	IMG-genomes	y	y	y	n	Ref-MAG	n	91.59	5.61	d__Archaea	p__Asgardarchaeota	c__Heimdallarchaeia	o__LC-3	f__LC-3	g__LC-3	s__GCA_001940645.1
+13	-3.1191077142686825	2.1457514431130766	-1.8514709008601762	GCA_002505645.1_ASM250564v1_genomic	PRJNA348753-8000Genomes	y	y	y	n	Ref-MAG	n	71.89	3.74	d__Archaea	p__Asgardarchaeota	c__Heimdallarchaeia	o__UBA460	f__UBA460	g__UBA460	s__GCA_002505645.1
