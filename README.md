@@ -4,11 +4,11 @@
 
 This script package uses genome annotation data as input to perform a taxa-specific assessment of genome, usually metagenome-assembled genome (MAG) quality.
 
-Requirements:
+Requirements (eventually the only requirement will be Docker, but for now one must install these Python and R packages manually):
 * Python3
 * Python packages: (pandas, numpy)
 * R
-* R packages (ggplot, ggpubr)
+* R packages (ggplot2, ggpubr)
 
 To run:
 
@@ -41,4 +41,4 @@ To run:
 --plotting_method ggplot
 ```
 
-6) 
+6) Sweet, it worked! Grab a beer and review the newly-produced pdf files to learn something about your genomez. :)
