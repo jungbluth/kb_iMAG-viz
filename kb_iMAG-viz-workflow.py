@@ -26,6 +26,7 @@ version = 0.1
 
 # todo
 # convert matrix to presence/absence
+# read_and_parse_rast_annotations only operating on query right now - other "clean" files generated elsewhere at the moment (need to fix obviously)
 
 # check to see if python3 installed and being used; should be automatic because of the shebang, but useful if someone calls explicitly with python 2
 def check_for_py3():
