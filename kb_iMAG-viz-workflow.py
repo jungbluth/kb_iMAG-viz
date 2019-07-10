@@ -319,7 +319,7 @@ def plot_dimensional_reduction_results_rggplot(lineage, mode):
     shutil.copy("iMAG-viz-output_PCA-input-data_"+str(lineage)+".tsv", "R-input-data.tsv")
     time_start = time.time()
     import subprocess
-    command = "Rscript /Applications/ResearchSoftware/kb_iMAG-viz/make_ggplot_scatterplot.R"
+    command = "Rscript /Applications/ResearchSoftware/kb_iMAG-viz/lib/make_ggplot_scatterplot.R"
     process=subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     process.wait()
     out, err = process.communicate()
