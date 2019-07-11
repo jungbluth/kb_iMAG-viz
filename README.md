@@ -4,13 +4,31 @@
 
 This script package uses genome annotation data as input to perform a taxa-specific assessment of genome, usually metagenome-assembled genome (MAG) quality.
 
+The core steps are as follows:
+
+1) Annotate your query genomes and reference genomes using the SAME tool for all genomes (e.g. RAST, Prokka, etc.). 
+2) Munge the genome annotation data such that files are organized to have one genome per line, with the text string of each annotation separated by tab
+3) Generate genome completeness and contamination estimates for all genomes using CheckM
+4) Generate taxonomic identifications for all genomes using GTDB-tk
+5) Combine annotation and genome quality information into a single large table
+6) Identify a taxonomic level (e.g. Phylum) and divide the single large table into multiple tables where each table corresponds to a taxa at that level (e.g. p__Crenarchaea, p__Altiarchaeota, p__Euryarchaeota, etc.)
+7. For each taxa, generate a presence/absence count table for the annotations represented
+8. Perform dimensional reduction of annotation count tables
+9. Generate plots of dimensional reduction results and color by taxonomy and shape by genome type (i.e. Isolate, SAG, MAG)
+
+For the test data and instructions to run listed below, steps 1-4 have already been completed so effectively you are starting at step 5.
+
+
+### Installation
+
 Requirements (eventually the only requirement will be Docker, but for now one must install these Python and R packages manually):
 * Python3
 * Python packages: (pandas, numpy)
 * R
 * R packages (ggplot2, ggpubr)
 
-To run:
+
+### Running Instructions
 
 1) Clone this repo
 
