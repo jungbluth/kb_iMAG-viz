@@ -62,3 +62,50 @@ Requirements (eventually the only requirement will be Docker, but for now one mu
 ```
 
 6) Sweet, it worked! Grab a beer and review the newly-produced pdf files to learn something about your genomez. :)
+
+
+### Help Menu
+
+>>> kb_iMAG-viz-workfloy.py -h
+__________________________________________________________
+|  _    _        _ __  __    _    ____            _      |
+| | | _| |__    (_)  \/  |  / \  / ___|    __   _(_)____ |
+| | |/ / '_ \   | | |\/| | / _ \| |  _ ____\ \ / / |_  / |
+| |   <| |_) |  | | |  | |/ ___ \ |_| |_____\ V /| |/ /  |
+| |_|\_\_.__/___|_|_|  |_/_/   \_\____|      \_/ |_/___| |
+|          |_____|                                       |
+|                                           version 0.1  |
+|________________________________________________________|
+
+
+usage: kb_iMAG-viz-workflow.py -i [query_annotation_table] --version
+
+    kb_iMAG-viz is software to evaluate microbial genome quality against reference genomes.
+    ----------------------------------------------------------------------------------------------------------------
+    kb_iMAG-viz-workflow.py performs the following steps.
+    The workflow goes as follows:
+    STEP 1. Annotations data is read from a source (e.g. RAST), and converted into a tab-delimited text
+    STEP 1a. Raw data is cleaned to remove extraneous characters
+    STEP 2. Data are subsetted based on the taxonomic level of interest (e.g. domain, phylum, class, order, ...)
+    STEP 3. Annotation data is converted to presence/absence data (for that taxonomic level)
+    STEP 4: Dimensional reduction on annotation count data to identify major trends and outliers
+    STEP 5: Plotting dimensional reduction results and associated genome quality information.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i QUERY_ANNOTATION_TABLE
+                        Indicate a tab-delimited table where genome ID is the first column and subset columns correspond to gene names (default: /Applications/ResearchSoftware/kb_iMAG-viz/test/query-genomes/TARA-MAGs_Delmont-Archaea-only-2017.RAST.txt)
+  --taxa_level TAXA_LEVEL
+                        Indicate the taxonomic lineage. (default: Phylum)
+  --save_master_table SAVE_MASTER_TABLE
+                        Save the master merged table; warning it can be large as it contains an unflattened version of all the input data. (default: Yes)
+  --generate_count_tables GENERATE_COUNT_TABLES
+                        Regenerate annotation count tables (time-consuming step). (default: Yes)
+  --dimensional_reduction_method DIMENSIONAL_REDUCTION_METHOD
+                        Pick a dimensional reduction method. (default: pca)
+  --plotting_method PLOTTING_METHOD
+                        Pick a ploting method. (default: ggplot)
+  --path_to_kb_imagviz PATH_TO_KB_IMAGVIZ
+                        Indicate the path to kb_imagviz software
+  --version             show program's version number and exit
+
